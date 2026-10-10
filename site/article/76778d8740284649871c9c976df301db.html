@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>终端里跑图形应用「GitHub 热点速览」 | HelloGitHub 离线版</title>
+<link rel="icon" href="../assets/favicon.svg"/>
+<style>*{box-sizing:border-box}body{margin:0;background:#f7f8fa;color:#1f2430;font:15px/1.75 -apple-system,"Segoe UI","Microsoft YaHei",sans-serif}
+.wrap{max-width:900px;margin:0 auto;padding:28px 20px 60px}
+.back{display:inline-block;margin-bottom:18px;color:#2563eb;text-decoration:none;font-size:14px}
+a{color:#2563eb;text-decoration:none}
+h1{font-size:24px;margin:0 0 6px}
+h2{font-size:19px;margin:30px 0 10px;padding-bottom:6px;border-bottom:1px solid #e5e7eb}
+.sub{color:#6b7280;font-size:14px;margin-bottom:18px}
+.item{display:block;background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:14px 18px;margin:12px 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.item:hover{border-color:#93c5fd}
+.item .t{font-size:17px;font-weight:600;color:#111827}
+.item .rn{color:#6b7280;font-size:12px;font-family:ui-monospace,Consolas,monospace;margin-top:2px}
+.item .d{color:#374151;font-size:14px;margin-top:6px}
+.item .m{color:#6b7280;font-size:12px;margin-top:8px}
+.grid{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+.chip{padding:6px 14px;border-radius:999px;background:#fff;border:1px solid #e5e7eb;color:#1f2937;font-size:14px}
+.chip:hover{border-color:#93c5fd}
+.chip b{color:#2563eb;font-weight:600}
+.tabs{display:flex;gap:8px;margin:14px 0 4px;flex-wrap:wrap}
+.tabs a{padding:6px 16px;border-radius:999px;background:#fff;border:1px solid #e5e7eb;font-size:14px}
+.tabs a.on{background:#2563eb;border-color:#2563eb;color:#fff}
+article.post{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:20px 24px;margin-top:16px}
+article.post img{max-width:100%;border-radius:8px}
+article.post h2{font-size:19px;margin:24px 0 8px}
+article.post h3{font-size:16px;margin:20px 0 6px}
+article.post table{border-collapse:collapse;width:100%;margin:12px 0;font-size:14px}
+article.post th,article.post td{border:1px solid #e5e7eb;padding:6px 10px;text-align:left}
+article.post blockquote{margin:12px 0;padding:8px 14px;border-left:3px solid #93c5fd;background:#f3f7ff;color:#374151}
+article.post pre{background:#0f172a;color:#e2e8f0;padding:12px 14px;border-radius:8px;overflow:auto;font-size:13px}
+article.post code{background:#eef2f7;padding:1px 5px;border-radius:4px;font-size:13px}</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="back" href="../index.html">← 返回首页</a>
+  <h1>终端里跑图形应用「GitHub 热点速览」</h1>
+  <div class="sub">卤蛋 · 2025-09-16 · 阅读 3315</div>
+<article class="post">
+<img src="../assets/ext/edd0c19357.png" alt=""/>
+<p>上周，依旧是“AI Everywhere”的热闹景象，但真正刷屏与引发讨论的，还是那些<strong>把老问题拆开、把想象力落到工程实践里的开源项目</strong>。</p>
+<img src="../assets/ext/1dd4f45cb0.jpg" alt=""/>
+<p>本期上榜的 Term.Everything 把原本只能在桌面环境运行的 GUI 应用“压缩”进终端，重新定义终端（Terminal）的边界。Hyperswitch 用一套高性能网关打通多支付渠道的复杂链路。开源的 n8n 工作流宝库 n8n-workflows，收集了 2000+ 实战模板帮助加速 AI 自动化落地。官方发起的 MCP registry 则补上 MCP 生态中“发现与分发”这一关键拼图。而 GitHub 开源的 spec-kit 把“先写规范再写代码”流程化，并将模糊需求逐步转化为可评审、可测试、可追溯的高质量代码，然后<strong>一周涨了 10k Star</strong>🤯。</p>
+<p>此外，一起看看本周 HelloGitHub 热评脱颖而出的开源项目，Windhawk 让 Windows 定制像装插件一样简单，OpenIsle 则是一个用 Java 构建的轻量级开源社区系统。</p>
+<p>· 本文目录</p>
+<p>· 1\. 热门开源项目</p>
+<p>· 1.1 终端里运行任何 GUI 应用：Term.Everything</p>
+<p>· 1.2 开源的企业级支付网关：Hyperswitch</p>
+<p>· 1.3 开源的 n8n 工作流宝库：n8n-workflows</p>
+<p>· 1.4 GitHub 开源的 AI 时代开发流程框架：spec-kit</p>
+<p>· 1.5 官方的 MCP 应用商店：registry</p>
+<p>· 2\. HelloGitHub 热评</p>
+<p>· 2.1 Windows 应用的自定义与扩展工具：Windhawk</p>
+<p>· 2.2 Java 开发的轻量级开源社区系统：OpenIsle</p>
+<p>· 3\. 结尾</p>
+<h2>1. 热门开源项目</h2>
+<h3>1.1 终端里运行任何 GUI 应用：Term.Everything</h3>
+<img src="../assets/ext/d3c053cfca.gif" alt=""/>
+<p><strong>主语言：TypeScript</strong>，<strong>Star：5k</strong>，<strong>周增长：5k</strong></p>
+<p>该项目突破了传统终端只能运行命令行程序的限制，让用户能够在终端（Terminal）中运行任意 GUI 应用程序，将图形界面的操作体验带入终端环境。它通过自研的 Wayland 合成器，将原本输出到显示器的 GUI 窗口实时渲染为终端可显示的字符或图片，实现了在终端内运行图形应用的能力，兼容 iTerm2、Alacritty、Kitty 等主流终端模拟器。</p>
+<blockquote>GitHub 地址→<span class="ext-link">github.com/mmulet/term.everything</span></blockquote>
+<h3>1.2 开源的企业级支付网关：Hyperswitch</h3>
+<img src="../assets/ext/0fdfbfa996.png" alt=""/>
+<p><strong>主语言：Rust</strong>，<strong>Star：34k</strong>，<strong>周增长：1.5k</strong></p>
+<p>这是一个用 Rust 编写的高性能支付网关系统，将多种支付渠道统一为一套 API。它提供智能路由、自动重试、失败转移、风控管理和可视化后台，内置 50+ 支付方式，新增支付渠道无需改动现有业务代码，支持多种币种、费率配置、退款、调单、拒付等功能，适用于电商、跨境出海、无人零售等场景。</p>
+<blockquote>GitHub 地址→<span class="ext-link">github.com/juspay/hyperswitch</span></blockquote>
+<h3>1.3 开源的 n8n 工作流宝库：n8n-workflows</h3>
+<img src="../assets/ext/e403e1bfb1.png" alt=""/>
+<p><strong>主语言：Python</strong>，<strong>Star：30k</strong>，<strong>周增长：1.7k</strong></p>
+<p>该项目收集了 2000+ 高质量、开箱即用的 n8n 自动工作流模板，涵盖官方示例、社区精华和用户实用场景。它内置一个基于 FastAPI 的本地搜索服务，支持全文搜索、分类筛选和 Mermaid 可视化展示，可一键下载 JSON 文件，方便导入你的 n8n 实例。</p>
+<blockquote>GitHub 地址→<span class="ext-link">github.com/Zie619/n8n-workflows</span></blockquote>
+<h3>1.4 GitHub 开源的 AI 时代开发流程框架：spec-kit</h3>
+<img src="../assets/ext/4cb2759e71.png" alt=""/>
+<p><strong>主语言：Python</strong>，<strong>Star：18k</strong>，<strong>周增长：12k</strong></p>
+<p>这是一套规范驱动开发（SDD）的编程工具，让开发者先用自然语言写清楚“做什么”和“为什么”，再由 AI 编写代码。它将 AI 开发流程规范化，统一规格模板、强制评审通过后方可合并代码，并将规格文档作为上下文输入 LLM，从而将模糊需求逐步转化为可评审、可测试、可追溯的高质量代码，兼容 Copilot、Claude、Gemini 等主流 Agent。</p>
+<blockquote>GitHub 地址→<span class="ext-link">github.com/github/spec-kit</span></blockquote>
+<h3>1.5 官方的 MCP 应用商店：registry</h3>
+<img src="../assets/ext/b015ce5db4.png" alt=""/>
+<p><strong>主语言：Go</strong>，<strong>Star：4.2k</strong>，<strong>周增长：2k</strong></p>
+<p>该项目是官方发起、社区驱动的 MCP 服务注册平台，相当于 MCP 的应用商店，专为解决 MCP 客户端无服务可用的问题。它基于 GitHub 实现 MCP 服务元数据的提交、审核和展示，任何人都可以通过 Fork+PR 发布自己的 MCP 服务，让全球 MCP 客户端即时发现。</p>
+<blockquote>GitHub 地址→<span class="ext-link">github.com/modelcontextprotocol/registry</span></blockquote>
+<h2>2. HelloGitHub 热评</h2>
+<p>在此章节中，我们将为大家介绍本周 HelloGitHub 网站上的热门开源项目，我们不仅希望您能从中收获开源神器和编程知识，更渴望“听”到您的声音。欢迎您与我们分享使用这些<strong>开源项目的亲身体验和评价</strong>，用最真实反馈为开源项目的作者注入动力。</p>
+<img src="../assets/ext/c3fabb2502.png" alt=""/>
+<h3>2.1 Windows 应用的自定义与扩展工具：Windhawk</h3>
+<img src="../assets/ext/4dbfe204a1.png" alt=""/>
+<p><strong>主语言：C++</strong></p>
+<p>这是一款专为 Windows 平台设计的软件定制与扩展框架，类似 Windows 版的 LSPosed。它通过全局注入和 Hook 技术，将原本需要手动修改二进制或注册表才能实现的界面与功能调整，做成可一键安装的 mod（插件）。用户可以像安装插件一样，轻松获取、安装和管理各种 mod，实现自定义目标程序的界面、功能和交互方式。</p>
+<blockquote>项目详情→<span class="ext-link">hellogithub.com/repository/ramensoftware/windhawk</span></blockquote>
+<h3>2.2 Java 开发的轻量级开源社区系统：OpenIsle</h3>
+<img src="../assets/ext/91d89ff470.png" alt=""/>
+<p><strong>主语言：Java</strong></p>
+<p>这是一个基于 Spring Boot 和 Vue3 构建的开源自由社区系统，定位为轻量级的 Discourse。它完全开源、可二次开发，支持白名单邀请、自定义标签、实时通知等功能。</p>
+<blockquote>项目详情→<span class="ext-link">hellogithub.com/repository/nagisa77/OpenIsle</span></blockquote>
+<h2>3. 结尾</h2>
+<p>以上就是本期「GitHub 热点速览」的全部内容，希望这些开源项目能激发你的兴趣，帮助你找到下一个想要尝试的工具！如果你也发现了好玩、有趣的 GitHub 开源项目想要分享，欢迎来 <span class="ext-link">HelloGitHub</span> 与我们交流心得、讨论使用体验。</p>
+<p><strong>往期回顾</strong></p>
+<p>· <span class="ext-link">直击痛点的开源项目</span></p>
+<p>· <span class="ext-link">微软开源的 MCP 教程</span></p>
+</article>
+</div>
+</body>
+</html>

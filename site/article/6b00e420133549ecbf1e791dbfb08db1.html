@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>降薪跳槽，投身开源！只为 AI 落地“最后一公里” | HelloGitHub 离线版</title>
+<link rel="icon" href="../assets/favicon.svg"/>
+<style>*{box-sizing:border-box}body{margin:0;background:#f7f8fa;color:#1f2430;font:15px/1.75 -apple-system,"Segoe UI","Microsoft YaHei",sans-serif}
+.wrap{max-width:900px;margin:0 auto;padding:28px 20px 60px}
+.back{display:inline-block;margin-bottom:18px;color:#2563eb;text-decoration:none;font-size:14px}
+a{color:#2563eb;text-decoration:none}
+h1{font-size:24px;margin:0 0 6px}
+h2{font-size:19px;margin:30px 0 10px;padding-bottom:6px;border-bottom:1px solid #e5e7eb}
+.sub{color:#6b7280;font-size:14px;margin-bottom:18px}
+.item{display:block;background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:14px 18px;margin:12px 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.item:hover{border-color:#93c5fd}
+.item .t{font-size:17px;font-weight:600;color:#111827}
+.item .rn{color:#6b7280;font-size:12px;font-family:ui-monospace,Consolas,monospace;margin-top:2px}
+.item .d{color:#374151;font-size:14px;margin-top:6px}
+.item .m{color:#6b7280;font-size:12px;margin-top:8px}
+.grid{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+.chip{padding:6px 14px;border-radius:999px;background:#fff;border:1px solid #e5e7eb;color:#1f2937;font-size:14px}
+.chip:hover{border-color:#93c5fd}
+.chip b{color:#2563eb;font-weight:600}
+.tabs{display:flex;gap:8px;margin:14px 0 4px;flex-wrap:wrap}
+.tabs a{padding:6px 16px;border-radius:999px;background:#fff;border:1px solid #e5e7eb;font-size:14px}
+.tabs a.on{background:#2563eb;border-color:#2563eb;color:#fff}
+article.post{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:20px 24px;margin-top:16px}
+article.post img{max-width:100%;border-radius:8px}
+article.post h2{font-size:19px;margin:24px 0 8px}
+article.post h3{font-size:16px;margin:20px 0 6px}
+article.post table{border-collapse:collapse;width:100%;margin:12px 0;font-size:14px}
+article.post th,article.post td{border:1px solid #e5e7eb;padding:6px 10px;text-align:left}
+article.post blockquote{margin:12px 0;padding:8px 14px;border-left:3px solid #93c5fd;background:#f3f7ff;color:#374151}
+article.post pre{background:#0f172a;color:#e2e8f0;padding:12px 14px;border-radius:8px;overflow:auto;font-size:13px}
+article.post code{background:#eef2f7;padding:1px 5px;border-radius:4px;font-size:13px}</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="back" href="../index.html">← 返回首页</a>
+  <h1>降薪跳槽，投身开源！只为 AI 落地“最后一公里”</h1>
+  <div class="sub">卤蛋 · 2025-11-05 · 阅读 1762</div>
+<article class="post">
+<img src="../assets/ext/6bafc04a3c.png" alt=""/>
+<p>2022 年底，一个 AI 项目上线的深夜。</p>
+<p>作为大厂的资深 AI 算法部署工程师，<strong>Always 刚完成了第 N 个从算法到上线的项目</strong>。他没有喜悦，反而盯着屏幕陷入了沉思。他发现，所有 AI 落地项目，本质上都在重复同一套繁杂的流程——无非是换了模型和业务逻辑。这个过程，正是业内最头痛的<strong>AI 落地最后一公里</strong>。</p>
+<p>“为什么我们要在这些重复的事情上，浪费这么多时间？”</p>
+<p>一个念头在他脑中升起：能不能把这套流程彻底抽象成一个通用框架？<strong>拖拽⼯作流+有向⽆环图+多端推理</strong>⸺这个技术⽅案在他的脑海⾥逐渐清晰。为了实现这个想法，他做出了一个在外人看来“不太理智”的决定：<strong>主动降薪 40%，跳槽到一家 955 的公司</strong>，从而有更多的时间和精力，把这个框架做出来，并把它开源！</p>
+<p>于是，nndeploy 诞生了！</p>
+<p>这是一款专为 <strong>AI 落地最后一公里</strong> 而生的易用、高性能端侧 AI 部署框架。它通过可视化⼯作流降低⻔槛，统⼀接⼝搞定多端推理，并提供 LLM、AIGC、换脸、目标检测、图像分割等开箱即用的 AI 模型部署配置文件。<strong>让 AI 落地，从数周缩短至几天</strong>。</p>
+<img src="../assets/ext/56dd840804.gif" alt=""/>
+<blockquote>GitHub 地址：<span class="ext-link">github.com/nndeploy/nndeploy</span></blockquote>
+<h2>一、AI 落地：被忽视的“最后一公里”</h2>
+<p>很多人可能会问：AI 落地还不简单？不就是调个 API 吗？</p>
+<p>如果真是这样，那 nndeploy 这种部署框架岂不是多此一举？</p>
+<p>尤其是在端侧（On-Device）——也就是手机、汽车、摄像头这些设备上——这个问题的答案尤其清晰：<strong>还真不行</strong>。</p>
+<p>试想一下：自动驾驶汽车在高速上需要紧急刹车，它能等待一个网络 API 返回结果吗？工厂的质检摄像头，能忍受零点几秒的网络延迟吗？更不用说，当你的手机需要人脸解锁时，你敢把自己的信息毫无保留地传到云端吗？</p>
+<p><strong>延迟、隐私、成本</strong>——这三座大山，让端侧部署成为 AI 落地的重要阵地，进一步拓宽了应用的边界。</p>
+<img src="../assets/ext/b1e8674a61.jpg" alt=""/>
+<p>而 AI 部署工程师的“战场”，就是要把那些“聪明模型”塞进各种资源受限的设备中。他们面对的是发热的芯片、有限的算力、以及五花八门的操作系统……他们是把 AI 从“实验室”带到更多人身边的幕后英雄。</p>
+<p>这批工程师也是 AI 开发岗位中需求量大、门槛相对较低、薪资也同样可观的主流“AI 饭碗”。</p>
+<img src="../assets/ext/3e3513638f.png" alt=""/>
+<p>而这，也正是 Always（nndeploy 发起人）想解决的另一个核心问题。<strong>他希望 nndeploy 不仅是一个 AI 部署框架，更能为那些想从软件工程师转型到 AI 部署的开发者，提供一套开箱即用的“武器库”</strong>。</p>
+<h2>二、nndeploy：助力 AI 部署工程师的每个阶段</h2>
+<p>nndeploy 为什么能成为 AI 部署工程师的“必备工具箱”？</p>
+<p>秘诀在于：它为不同阶段的 AI 部署工程师量身打造了关键能力。</p>
+<p>· <strong>新手友好</strong>：超低门槛的可视化工具，助你轻松入门。</p>
+<p>· <strong>专业进阶</strong>：深度优化能力，助力打造高性能解决方案。</p>
+<p>· <strong>高效实战</strong>：丰富算法库，兼顾效率与学习，开箱即用。</p>
+<h3>2.1 可视化“木剑”，轻松上手</h3>
+<p>nndeploy 的首要目标，是让 AI 落地变得前所未有的简单。<strong>对于转行或刚入门的工程师</strong>，它提供了极致直观的体验：</p>
+<p>· <strong>可视化工作流</strong>：拖拽节点即可部署 AI 算法，参数实时可调，效果一目了然。</p>
+<p>· <strong>自定义节点</strong>：无论是用 Python 实现预处理，还是用 C++/CUDA 编写高性能节点，均可无缝集成于工作流。</p>
+<p>· <strong>一键多端部署</strong>：工作流支持导出为 JSON，可通过 C++/Python API 调用，适用于 Linux、Windows、macOS、Android、iOS 等平台。</p>
+<img src="../assets/ext/5f79267abc.png" alt=""/>
+<h3>2.2 高性能“屠龙刀”，攻克生产难题</h3>
+<p>在高性能需求下，nndeploy 是工程师手中的“屠龙刀”。它为<strong>资深从业者</strong>内置了面向“最后一公里”的深度优化：</p>
+<p>· <strong>并行优化</strong>：支持串行、流水线并行和任务并行等多种执行模式。</p>
+<p>· <strong>内存优化</strong>：零拷贝、内存池、内存复用等优化策略，专为端侧资源优化设计。</p>
+<p>· <strong>高性能优化</strong>：内置 C++/CUDA/Ascend C/SIMD 等多种高性能节点实现。</p>
+<p>· <strong>多端推理</strong>：支持 13+ 主流推理框架（TensorRT、ONNXRuntime、OpenVINO 等），无缝适配云、边、端全场景。</p>
+<p>以 YOLOv11s 端到端工作流总耗时为例，串行 vs 流水线并行：</p>
+<img src="../assets/ext/72a378679c.png" alt=""/>
+<h3>2.3 开箱即用的算法库，高效又好学</h3>
+<p>nndeploy 内含 100+ 常用节点，覆盖主流 AI 应用场景。<strong>无需反复造轮子，高频需求一键满足</strong>。丰富的案例也是最佳学习资料：<strong>拿来即用、跑通即会！</strong></p>
+<img src="../assets/ext/c371ed1120.png" alt=""/>
+<blockquote>注：nndeploy 专注于端侧，仅支持参数量在 0.3B~7B 级别的大语言模型。</blockquote>
+<h2>三、五分钟用上你的第一个 AI 应用</h2>
+<p>nndeploy 的上手体验到底有多丝滑？</p>
+<p>无需复杂配置，5 分钟就能启动并部署一个 AI 应用。</p>
+<h3>1\. 一键安装</h3>
+<pre><code>pip install --upgrade nndeploy
+</code></pre>
+<h3>2\. 启动可视化编辑器</h3>
+<pre><code>nndeploy-app --port 8000
+</code></pre>
+<p>启动成功后，打开 <code>http://localhost:8000</code> 即可进入工作流编辑器。在这里，你可以<strong>拖拽节点、调整参数、实时预览效果</strong>，所见即所得。</p>
+<img src="../assets/ext/2a89c2a6f9.gif" alt=""/>
+<h3>3\. 保存并执行：从原型到生产</h3>
+<p>在可视化界面中搭建、调试完成后，<strong>点击保存，工作流就会导出为一个 JSON 文件</strong>。</p>
+<p>这个 JSON 文件就是你的 AI 应用，它封装了你所有的流程和逻辑。你可以用以下两种方式在生产环境中运行它：</p>
+<p>#### 方式 1：命令行一键执行</p>
+<p>用于快速测试和验证。</p>
+<pre><code># Python 命令行
+nndeploy-run-json --json_file path/to/workflow.json
+# C++ 命令行
+nndeploy_demo_run_json --json_file path/to/workflow.json
+</code></pre>
+<img src="../assets/ext/89d1467466.gif" alt=""/>
+<p>#### 方式 2：在 C++/Python 代码中加载</p>
+<p>这才是最核心的用法。你可以将这个 JSON 文件无缝集成到你现有的 C++ 或 Python 项目中，以下是一个加载 LLM 工作流的示例代码：</p>
+<p><strong>Python 示例</strong></p>
+<pre><code>graph = nndeploy.dag.Graph(&quot;&quot;)
+graph.remove_in_out_node()
+# 仅需加载导出的 JSON 文件
+graph.load_file(&quot;path/to/llm_workflow.json&quot;)
+graph.init()
+
+# 准备输入数据
+input = graph.get_input(0)    
+text = nndeploy.tokenizer.TokenizerText()
+text.texts_ = [ &quot;&lt;|im_start|&gt;user\nPlease introduce NBA superstar Michael Jordan&lt;|im_end|&gt;\n&lt;|im_start|&gt;assistant\n&quot; ]
+input.set(text)
+
+# 执行并获取结果
+status = graph.run()
+output = graph.get_output(0)
+result = output.get_graph_output()  
+
+# 释放资源
+graph.deinit()
+</code></pre>
+<p><strong>C++ 示例</strong></p>
+<pre><code>c++
+std::shared_ptr&lt;Graph&gt; graph = std::make_shared&lt;Graph&gt;(&quot;&quot;);
+// 仅需加载导出的 JSON 文件
+base::Status status = graph-&gt;loadFile(&quot;path/to/llm_workflow.json&quot;);
+graph-&gt;removeInOutNode();
+status = graph-&gt;init();
+
+// 准备输入数据
+Edge* input = graph-&gt;getInput(0);
+tokenizer::TokenizerText* text = new tokenizer::TokenizerText();
+text-&gt;texts_ = {
+    &quot;&lt;|im_start|&gt;user\nPlease introduce NBA superstar Michael Jordan&lt;|im_end|&gt;\n&lt;|im_start|&gt;assistant\n&quot;
+};
+input-&gt;set(text, false);
+
+// 执行并获取结果
+status = graph-&gt;run();
+Edge* output = graph-&gt;getOutput(0);
+tokenizer::TokenizerText* result = output-&gt;getGraphOutput&lt;tokenizer::TokenizerText&gt;();
+
+// 释放资源
+status = graph-&gt;deinit();
+</code></pre>
+<h2>四、技术解读：如何实现简单且高性能？</h2>
+<p>nndeploy 通过将 AI 算法拆解为<strong>工作流节点</strong>进行部署，采用<strong>三层分离架构</strong>设计，整体结构如图所示：</p>
+<img src="../assets/ext/c3ca9cc27a.png" alt=""/>
+<p>三层架构详解如下：</p>
+<img src="../assets/ext/17bf6ba664.png" alt=""/>
+<p><strong>计算执行层是 nndeploy 的高性能核心</strong>，由图执行引擎与多端推理两大模块组成：</p>
+<p>1. <strong>图执行引擎</strong>：基于有向无环图（DAG）实现工作流调度，⽀持灵活的串⾏、任务并行、流水线并⾏和组合并行执⾏模式。</p>
+<p>2. <strong>多端推理</strong>：统一封装 10 余种主流推理后端，提供跨平台推理能力。</p>
+<p>整体架构如下图所示：</p>
+<img src="../assets/ext/09fb0f6633.jpg" alt=""/>
+<h3>4.1 图执行引擎</h3>
+<p>Graph 本身继承自 Node，可作为子图嵌套，支持任意层级组合。图执行引擎包含三层抽象：</p>
+<p>· <strong>Graph（图）</strong>：工作流容器，负责节点管理、拓扑排序与调度执行。</p>
+<p>· <strong>Node（节点）</strong>：独立的计算单元。</p>
+<p>· <strong>Edge（边）</strong>：节点间数据传递通道。</p>
+<p>这种“图即节点”的设计，让用户像搭积木一样自由组合算法节点，构建复杂的 AI 工作流。支持以下执行模式：</p>
+<p>· <strong>串行执行</strong>：按拓扑顺序逐节点执行。</p>
+<p>· <strong>流水线并行</strong>：前处理、推理、后处理等环节并行，提升数据吞吐。</p>
+<p>· <strong>任务并行</strong>：无依赖节点同时运行，缩短整体耗时。</p>
+<p>· <strong>组合并行</strong>：支持嵌套，灵活组合各种并行方式，充分释放硬件性能。</p>
+<h3>4.2 多端推理</h3>
+<p>nndeploy 的多端推理模块为不同推理后端提供统一接口，开发者无需关心底层框架差异。例如，新增 MNN 推理后端的流程包括：</p>
+<p>1. 理解 MNN 的 API 和推理流程。</p>
+<p>2. 熟悉 nndeploy 的推理基类与超参数配置类。</p>
+<p>3. 编写适配器：继承推理基类实现适配逻辑、继承超参数类实现参数配置、实现数据转换⼯具函数。</p>
+<p>4. 基于新后端运行模型，验证功能完整性。</p>
+<img src="../assets/ext/b5e18f7232.jpg" alt=""/>
+<p>针对不同推理框架的数据交互方式（如 TensorRT 的 <code>io_binding</code>、OpenVINO 的 <code>ov::Tensor</code>、TNN 的 <code>TNN::Blob</code>），nndeploy 设计了统一的数据容器 <code>Tensor</code> 和 <code>Buffer</code>，彻底屏蔽底层差异。</p>
+<p>同时，框架提供<strong>异构设备抽象层</strong>，统一不同硬件编程模型。目前已支持 CPU（X86、ARM）、GPU（CUDA）、NPU（如华为昇腾 AscendCL）等，让同一份代码可在多种硬件平台上高效运行，实现<strong>一次开发，多端部署</strong>。</p>
+<p>此外，框架内部还开发了<strong>推理子模块</strong>作为缺省推理框架，当用户环境未编译链接其他推理框架时可使用。模型支持方面，已适配图像分类（ResNet50）、目标检测（YOLOv11）、图像分割（RMBG1.4）等，目前正拓展大语言模型（LLM）推理支持并优化性能。</p>
+<h2>五、从一个人的想法到一群人的坚持</h2>
+<p>nndeploy 从最初的想法到正式开源，打磨了近一年。2023 年 8 月 28 日，nndeploy 第一个版本正式开源。当天就收到了 CGraph 作者 Chunel 的认可和热情推广，项目很快突破 100 Star。</p>
+<img src="../assets/ext/ca535d7817.png" alt=""/>
+<p>随着 nndeploy 被越来越多开发者了解，一批认同其理念的小伙伴逐渐聚集起来。随后，csrdxka、youxiudeshouyeren、zhangzhaosen 等开发者加入，成为项目早期的核心贡献者，共同推动 nndeploy 的成长。</p>
+<img src="../assets/ext/f0c5b92096.png" alt=""/>
+<p>项目日益成熟后，nndeploy 也迎来了真实生产场景的考验：</p>
+<p>· 文档处理公司：用它搭建完整的 OCR 流水线。</p>
+<p>· 智能汽车企业：在座舱项目中部署 NLP 算法。</p>
+<p>· AI Box 公司：利用其多端能力部署边缘算法。</p>
+<p>这些来自产业一线的真实应用和反馈，为 nndeploy 的持续迭代提供了宝贵的方向！</p>
+<p>看到 nndeploy 如今在真实产业中落地开花，我尤其感慨，<strong>因为我见证了它一步步成长的全过程</strong>。</p>
+<h2>六、写在最后</h2>
+<p>我认识 Always（nndeploy 发起人）时，他刚开始做开源不久。我们成为朋友，也是在某个凌晨，两个人大晚上打字聊了 3 小时。<strong>我们聊开源、聊理想、也聊 nndeploy</strong>。那时的 nndeploy，还只是一个纯后端框架——“黑框框”。我认真地对他说：“你得做可视化，门槛才能真正降下来。”</p>
+<p>他只回了一个“好”。然后，便从我的世界“消失”了近一年。</p>
+<p>再次见到 nndeploy 时，他带着一个功能完整的可视化界面出现在我面前。那一刻的震撼，真的难以言表，我本以为他不会认真考虑我的建议，没想到他一直在默默做这个功能！我当即决定将 nndeploy 收录到<span class="ext-link">《HelloGitHub》月刊</span>，因为它具备了我认为优秀开源项目最关键的两点：<strong>长期主义和源于自身需求</strong>。</p>
+<p>此后，我们又花了四个月打磨这篇文章，终于可以将 nndeploy 及其背后的开源故事分享给大家。</p>
+<blockquote>GitHub 地址：<span class="ext-link">github.com/nndeploy/nndeploy</span></blockquote>
+<p>我看好 nndeploy 的未来，更相信 Always 对理想的坚持——<strong>打通 AI 落地的最后一公里</strong>。</p>
+<p>---</p>
+<blockquote>HelloGitHub 不仅分享有趣的开源项目，也希望挖掘开源背后的故事。我们期待通过代码与文字，凝聚一群热爱开源的小伙伴，共同打造一个有趣、有温度的开源社区！</blockquote>
+</article>
+</div>
+</body>
+</html>

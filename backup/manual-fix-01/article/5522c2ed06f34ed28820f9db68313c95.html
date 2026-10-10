@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>7 款让人“上头”的开源小游戏 | HelloGitHub 离线版</title>
+<link rel="icon" href="../assets/favicon.svg"/>
+<style>*{box-sizing:border-box}body{margin:0;background:#f7f8fa;color:#1f2430;font:15px/1.75 -apple-system,"Segoe UI","Microsoft YaHei",sans-serif}
+.wrap{max-width:900px;margin:0 auto;padding:28px 20px 60px}
+.back{display:inline-block;margin-bottom:18px;color:#2563eb;text-decoration:none;font-size:14px}
+a{color:#2563eb;text-decoration:none}
+h1{font-size:24px;margin:0 0 6px}
+h2{font-size:19px;margin:30px 0 10px;padding-bottom:6px;border-bottom:1px solid #e5e7eb}
+.sub{color:#6b7280;font-size:14px;margin-bottom:18px}
+.item{display:block;background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:14px 18px;margin:12px 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.item:hover{border-color:#93c5fd}
+.item .t{font-size:17px;font-weight:600;color:#111827}
+.item .rn{color:#6b7280;font-size:12px;font-family:ui-monospace,Consolas,monospace;margin-top:2px}
+.item .d{color:#374151;font-size:14px;margin-top:6px}
+.item .m{color:#6b7280;font-size:12px;margin-top:8px}
+.grid{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+.chip{padding:6px 14px;border-radius:999px;background:#fff;border:1px solid #e5e7eb;color:#1f2937;font-size:14px}
+.chip:hover{border-color:#93c5fd}
+.chip b{color:#2563eb;font-weight:600}
+.tabs{display:flex;gap:8px;margin:14px 0 4px;flex-wrap:wrap}
+.tabs a{padding:6px 16px;border-radius:999px;background:#fff;border:1px solid #e5e7eb;font-size:14px}
+.tabs a.on{background:#2563eb;border-color:#2563eb;color:#fff}
+article.post{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:20px 24px;margin-top:16px}
+article.post img{max-width:100%;border-radius:8px}
+article.post h2{font-size:19px;margin:24px 0 8px}
+article.post h3{font-size:16px;margin:20px 0 6px}
+article.post table{border-collapse:collapse;width:100%;margin:12px 0;font-size:14px}
+article.post th,article.post td{border:1px solid #e5e7eb;padding:6px 10px;text-align:left}
+article.post blockquote{margin:12px 0;padding:8px 14px;border-left:3px solid #93c5fd;background:#f3f7ff;color:#374151}
+article.post pre{background:#0f172a;color:#e2e8f0;padding:12px 14px;border-radius:8px;overflow:auto;font-size:13px}
+article.post code{background:#eef2f7;padding:1px 5px;border-radius:4px;font-size:13px}</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="back" href="../index.html">← 返回首页</a>
+  <h1>7 款让人“上头”的开源小游戏</h1>
+  <div class="sub">卤蛋 · 2025-05-20 · 阅读 4330</div>
+<article class="post">
+<img src="https://img.hellogithub.com/article/I9nydl7W5ip82Aq_1747706741.png" alt=""/>
+<p>好久没发开源游戏集合了，接下来我们就来盘点一下「js13kGames」比赛 2024、2023 年的获奖小游戏。</p>
+<p>也许有些朋友是第一次听说「js13kGames」——这是一个每年举办的网页游戏编程竞赛，参赛者需要在一个月内开发一款大小不超过 13KB 的网页游戏。规则如下：</p>
+<p>1. <strong>文件大小限制</strong>：提交的游戏压缩包（zip 格式），包含所有代码和资源，不得超过 13KB。</p>
+<p>2. <strong>禁止外部依赖</strong>：不允许使用任何外部库、服务或资源，全部内容都要打包进 zip 文件。</p>
+<p>3. <strong>入口文件</strong>：压缩包内必须包含一个 index.html 文件，解压后直接打开就能玩。</p>
+<p>4. <strong>源码分享</strong>：鼓励参赛者在 GitHub 上开源游戏代码。</p>
+<blockquote>地址：<a href="https://js13kgames.com/" target="_blank" rel="noopener">js13kgames.com</a></blockquote>
+<p>每年的 Js13k 比赛都能看到许多有趣、好玩的创意小游戏，下面就让我们一起「玩一玩」过去两年里那些令人惊艳的游戏吧！</p>
+<h2>一、令人害怕的数字 13</h2>
+<p>2024 年的主题是「Triskaidekaphobia」，意为“对数字 13 的恐惧或回避”。让我们一起来看看，围绕这个概念的 13KB 游戏长什么样吧！</p>
+<img src="https://img.hellogithub.com/article/VYfSsWzTNrUbn4q_1747706769.png" alt=""/>
+<h3>1.1 13th Floor（第十三层）</h3>
+<img src="https://img.hellogithub.com/article/bRlvU2grZiSFYpe_1747706781.gif" alt=""/>
+<p>这是一款潜行恐怖（Stealth Horror）游戏，玩家需要时刻保持警觉，巧妙利用阴影进行躲藏。游戏开始，你带着一把钥匙出现在第 13 层，需要找到对应房间，获取下一把钥匙，逐步解锁新房间，直到最终抵达终点房间——1313。</p>
+<img src="https://img.hellogithub.com/article/6XyT47w0vUA52mV_1747706793.png" alt=""/>
+<p>在探索过程中，你可以使用手电筒（按 F 键）照亮前路，搜寻物品。但当“它”出现时，务必小心：关闭手电，避免暴露自己，或迅速奔跑寻找藏身之处。建议戴着耳机玩，沉浸感更强，不过要做好被吓到的准备哦！</p>
+<p><strong>操作说明：</strong></p>
+<p>· 移动：WASD</p>
+<p>· 视角/转向：鼠标</p>
+<p>· 互动：E 键或鼠标左键</p>
+<p>· 手电筒：F 键</p>
+<blockquote>试玩：https://play.js13kgames.com/13th-floor/</blockquote>
+<blockquote></blockquote>
+<blockquote>源码：https://github.com/js13kGames/13th-floor</blockquote>
+<h3>1.2 Coup Ahoo（阿胡起义）</h3>
+<img src="https://img.hellogithub.com/article/PergATYm9CQ2opD_1747706806.gif" alt=""/>
+<p>这是一款操作简单、轻松上手的小游戏，全程仅需鼠标或触屏（支持移动端）。玩家将扮演一位发动叛变的船长，逐一挑战并击败 13 名手下。在冒险途中，还会遇到商人、船匠、想加入你的船员，助你一举登顶海上霸主之位。</p>
+<img src="https://img.hellogithub.com/article/7osIL6Xl4fyBEtM_1747706819.png" alt=""/>
+<p>游戏中的骰子“货物”至关重要——所有骰子的点数总和既代表你的总 HP（生命值），也决定了你在战斗中能造成的伤害。然而，务必小心避开“13”这个不祥的数字，否则可能招致不利后果。</p>
+<blockquote>试玩：https://play.js13kgames.com/coup-ahoo/</blockquote>
+<blockquote></blockquote>
+<blockquote>源码：https://github.com/js13kGames/coup-ahoo</blockquote>
+<h3>1.3 Ghosted（幽灵）</h3>
+<img src="https://img.hellogithub.com/article/eT6oszdVyLB3IAM_1747706827.png" alt=""/>
+<p>这是一款类似“推箱子”的解谜游戏，共有 12 个关卡，通关后还会解锁一个隐藏关卡（第 13 关）。玩家将扮演一个外星人，目标是收集地图上的所有金币。有趣的是，只有在幽灵状态下才能收集金币，但在幽灵状态下无法推动石块，也不能原路返回。</p>
+<p><strong>操作说明：</strong></p>
+<p>· 移动：方向键 ↑ ↓ ← →</p>
+<p>· 暂停：ESC 或回车</p>
+<p>· 重新开始：R 键</p>
+<p>· 撤回：Z 键或 Delete 键</p>
+<blockquote>试玩：https://play.js13kgames.com/ghosted/</blockquote>
+<blockquote></blockquote>
+<blockquote>源码：https://github.com/js13kGames/ghosted</blockquote>
+<h2>二、十三世纪</h2>
+<p>2023 年的主题是「13th Century」（十三世纪），满满的怀旧骑士风扑面而来，让我们看看有哪些有趣的小游戏吧！</p>
+<img src="https://img.hellogithub.com/article/lInv2O4ua6sSDi0_1747706835.png" alt=""/>
+<h3>2.1 Path to Glory（光荣之路）</h3>
+<img src="https://img.hellogithub.com/article/2jxo81mpHGQw6tM_1747706845.png" alt=""/>
+<p>这是一款制作精良的格斗游戏，拥有令人印象深刻的操作手感与战斗体验。你将扮演一名孤独的士兵，迎战一波又一波的敌人，直至最终 Boss 登场。</p>
+<img src="https://img.hellogithub.com/article/n90yHsfQlhxPXNc_1747706851.gif" alt=""/>
+<p>游戏细节丰富：角色进入水中会被减速，风、雨、摇曳的草丛与闪电等环境元素为战场增添了沉浸感。击败敌人时的慢动作特写，更是令人热血沸腾。视野范围的控制机制也极为实用，尤其适合 2D 动作砍杀类 roguelike 游戏，令人回味无穷。</p>
+<blockquote>试玩：https://play.js13kgames.com/path-to-glory/</blockquote>
+<blockquote></blockquote>
+<blockquote>源码：https://github.com/js13kGames/path-to-glory</blockquote>
+<h3>2.2 Casual Crusade（休闲十字军）</h3>
+<img src="https://img.hellogithub.com/article/V9KaecX8PxAb3Hw_1747706867.png" alt=""/>
+<p>这是一款轻松有趣的休闲小游戏。你需要用手里的地块牌，一步步铺出一条通向所有土地的道路，顺手拿点战利品，强化自己的牌组。偶尔还能获得强力技能，让你的冒险之路更加精彩！</p>
+<img src="https://img.hellogithub.com/article/BOSVqtiX6zm4L0b_1747706874.gif" alt=""/>
+<blockquote>试玩：https://play.js13kgames.com/casual-crusade/</blockquote>
+<blockquote></blockquote>
+<blockquote>源码：https://github.com/js13kGames/casual-crusade</blockquote>
+<h3>2.3 Knight Dreams（骑士之梦）</h3>
+<img src="https://img.hellogithub.com/article/fGO6ySuzlT7Ycn0_1747706882.png" alt=""/>
+<p>这是一款无尽的跑酷 2D 动作类游戏，特别是直升机头盔非常有趣。玩法简单，你只需要做两件事收集宝石、一直向前。</p>
+<img src="https://img.hellogithub.com/article/XgJsSThpxdnAvku_1747706889.gif" alt=""/>
+<p><strong>操作说明：</strong></p>
+<p>· 移动：← → 或 AD</p>
+<p>· 跳跃/飞行：↑ 或 W</p>
+<p>· 空格：长枪攻击</p>
+<p>· 暂停：回车</p>
+<blockquote>试玩：https://play.js13kgames.com/knight-dreams/</blockquote>
+<blockquote></blockquote>
+<blockquote>源码：https://github.com/js13kGames/knight-dreams</blockquote>
+<h3>2.4 Tiny Yurts（小小蒙古包）</h3>
+<img src="https://img.hellogithub.com/article/zhPlN6X9tTyUBCj_1747706905.png" alt=""/>
+<p>这是一款受《Mini Motorways》启发的休闲策略游戏，将路径规划与资源管理巧妙结合。你只需用触摸或鼠标点击拖拽，为你的蒙古包（yurts）和各类农场铺设连接道路，让动物们幸福生活。轻松上手乐趣无穷，快来挑战吧！</p>
+<img src="https://img.hellogithub.com/article/nV7xiGheA8Jt3UL_1747706911.gif" alt=""/>
+<p><strong>游戏机制与小技巧：</strong></p>
+<p>· 游戏支持随时暂停，利用暂停时间优化路线。</p>
+<p>· 起始农场自带的路径可以删除，自由调整布局。</p>
+<p>· 水面无法铺路，连接水中渔场需通过浮桥。</p>
+<p>· 路径距离影响效率，合理布局能更好地满足农场需求。</p>
+<p>· 定居者迷路时需重新铺路，帮助他们回家后才能继续工作。</p>
+<p>· 对角线路可节省路段，但移动时间会增加。</p>
+<p>· 不同动物对农场的需求不同，难度也会逐步提升。</p>
+<blockquote>试玩：https://play.js13kgames.com/tiny-yurts/</blockquote>
+<blockquote></blockquote>
+<blockquote>源码：https://github.com/js13kGames/tiny-yurts</blockquote>
+<h2>三、最后</h2>
+<p>篇幅有限，今天的 7 款开源小游戏就先“开箱”到这里！在 13KB 的极限挑战下，它们的创意和完成度着实让人印象深刻。</p>
+<p>希望这次的分享能让你找到心仪的小游戏，度过一段快乐时光。如果你也对这些“方寸之间显乾坤”的作品背后的技术实现感兴趣，别忘了它们都是开源的哦！<a href="https://mp.weixin.qq.com/s/-7u7QHYCBRABFl7rJdyP1g" target="_blank" rel="noopener">好奇！仅 13kB 大小的游戏，源码长啥样？</a></p>
+<p>哪款游戏最让你拍案叫绝？有没有哪一款让你一玩就停不下来？又或者，在这些游戏中发现了哪些让你眼前一亮的设计或技术？欢迎在评论区留言分享，一起交流这些 13KB 的奇迹！</p>
+</article>
+</div>
+</body>
+</html>

@@ -1,0 +1,2312 @@
+{
+  "8MKvZoxaWt": {
+    "success": true,
+    "userInfo": {
+      "uid": "8MKvZoxaWt",
+      "nickname": "卤蛋",
+      "avatar": "https://img.hellogithub.com/avatar/oTtM-5_ebfppwwUHOebKp8KT7EMc.png",
+      "contribute_total": 86,
+      "share_repo_total": 4082,
+      "comment_repo_total": 3,
+      "permission": {
+        "name": "站长",
+        "code": "super"
+      },
+      "in_person": false,
+      "first_login": "2022-08-31T22:35:49",
+      "rank": 1,
+      "level": 2
+    },
+    "dynamicRecord": [
+      {
+        "uid": "8MKvZoxaWt",
+        "item": {
+          "item_id": "7a9de8e3c6cb413ba712cbb746713d84",
+          "name": "flip-card",
+          "full_name": "Nicholas-L-Johnson/flip-card"
+        },
+        "created_at": "2025-09-26T14:51:12",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "8MKvZoxaWt",
+        "item": null,
+        "created_at": "2025-09-16T23:01:04",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "8MKvZoxaWt",
+        "item": {
+          "item_id": "4ec8ddd0fa1c40e58d6f497fe49786ea",
+          "name": "tinyusb",
+          "full_name": "hathach/tinyusb"
+        },
+        "created_at": "2025-08-24T17:50:32",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "8MKvZoxaWt",
+        "item": {
+          "item_id": "acb9f7a6e17b462594426bf048c5c2af",
+          "name": "nob.h",
+          "full_name": "tsoding/nob.h"
+        },
+        "created_at": "2025-08-24T17:16:30",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "8MKvZoxaWt",
+        "item": {
+          "item_id": "fab017f324a048f3897f95427b3160cd",
+          "name": "iii",
+          "full_name": "iii-hq/iii"
+        },
+        "created_at": "2025-08-19T08:37:03",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "8MKvZoxaWt",
+        "item": null,
+        "created_at": "2025-08-03T12:23:16",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "8MKvZoxaWt",
+        "item": {
+          "item_id": "370156da38764317b2b8c8e81cd92dce",
+          "name": "stagehand",
+          "full_name": "browserbase/stagehand"
+        },
+        "created_at": "2025-04-22T08:36:19",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "8MKvZoxaWt",
+        "item": {
+          "item_id": "cd960dfe858a4589980a1690c3b321af",
+          "name": "fumadocs",
+          "full_name": "fuma-nama/fumadocs"
+        },
+        "created_at": "2025-04-22T08:33:05",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "8MKvZoxaWt",
+        "item": {
+          "item_id": "932810c416344b33af5d0de1e732f218",
+          "name": "codex",
+          "full_name": "openai/codex"
+        },
+        "created_at": "2025-04-22T08:29:48",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "8MKvZoxaWt",
+        "item": {
+          "item_id": "f387f8dddcd0485ebb05e0b6d862a15d",
+          "name": "libcimbar",
+          "full_name": "sz3/libcimbar"
+        },
+        "created_at": "2024-09-24T12:31:41",
+        "dynamic_type": "comment",
+        "value": 2,
+        "remark": "发布项目评论"
+      }
+    ]
+  },
+  "PjNLOfBMoxlaTEq": {
+    "success": true,
+    "userInfo": {
+      "uid": "PjNLOfBMoxlaTEq",
+      "nickname": "zhhhhcc",
+      "avatar": "https://img.hellogithub.com/avatar/34435196.jpeg",
+      "contribute_total": 7,
+      "share_repo_total": 1,
+      "comment_repo_total": 1,
+      "permission": {
+        "name": "游客",
+        "code": "visitor"
+      },
+      "in_person": false,
+      "first_login": "2026-05-22T16:35:03",
+      "rank": 55481,
+      "level": 1
+    },
+    "dynamicRecord": [
+      {
+        "uid": "PjNLOfBMoxlaTEq",
+        "item": {
+          "item_id": "2eafb075947e41a4be4d157a6f0382ae",
+          "name": "LoongForge",
+          "full_name": "baidu-baige/LoongForge"
+        },
+        "created_at": "2026-09-28T23:53:32",
+        "dynamic_type": "comment",
+        "value": 2,
+        "remark": "发布项目评论"
+      },
+      {
+        "uid": "PjNLOfBMoxlaTEq",
+        "item": {
+          "item_id": "2eafb075947e41a4be4d157a6f0382ae",
+          "name": "LoongForge",
+          "full_name": "baidu-baige/LoongForge"
+        },
+        "created_at": "2026-05-22T16:38:42",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      }
+    ]
+  },
+  "EkLpt1FHIqRrade": {
+    "success": true,
+    "userInfo": {
+      "uid": "EkLpt1FHIqRrade",
+      "nickname": "DawnGhost",
+      "avatar": "https://img.hellogithub.com/avatar/176556048.jpeg",
+      "contribute_total": 5,
+      "share_repo_total": 1,
+      "comment_repo_total": 0,
+      "permission": {
+        "name": "游客",
+        "code": "visitor"
+      },
+      "in_person": false,
+      "first_login": "2026-07-11T12:12:48",
+      "rank": 58469,
+      "level": 1
+    },
+    "dynamicRecord": [
+      {
+        "uid": "EkLpt1FHIqRrade",
+        "item": {
+          "item_id": "648c0ab0997c42479027e360f604fa23",
+          "name": "wenyi",
+          "full_name": "BigDawnGhost/wenyi"
+        },
+        "created_at": "2026-07-11T12:18:15",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      }
+    ]
+  },
+  "Me6XL3PIKp4o7Oq": {
+    "success": true,
+    "userInfo": {
+      "uid": "Me6XL3PIKp4o7Oq",
+      "nickname": "Eric Lam",
+      "avatar": "https://img.hellogithub.com/avatar/6276840.jpeg",
+      "contribute_total": 5,
+      "share_repo_total": 1,
+      "comment_repo_total": 0,
+      "permission": {
+        "name": "游客",
+        "code": "visitor"
+      },
+      "in_person": false,
+      "first_login": "2026-09-24T00:03:18",
+      "rank": 63422,
+      "level": 1
+    },
+    "dynamicRecord": [
+      {
+        "uid": "Me6XL3PIKp4o7Oq",
+        "item": {
+          "item_id": "96b80c9b45cf4548a7530c1417587ae7",
+          "name": "bilirec",
+          "full_name": "bilirec/bilirec"
+        },
+        "created_at": "2026-09-24T00:07:53",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      }
+    ]
+  },
+  "OJpriDKTWlq0ZHI": {
+    "success": true,
+    "userInfo": {
+      "uid": "OJpriDKTWlq0ZHI",
+      "nickname": "小小修真者",
+      "avatar": "https://img.hellogithub.com/avatar/oTtM-5-V5i1fAVPAhUmwo-7rC498.jpeg",
+      "contribute_total": 30,
+      "share_repo_total": 6,
+      "comment_repo_total": 0,
+      "permission": {
+        "name": "游客",
+        "code": "visitor"
+      },
+      "in_person": false,
+      "first_login": "2023-11-29T15:21:39",
+      "rank": 11951,
+      "level": 1
+    },
+    "dynamicRecord": [
+      {
+        "uid": "OJpriDKTWlq0ZHI",
+        "item": null,
+        "created_at": "2025-08-18T16:40:47",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "OJpriDKTWlq0ZHI",
+        "item": null,
+        "created_at": "2025-07-11T09:17:56",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "OJpriDKTWlq0ZHI",
+        "item": null,
+        "created_at": "2025-07-11T09:15:08",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "OJpriDKTWlq0ZHI",
+        "item": {
+          "item_id": "92473b112d1e477b83022c06d09d6826",
+          "name": "flet",
+          "full_name": "flet-dev/flet"
+        },
+        "created_at": "2024-12-10T15:39:53",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "OJpriDKTWlq0ZHI",
+        "item": null,
+        "created_at": "2024-12-09T10:09:05",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "OJpriDKTWlq0ZHI",
+        "item": {
+          "item_id": "768f7ab71b2e43b58cee8a1bd1ac8ec5",
+          "name": "starlight",
+          "full_name": "withastro/starlight"
+        },
+        "created_at": "2024-11-23T22:02:46",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      }
+    ]
+  },
+  "x06rgRqAeJ97o3F": {
+    "success": true,
+    "userInfo": {
+      "uid": "x06rgRqAeJ97o3F",
+      "nickname": "Jie Chu",
+      "avatar": "https://img.hellogithub.com/avatar/120105002.png",
+      "contribute_total": 65,
+      "share_repo_total": 13,
+      "comment_repo_total": 0,
+      "permission": {
+        "name": "游客",
+        "code": "visitor"
+      },
+      "in_person": false,
+      "first_login": "2026-05-31T17:15:55",
+      "rank": 56046,
+      "level": 2
+    },
+    "dynamicRecord": [
+      {
+        "uid": "x06rgRqAeJ97o3F",
+        "item": null,
+        "created_at": "2026-06-11T16:21:07",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "x06rgRqAeJ97o3F",
+        "item": {
+          "item_id": "982b9b4bbe5540b2ad7509def5a1444d",
+          "name": "ian-xiaohei-illustrations",
+          "full_name": "helloianneo/ian-xiaohei-illustrations"
+        },
+        "created_at": "2026-06-11T16:18:44",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "x06rgRqAeJ97o3F",
+        "item": null,
+        "created_at": "2026-06-11T16:17:39",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "x06rgRqAeJ97o3F",
+        "item": null,
+        "created_at": "2026-06-02T23:49:44",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "x06rgRqAeJ97o3F",
+        "item": null,
+        "created_at": "2026-06-02T23:49:08",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "x06rgRqAeJ97o3F",
+        "item": null,
+        "created_at": "2026-06-02T23:48:11",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "x06rgRqAeJ97o3F",
+        "item": null,
+        "created_at": "2026-06-02T23:42:05",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "x06rgRqAeJ97o3F",
+        "item": null,
+        "created_at": "2026-06-02T23:40:06",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "x06rgRqAeJ97o3F",
+        "item": null,
+        "created_at": "2026-05-31T17:38:34",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "x06rgRqAeJ97o3F",
+        "item": null,
+        "created_at": "2026-05-31T17:38:07",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      }
+    ]
+  },
+  "EsJb4rCViSzNPok": {
+    "success": true,
+    "userInfo": {
+      "uid": "EsJb4rCViSzNPok",
+      "nickname": "Juan Denis",
+      "avatar": "https://img.hellogithub.com/avatar/13461850.png",
+      "contribute_total": 10,
+      "share_repo_total": 2,
+      "comment_repo_total": 0,
+      "permission": {
+        "name": "游客",
+        "code": "visitor"
+      },
+      "in_person": false,
+      "first_login": "2026-02-03T23:59:15",
+      "rank": 49010,
+      "level": 1
+    },
+    "dynamicRecord": [
+      {
+        "uid": "EsJb4rCViSzNPok",
+        "item": null,
+        "created_at": "2026-10-06T12:08:49",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "EsJb4rCViSzNPok",
+        "item": {
+          "item_id": "ba50cfee272744c0984fbb609258a523",
+          "name": "ServerKit",
+          "full_name": "jhd3197/ServerKit"
+        },
+        "created_at": "2026-08-15T08:29:30",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      }
+    ]
+  },
+  "iB4jClpaKd591ox": {
+    "success": true,
+    "userInfo": {
+      "uid": "iB4jClpaKd591ox",
+      "nickname": "壮士2nowz",
+      "avatar": "https://img.hellogithub.com/avatar/11575908.jpeg",
+      "contribute_total": 11,
+      "share_repo_total": 1,
+      "comment_repo_total": 3,
+      "permission": {
+        "name": "游客",
+        "code": "visitor"
+      },
+      "in_person": false,
+      "first_login": "2023-12-04T16:55:19",
+      "rank": 12107,
+      "level": 1
+    },
+    "dynamicRecord": [
+      {
+        "uid": "iB4jClpaKd591ox",
+        "item": {
+          "item_id": "e9af99a052844dd2920b0ce4ce9abe1b",
+          "name": "PMail",
+          "full_name": "Jinnrry/PMail"
+        },
+        "created_at": "2025-09-28T17:18:55",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "iB4jClpaKd591ox",
+        "item": {
+          "item_id": "92c421a511ad425a923c8cb15650ba0a",
+          "name": "markitdown",
+          "full_name": "microsoft/markitdown"
+        },
+        "created_at": "2025-03-04T18:41:00",
+        "dynamic_type": "comment",
+        "value": 2,
+        "remark": "发布项目评论"
+      },
+      {
+        "uid": "iB4jClpaKd591ox",
+        "item": {
+          "item_id": "5c47cbf587f448fd8c4106436b3de8e3",
+          "name": "pex",
+          "full_name": "pex-tool/pex"
+        },
+        "created_at": "2025-03-04T18:21:00",
+        "dynamic_type": "comment",
+        "value": 2,
+        "remark": "发布项目评论"
+      },
+      {
+        "uid": "iB4jClpaKd591ox",
+        "item": {
+          "item_id": "65ff1166e0c3457e9d956bdecbd84a35",
+          "name": "ai-by-hand-excel",
+          "full_name": "ImagineAILab/ai-by-hand-excel"
+        },
+        "created_at": "2025-03-03T18:22:15",
+        "dynamic_type": "comment",
+        "value": 2,
+        "remark": "发布项目评论"
+      }
+    ]
+  },
+  "rstODH7ZkI9jBiv": {
+    "success": true,
+    "userInfo": {
+      "uid": "rstODH7ZkI9jBiv",
+      "nickname": "Jacob Tomlinson",
+      "avatar": "https://img.hellogithub.com/avatar/1610850.jpeg",
+      "contribute_total": 5,
+      "share_repo_total": 1,
+      "comment_repo_total": 0,
+      "permission": {
+        "name": "游客",
+        "code": "visitor"
+      },
+      "in_person": false,
+      "first_login": "2024-09-17T17:51:57",
+      "rank": 22551,
+      "level": 1
+    },
+    "dynamicRecord": [
+      {
+        "uid": "rstODH7ZkI9jBiv",
+        "item": {
+          "item_id": "f0c410f806ff445184ce43070c7c41c9",
+          "name": "kr8s",
+          "full_name": "kr8s-org/kr8s"
+        },
+        "created_at": "2024-09-17T18:02:29",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      }
+    ]
+  },
+  "uP7UCjJpVTvEOtK": {
+    "success": true,
+    "userInfo": {
+      "uid": "uP7UCjJpVTvEOtK",
+      "nickname": "Snekxs",
+      "avatar": "https://img.hellogithub.com/avatar/26660858.jpeg",
+      "contribute_total": 5,
+      "share_repo_total": 1,
+      "comment_repo_total": 0,
+      "permission": {
+        "name": "游客",
+        "code": "visitor"
+      },
+      "in_person": false,
+      "first_login": "2026-09-13T15:49:08",
+      "rank": 62692,
+      "level": 1
+    },
+    "dynamicRecord": [
+      {
+        "uid": "uP7UCjJpVTvEOtK",
+        "item": {
+          "item_id": "91f2bbcd2cc540578b804ce0f1411050",
+          "name": "openmouse",
+          "full_name": "OpenMouse-Project/openmouse"
+        },
+        "created_at": "2026-09-13T15:51:00",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      }
+    ]
+  },
+  "DNxZA3uzsJpECgP": {
+    "success": true,
+    "userInfo": {
+      "uid": "DNxZA3uzsJpECgP",
+      "nickname": "r12t",
+      "avatar": "https://img.hellogithub.com/avatar/oTtM-57KoywJNxKbHxq5GQ_y7cGs.jpeg",
+      "contribute_total": 5,
+      "share_repo_total": 1,
+      "comment_repo_total": 0,
+      "permission": {
+        "name": "游客",
+        "code": "visitor"
+      },
+      "in_person": false,
+      "first_login": "2026-09-15T15:15:59",
+      "rank": 62843,
+      "level": 1
+    },
+    "dynamicRecord": [
+      {
+        "uid": "DNxZA3uzsJpECgP",
+        "item": {
+          "item_id": "d5a35c1abca14362aecc88411cb79c0c",
+          "name": "pigsty",
+          "full_name": "pgsty/pigsty"
+        },
+        "created_at": "2026-09-15T15:44:17",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      }
+    ]
+  },
+  "DTmJxh36kafUy2R": {
+    "success": true,
+    "userInfo": {
+      "uid": "DTmJxh36kafUy2R",
+      "nickname": "Davin",
+      "avatar": "https://img.hellogithub.com/avatar/oTtM-57xDE3rAiz3T0tybCX86EUA.jpeg",
+      "contribute_total": 24,
+      "share_repo_total": 4,
+      "comment_repo_total": 2,
+      "permission": {
+        "name": "游客",
+        "code": "visitor"
+      },
+      "in_person": false,
+      "first_login": "2023-08-15T14:48:22",
+      "rank": 9074,
+      "level": 1
+    },
+    "dynamicRecord": [
+      {
+        "uid": "DTmJxh36kafUy2R",
+        "item": {
+          "item_id": "96d19827cef44ce7975ec1b68ec21d27",
+          "name": "pywebview",
+          "full_name": "r0x0r/pywebview"
+        },
+        "created_at": "2024-12-16T09:50:48",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "DTmJxh36kafUy2R",
+        "item": null,
+        "created_at": "2024-11-05T09:44:34",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "DTmJxh36kafUy2R",
+        "item": null,
+        "created_at": "2024-11-05T09:37:21",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "DTmJxh36kafUy2R",
+        "item": {
+          "item_id": "9d4f9bc472cb463b99ace15c91759a35",
+          "name": "Auto.js",
+          "full_name": "clearw5/Auto.js"
+        },
+        "created_at": "2024-10-18T18:31:20",
+        "dynamic_type": "comment",
+        "value": 2,
+        "remark": "发布项目评论"
+      },
+      {
+        "uid": "DTmJxh36kafUy2R",
+        "item": null,
+        "created_at": "2024-01-26T16:30:17",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "DTmJxh36kafUy2R",
+        "item": {
+          "item_id": "dad1ecb7fbd34898a3380f5f0948ceb6",
+          "name": "DrissionPage",
+          "full_name": "g1879/DrissionPage"
+        },
+        "created_at": "2023-08-29T12:23:10",
+        "dynamic_type": "comment",
+        "value": 2,
+        "remark": "发布项目评论"
+      }
+    ]
+  },
+  "I7P4vVbDKhkYRdB": {
+    "success": true,
+    "userInfo": {
+      "uid": "I7P4vVbDKhkYRdB",
+      "nickname": "Leon Made This",
+      "avatar": "https://img.hellogithub.com/avatar/8357465.png",
+      "contribute_total": 5,
+      "share_repo_total": 1,
+      "comment_repo_total": 0,
+      "permission": {
+        "name": "游客",
+        "code": "visitor"
+      },
+      "in_person": false,
+      "first_login": "2026-08-18T09:52:36",
+      "rank": 61043,
+      "level": 1
+    },
+    "dynamicRecord": [
+      {
+        "uid": "I7P4vVbDKhkYRdB",
+        "item": {
+          "item_id": "0987c257f4e541b49c80492161915f74",
+          "name": "prehistoric-animal-museum",
+          "full_name": "s010s/prehistoric-animal-museum"
+        },
+        "created_at": "2026-08-25T16:27:12",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      }
+    ]
+  },
+  "8adohGgCW07fknL": {
+    "success": true,
+    "userInfo": {
+      "uid": "8adohGgCW07fknL",
+      "nickname": "🐯旺德福",
+      "avatar": "https://img.hellogithub.com/avatar/oTtM-50vopQCkDwNYSnqwNATzP-0.jpeg",
+      "contribute_total": 5,
+      "share_repo_total": 1,
+      "comment_repo_total": 0,
+      "permission": {
+        "name": "游客",
+        "code": "visitor"
+      },
+      "in_person": false,
+      "first_login": "2026-09-22T07:48:08",
+      "rank": 63292,
+      "level": 1
+    },
+    "dynamicRecord": [
+      {
+        "uid": "8adohGgCW07fknL",
+        "item": {
+          "item_id": "da31f932a6ef446fa2608d20f09c9be9",
+          "name": "handraw-style",
+          "full_name": "yang0/handraw-style"
+        },
+        "created_at": "2026-09-22T08:17:51",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      }
+    ]
+  },
+  "nvI9PN0WkibSf8p": {
+    "success": true,
+    "userInfo": {
+      "uid": "nvI9PN0WkibSf8p",
+      "nickname": "想飞的鸡",
+      "avatar": "https://img.hellogithub.com/avatar/38575841.png",
+      "contribute_total": 27,
+      "share_repo_total": 1,
+      "comment_repo_total": 11,
+      "permission": {
+        "name": "游客",
+        "code": "visitor"
+      },
+      "in_person": false,
+      "first_login": "2023-09-07T16:03:44",
+      "rank": 9727,
+      "level": 1
+    },
+    "dynamicRecord": [
+      {
+        "uid": "nvI9PN0WkibSf8p",
+        "item": {
+          "item_id": "f63902a6b79d48a8a950e2e42fdb1667",
+          "name": "window-switcher",
+          "full_name": "sigoden/window-switcher"
+        },
+        "created_at": "2026-09-03T03:51:25",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "nvI9PN0WkibSf8p",
+        "item": {
+          "item_id": "fe8478dd8bbd45899bc3c6a078d94879",
+          "name": "little-book-rl",
+          "full_name": "alxndrTL/little-book-rl"
+        },
+        "created_at": "2026-08-05T07:13:44",
+        "dynamic_type": "comment",
+        "value": 2,
+        "remark": "发布项目评论"
+      },
+      {
+        "uid": "nvI9PN0WkibSf8p",
+        "item": {
+          "item_id": "6aacf0d14caf4fe7884cbf2badead9f0",
+          "name": "FluentCleaner",
+          "full_name": "builtbybel/FluentCleaner"
+        },
+        "created_at": "2026-08-05T07:12:22",
+        "dynamic_type": "comment",
+        "value": 2,
+        "remark": "发布项目评论"
+      },
+      {
+        "uid": "nvI9PN0WkibSf8p",
+        "item": {
+          "item_id": "c80ce91cc4744361adf369269922c8cf",
+          "name": "ai-agent-book",
+          "full_name": "bojieli/ai-agent-book"
+        },
+        "created_at": "2026-08-05T07:11:12",
+        "dynamic_type": "comment",
+        "value": 2,
+        "remark": "发布项目评论"
+      },
+      {
+        "uid": "nvI9PN0WkibSf8p",
+        "item": {
+          "item_id": "b199a1e3939347f7a23b33be72415595",
+          "name": "HypoMux",
+          "full_name": "Hypostasis-Cat/HypoMux"
+        },
+        "created_at": "2026-08-05T07:05:40",
+        "dynamic_type": "comment",
+        "value": 2,
+        "remark": "发布项目评论"
+      },
+      {
+        "uid": "nvI9PN0WkibSf8p",
+        "item": {
+          "item_id": "20c7ae0025f94076b3d54dbe33476f68",
+          "name": "LiteMonitor",
+          "full_name": "Diorser/LiteMonitor"
+        },
+        "created_at": "2026-07-17T00:00:47",
+        "dynamic_type": "comment",
+        "value": 2,
+        "remark": "发布项目评论"
+      },
+      {
+        "uid": "nvI9PN0WkibSf8p",
+        "item": {
+          "item_id": "a95f4a4830bc4a69b56f96ac7efaacf8",
+          "name": "komi-store",
+          "full_name": "komi-store/komi-store"
+        },
+        "created_at": "2026-07-16T23:59:27",
+        "dynamic_type": "comment",
+        "value": 2,
+        "remark": "发布项目评论"
+      },
+      {
+        "uid": "nvI9PN0WkibSf8p",
+        "item": {
+          "item_id": "18e8c299dd5443209e24049af99b7ef3",
+          "name": "bleachbit",
+          "full_name": "bleachbit/bleachbit"
+        },
+        "created_at": "2026-07-16T23:56:26",
+        "dynamic_type": "comment",
+        "value": 2,
+        "remark": "发布项目评论"
+      },
+      {
+        "uid": "nvI9PN0WkibSf8p",
+        "item": {
+          "item_id": "d4a1cc7dd0b543dd811ec189ed7ebc37",
+          "name": "opentrace",
+          "full_name": "Archeb/opentrace"
+        },
+        "created_at": "2026-07-16T23:53:42",
+        "dynamic_type": "comment",
+        "value": 2,
+        "remark": "发布项目评论"
+      },
+      {
+        "uid": "nvI9PN0WkibSf8p",
+        "item": {
+          "item_id": "a95f1d3ecd3d40ec88f3e47e137ac6c0",
+          "name": "black",
+          "full_name": "psf/black"
+        },
+        "created_at": "2026-07-16T23:52:21",
+        "dynamic_type": "comment",
+        "value": 2,
+        "remark": "发布项目评论"
+      }
+    ]
+  },
+  "1LwC8mueviYao9D": {
+    "success": true,
+    "userInfo": {
+      "uid": "1LwC8mueviYao9D",
+      "nickname": "Jianing Xu",
+      "avatar": "https://img.hellogithub.com/avatar/202240137.jpeg",
+      "contribute_total": 29,
+      "share_repo_total": 5,
+      "comment_repo_total": 2,
+      "permission": {
+        "name": "游客",
+        "code": "visitor"
+      },
+      "in_person": false,
+      "first_login": "2026-01-16T13:18:37",
+      "rank": 47893,
+      "level": 1
+    },
+    "dynamicRecord": [
+      {
+        "uid": "1LwC8mueviYao9D",
+        "item": {
+          "item_id": "8a5b6ade2aee461a8bd94e59200682a7",
+          "name": "readest",
+          "full_name": "readest/readest"
+        },
+        "created_at": "2026-08-20T16:06:51",
+        "dynamic_type": "comment",
+        "value": 2,
+        "remark": "发布项目评论"
+      },
+      {
+        "uid": "1LwC8mueviYao9D",
+        "item": {
+          "item_id": "28fe6ae6ef844082a46baf28942f9727",
+          "name": "TencentDB-Agent-Memory",
+          "full_name": "TencentCloud/TencentDB-Agent-Memory"
+        },
+        "created_at": "2026-08-12T11:36:07",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "1LwC8mueviYao9D",
+        "item": null,
+        "created_at": "2026-06-10T18:52:01",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "1LwC8mueviYao9D",
+        "item": {
+          "item_id": "7ea63f77647141a2bad1f8346c3738b3",
+          "name": "keyStats",
+          "full_name": "debugtheworldbot/keyStats"
+        },
+        "created_at": "2026-05-22T08:21:32",
+        "dynamic_type": "comment",
+        "value": 2,
+        "remark": "发布项目评论"
+      },
+      {
+        "uid": "1LwC8mueviYao9D",
+        "item": null,
+        "created_at": "2026-05-01T13:48:13",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "1LwC8mueviYao9D",
+        "item": null,
+        "created_at": "2026-04-14T12:09:21",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "1LwC8mueviYao9D",
+        "item": null,
+        "created_at": "2026-03-22T13:05:21",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      }
+    ]
+  },
+  "cMvzi70VXPQuJZB": {
+    "success": true,
+    "userInfo": {
+      "uid": "cMvzi70VXPQuJZB",
+      "nickname": "René",
+      "avatar": "https://img.hellogithub.com/avatar/17421494.png",
+      "contribute_total": 5,
+      "share_repo_total": 1,
+      "comment_repo_total": 0,
+      "permission": {
+        "name": "游客",
+        "code": "visitor"
+      },
+      "in_person": false,
+      "first_login": "2026-09-04T14:19:14",
+      "rank": 62140,
+      "level": 1
+    },
+    "dynamicRecord": [
+      {
+        "uid": "cMvzi70VXPQuJZB",
+        "item": {
+          "item_id": "d4cad7a1eb8241eb8cf31b12b919a849",
+          "name": "Thaw",
+          "full_name": "thaw-app/Thaw"
+        },
+        "created_at": "2026-09-04T14:22:36",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      }
+    ]
+  },
+  "TWNAjisURpnhL1l": {
+    "success": true,
+    "userInfo": {
+      "uid": "TWNAjisURpnhL1l",
+      "nickname": "tianma-if",
+      "avatar": "https://img.hellogithub.com/avatar/5895871.jpeg",
+      "contribute_total": 5,
+      "share_repo_total": 1,
+      "comment_repo_total": 0,
+      "permission": {
+        "name": "游客",
+        "code": "visitor"
+      },
+      "in_person": false,
+      "first_login": "2026-09-24T20:00:54",
+      "rank": 63455,
+      "level": 1
+    },
+    "dynamicRecord": [
+      {
+        "uid": "TWNAjisURpnhL1l",
+        "item": {
+          "item_id": "150fee4403f6433880bda91e9576ac06",
+          "name": "edgeever",
+          "full_name": "tianma-if/edgeever"
+        },
+        "created_at": "2026-09-24T20:19:28",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      }
+    ]
+  },
+  "hLYeZsyoBVnDaRG": {
+    "success": true,
+    "userInfo": {
+      "uid": "hLYeZsyoBVnDaRG",
+      "nickname": "WooHooDai",
+      "avatar": "https://img.hellogithub.com/avatar/16878459.png",
+      "contribute_total": 5,
+      "share_repo_total": 1,
+      "comment_repo_total": 0,
+      "permission": {
+        "name": "游客",
+        "code": "visitor"
+      },
+      "in_person": false,
+      "first_login": "2026-09-04T16:25:10",
+      "rank": 62157,
+      "level": 1
+    },
+    "dynamicRecord": [
+      {
+        "uid": "hLYeZsyoBVnDaRG",
+        "item": {
+          "item_id": "9d3be8f0236444cb9ffd6ef88b2060d4",
+          "name": "linkding-cn",
+          "full_name": "WooHooDai/linkding-cn"
+        },
+        "created_at": "2026-09-04T17:52:07",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      }
+    ]
+  },
+  "GkDCLmVS3ItaJed": {
+    "success": true,
+    "userInfo": {
+      "uid": "GkDCLmVS3ItaJed",
+      "nickname": "WBT907",
+      "avatar": "https://img.hellogithub.com/avatar/193783376.png",
+      "contribute_total": 17,
+      "share_repo_total": 3,
+      "comment_repo_total": 1,
+      "permission": {
+        "name": "游客",
+        "code": "visitor"
+      },
+      "in_person": false,
+      "first_login": "2026-04-25T13:41:41",
+      "rank": 53661,
+      "level": 1
+    },
+    "dynamicRecord": [
+      {
+        "uid": "GkDCLmVS3ItaJed",
+        "item": null,
+        "created_at": "2026-07-15T19:19:16",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "GkDCLmVS3ItaJed",
+        "item": {
+          "item_id": "07f03ff49bc544c09f56b7b8215ee6d3",
+          "name": "huashu-design",
+          "full_name": "alchaincyf/huashu-design"
+        },
+        "created_at": "2026-07-11T12:18:12",
+        "dynamic_type": "comment",
+        "value": 2,
+        "remark": "发布项目评论"
+      },
+      {
+        "uid": "GkDCLmVS3ItaJed",
+        "item": {
+          "item_id": "8e4c74a9715441cd8c6664d6869ff4ee",
+          "name": "PYAS",
+          "full_name": "87owo/PYAS"
+        },
+        "created_at": "2026-06-30T22:13:03",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "GkDCLmVS3ItaJed",
+        "item": {
+          "item_id": "07f03ff49bc544c09f56b7b8215ee6d3",
+          "name": "huashu-design",
+          "full_name": "alchaincyf/huashu-design"
+        },
+        "created_at": "2026-04-25T13:46:28",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      }
+    ]
+  },
+  "wg8ucRq0Lb75zTy": {
+    "success": true,
+    "userInfo": {
+      "uid": "wg8ucRq0Lb75zTy",
+      "nickname": "大痴小乙zt2kV",
+      "avatar": "https://img.hellogithub.com/avatar/29231515.jpeg",
+      "contribute_total": 35,
+      "share_repo_total": 7,
+      "comment_repo_total": 0,
+      "permission": {
+        "name": "游客",
+        "code": "visitor"
+      },
+      "in_person": false,
+      "first_login": "2023-03-10T21:58:41",
+      "rank": 4639,
+      "level": 1
+    },
+    "dynamicRecord": [
+      {
+        "uid": "wg8ucRq0Lb75zTy",
+        "item": {
+          "item_id": "d127d50cd5e54c5382328acc3bb25483",
+          "name": "AstrBot",
+          "full_name": "AstrBotDevs/AstrBot"
+        },
+        "created_at": "2025-02-24T11:54:18",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "wg8ucRq0Lb75zTy",
+        "item": null,
+        "created_at": "2024-05-15T14:25:14",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "wg8ucRq0Lb75zTy",
+        "item": null,
+        "created_at": "2024-04-28T10:04:53",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "wg8ucRq0Lb75zTy",
+        "item": null,
+        "created_at": "2024-04-23T09:32:12",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "wg8ucRq0Lb75zTy",
+        "item": null,
+        "created_at": "2023-07-19T14:50:51",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "wg8ucRq0Lb75zTy",
+        "item": null,
+        "created_at": "2023-05-25T09:42:11",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "wg8ucRq0Lb75zTy",
+        "item": null,
+        "created_at": "2023-05-22T09:47:04",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      }
+    ]
+  },
+  "TJ65FfbQU09PLHM": {
+    "success": true,
+    "userInfo": {
+      "uid": "TJ65FfbQU09PLHM",
+      "nickname": "刘睿华",
+      "avatar": "https://img.hellogithub.com/avatar/2217024.jpeg",
+      "contribute_total": 183,
+      "share_repo_total": 29,
+      "comment_repo_total": 18,
+      "permission": {
+        "name": "游客",
+        "code": "visitor"
+      },
+      "in_person": false,
+      "first_login": "2024-02-28T09:16:22",
+      "rank": 14062,
+      "level": 3
+    },
+    "dynamicRecord": [
+      {
+        "uid": "TJ65FfbQU09PLHM",
+        "item": {
+          "item_id": "f0cae3cb81f3496b9b6ead91194dc6f8",
+          "name": "DeskBox",
+          "full_name": "Tianyu199509/DeskBox"
+        },
+        "created_at": "2026-09-07T10:15:05",
+        "dynamic_type": "comment",
+        "value": 2,
+        "remark": "发布项目评论"
+      },
+      {
+        "uid": "TJ65FfbQU09PLHM",
+        "item": {
+          "item_id": "bfd53e7223324a46886ecdbdba8a7792",
+          "name": "voidImageViewer",
+          "full_name": "voidtools/voidImageViewer"
+        },
+        "created_at": "2026-02-07T15:16:30",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "TJ65FfbQU09PLHM",
+        "item": {
+          "item_id": "a2973ffc90d546dd95a506782c395ac3",
+          "name": "tusd",
+          "full_name": "tus/tusd"
+        },
+        "created_at": "2025-09-10T14:03:04",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "TJ65FfbQU09PLHM",
+        "item": null,
+        "created_at": "2025-08-12T18:04:24",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "TJ65FfbQU09PLHM",
+        "item": null,
+        "created_at": "2025-07-28T08:56:05",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "TJ65FfbQU09PLHM",
+        "item": null,
+        "created_at": "2025-07-25T15:37:31",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "TJ65FfbQU09PLHM",
+        "item": null,
+        "created_at": "2025-07-23T17:33:42",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "TJ65FfbQU09PLHM",
+        "item": null,
+        "created_at": "2025-07-16T09:10:43",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "TJ65FfbQU09PLHM",
+        "item": {
+          "item_id": "c239155294194bfbb4e9c5c24baa0b77",
+          "name": "checkov",
+          "full_name": "bridgecrewio/checkov"
+        },
+        "created_at": "2025-07-02T15:56:23",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "TJ65FfbQU09PLHM",
+        "item": {
+          "item_id": "13ffb5d6752f4144bc460c978e62e27f",
+          "name": "logdy-core",
+          "full_name": "logdyhq/logdy-core"
+        },
+        "created_at": "2025-06-17T09:22:12",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      }
+    ]
+  },
+  "GV09yecJCxj8nUw": {
+    "success": true,
+    "userInfo": {
+      "uid": "GV09yecJCxj8nUw",
+      "nickname": "KongQi",
+      "avatar": "https://img.hellogithub.com/avatar/174348242.jpeg",
+      "contribute_total": 20,
+      "share_repo_total": 4,
+      "comment_repo_total": 0,
+      "permission": {
+        "name": "游客",
+        "code": "visitor"
+      },
+      "in_person": false,
+      "first_login": "2026-07-23T18:17:11",
+      "rank": 59262,
+      "level": 1
+    },
+    "dynamicRecord": [
+      {
+        "uid": "GV09yecJCxj8nUw",
+        "item": {
+          "item_id": "c876495112d2487aa236571037c2d3bd",
+          "name": "droidVNC-NG",
+          "full_name": "bk138/droidVNC-NG"
+        },
+        "created_at": "2026-07-27T22:36:00",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "GV09yecJCxj8nUw",
+        "item": null,
+        "created_at": "2026-07-27T22:23:48",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "GV09yecJCxj8nUw",
+        "item": null,
+        "created_at": "2026-07-27T22:20:50",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "GV09yecJCxj8nUw",
+        "item": {
+          "item_id": "78ba220d6c01475fbbd91278f1ed395f",
+          "name": "flutter_server_box",
+          "full_name": "lollipopkit/flutter_server_box"
+        },
+        "created_at": "2026-07-23T18:25:15",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      }
+    ]
+  },
+  "ZEmlVMU48W52oxS": {
+    "success": true,
+    "userInfo": {
+      "uid": "ZEmlVMU48W52oxS",
+      "nickname": "ghost_him",
+      "avatar": "https://img.hellogithub.com/avatar/70733461.png",
+      "contribute_total": 10,
+      "share_repo_total": 2,
+      "comment_repo_total": 0,
+      "permission": {
+        "name": "游客",
+        "code": "visitor"
+      },
+      "in_person": false,
+      "first_login": "2025-11-05T13:30:42",
+      "rank": 43777,
+      "level": 1
+    },
+    "dynamicRecord": [
+      {
+        "uid": "ZEmlVMU48W52oxS",
+        "item": {
+          "item_id": "0a124a4bc7b04e0aa36d115b33a131af",
+          "name": "oh-my-pi",
+          "full_name": "can1357/oh-my-pi"
+        },
+        "created_at": "2026-07-15T10:38:59",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "ZEmlVMU48W52oxS",
+        "item": null,
+        "created_at": "2025-11-05T15:25:25",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      }
+    ]
+  },
+  "eK0Bv1dmJPxnrwy": {
+    "success": true,
+    "userInfo": {
+      "uid": "eK0Bv1dmJPxnrwy",
+      "nickname": "IZRINO",
+      "avatar": "https://img.hellogithub.com/avatar/oTtM-5yohHeoIUC6O4DaX_VQ9yOo.jpeg",
+      "contribute_total": 317,
+      "share_repo_total": 62,
+      "comment_repo_total": 1,
+      "permission": {
+        "name": "游客",
+        "code": "visitor"
+      },
+      "in_person": false,
+      "first_login": "2024-11-26T09:21:18",
+      "rank": 25348,
+      "level": 4
+    },
+    "dynamicRecord": [
+      {
+        "uid": "eK0Bv1dmJPxnrwy",
+        "item": null,
+        "created_at": "2026-06-23T08:21:43",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "eK0Bv1dmJPxnrwy",
+        "item": null,
+        "created_at": "2026-03-25T11:34:06",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "eK0Bv1dmJPxnrwy",
+        "item": null,
+        "created_at": "2026-01-09T09:48:44",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "eK0Bv1dmJPxnrwy",
+        "item": {
+          "item_id": "0214df3f9d8548e9b6b9f51b81784eb4",
+          "name": "stylex",
+          "full_name": "facebook/stylex"
+        },
+        "created_at": "2025-11-18T14:01:53",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "eK0Bv1dmJPxnrwy",
+        "item": null,
+        "created_at": "2025-11-18T10:50:50",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "eK0Bv1dmJPxnrwy",
+        "item": {
+          "item_id": "9b3f71b9861f412fa50f2b1566914966",
+          "name": "Valdi",
+          "full_name": "Snapchat/Valdi"
+        },
+        "created_at": "2025-11-12T09:18:36",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "eK0Bv1dmJPxnrwy",
+        "item": {
+          "item_id": "0d743ecda00c465aa690a32a52d2b13d",
+          "name": "nitro",
+          "full_name": "nitrojs/nitro"
+        },
+        "created_at": "2025-10-16T17:06:06",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "eK0Bv1dmJPxnrwy",
+        "item": null,
+        "created_at": "2025-10-16T17:01:57",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "eK0Bv1dmJPxnrwy",
+        "item": {
+          "item_id": "dea04077c9984f11bda3efd76ecd873b",
+          "name": "FreeDomain",
+          "full_name": "DigitalPlatDev/FreeDomain"
+        },
+        "created_at": "2025-10-16T17:00:16",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "eK0Bv1dmJPxnrwy",
+        "item": null,
+        "created_at": "2025-05-30T09:14:35",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      }
+    ]
+  },
+  "0Aj4ipeQrDYuHBX": {
+    "success": true,
+    "userInfo": {
+      "uid": "0Aj4ipeQrDYuHBX",
+      "nickname": "JRZYgit",
+      "avatar": "https://img.hellogithub.com/avatar/185573060.png",
+      "contribute_total": 239,
+      "share_repo_total": 31,
+      "comment_repo_total": 42,
+      "permission": {
+        "name": "游客",
+        "code": "visitor"
+      },
+      "in_person": false,
+      "first_login": "2024-10-19T12:54:31",
+      "rank": 23779,
+      "level": 3
+    },
+    "dynamicRecord": [
+      {
+        "uid": "0Aj4ipeQrDYuHBX",
+        "item": null,
+        "created_at": "2026-07-20T13:12:55",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "0Aj4ipeQrDYuHBX",
+        "item": null,
+        "created_at": "2026-07-20T13:11:39",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "0Aj4ipeQrDYuHBX",
+        "item": null,
+        "created_at": "2026-07-20T12:59:10",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "0Aj4ipeQrDYuHBX",
+        "item": null,
+        "created_at": "2026-07-20T12:56:25",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "0Aj4ipeQrDYuHBX",
+        "item": null,
+        "created_at": "2026-07-17T09:25:40",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "0Aj4ipeQrDYuHBX",
+        "item": {
+          "item_id": "3af1d1b883af446dae0169a50f011de0",
+          "name": "astryx",
+          "full_name": "facebook/astryx"
+        },
+        "created_at": "2026-07-16T21:27:47",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "0Aj4ipeQrDYuHBX",
+        "item": {
+          "item_id": "683d339f133440e9b10e795e5be91b5f",
+          "name": "tolaria",
+          "full_name": "refactoringhq/tolaria"
+        },
+        "created_at": "2026-06-29T17:34:58",
+        "dynamic_type": "comment",
+        "value": 2,
+        "remark": "发布项目评论"
+      },
+      {
+        "uid": "0Aj4ipeQrDYuHBX",
+        "item": {
+          "item_id": "98ecff41d142466d8d72694a6fadf9e9",
+          "name": "animal-island-ui",
+          "full_name": "guokaigdg/animal-island-ui"
+        },
+        "created_at": "2026-06-29T17:10:36",
+        "dynamic_type": "comment",
+        "value": 2,
+        "remark": "发布项目评论"
+      },
+      {
+        "uid": "0Aj4ipeQrDYuHBX",
+        "item": {
+          "item_id": "ae05780e2e2d42b28931418c05dac8f9",
+          "name": "herdr",
+          "full_name": "herdrdev/herdr"
+        },
+        "created_at": "2026-06-29T17:07:05",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "0Aj4ipeQrDYuHBX",
+        "item": {
+          "item_id": "9a78eead291f4b5ba141e1c71c640fd9",
+          "name": "luanti",
+          "full_name": "luanti-org/luanti"
+        },
+        "created_at": "2026-06-29T17:01:53",
+        "dynamic_type": "comment",
+        "value": 2,
+        "remark": "发布项目评论"
+      }
+    ]
+  },
+  "iItGgWoJjnLsr0Y": {
+    "success": true,
+    "userInfo": {
+      "uid": "iItGgWoJjnLsr0Y",
+      "nickname": "ewiro",
+      "avatar": "https://img.hellogithub.com/avatar/191195860.jpeg",
+      "contribute_total": 1041,
+      "share_repo_total": 203,
+      "comment_repo_total": 8,
+      "permission": {
+        "name": "游客",
+        "code": "visitor"
+      },
+      "in_person": false,
+      "first_login": "2025-05-08T21:32:27",
+      "rank": 32997,
+      "level": 6
+    },
+    "dynamicRecord": [
+      {
+        "uid": "iItGgWoJjnLsr0Y",
+        "item": null,
+        "created_at": "2026-08-28T10:15:23",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "iItGgWoJjnLsr0Y",
+        "item": {
+          "item_id": "7ea63f77647141a2bad1f8346c3738b3",
+          "name": "keyStats",
+          "full_name": "debugtheworldbot/keyStats"
+        },
+        "created_at": "2026-01-31T11:14:02",
+        "dynamic_type": "comment",
+        "value": 2,
+        "remark": "发布项目评论"
+      },
+      {
+        "uid": "iItGgWoJjnLsr0Y",
+        "item": null,
+        "created_at": "2026-01-08T16:54:49",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "iItGgWoJjnLsr0Y",
+        "item": {
+          "item_id": "3cbf370c9f534ea3bf3695b7f9b8bd19",
+          "name": "XMSLEEP",
+          "full_name": "Tosencen/XMSLEEP"
+        },
+        "created_at": "2025-12-05T21:56:32",
+        "dynamic_type": "comment",
+        "value": 2,
+        "remark": "发布项目评论"
+      },
+      {
+        "uid": "iItGgWoJjnLsr0Y",
+        "item": null,
+        "created_at": "2025-06-30T10:39:42",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "iItGgWoJjnLsr0Y",
+        "item": null,
+        "created_at": "2025-06-30T10:38:29",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "iItGgWoJjnLsr0Y",
+        "item": {
+          "item_id": "d39e1fc3bb9544aa9dbc323dd17db1bf",
+          "name": "Audile",
+          "full_name": "AudileTeam/Audile"
+        },
+        "created_at": "2025-06-30T10:18:36",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "iItGgWoJjnLsr0Y",
+        "item": null,
+        "created_at": "2025-06-30T10:18:08",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "iItGgWoJjnLsr0Y",
+        "item": null,
+        "created_at": "2025-06-30T10:17:15",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "iItGgWoJjnLsr0Y",
+        "item": null,
+        "created_at": "2025-06-29T16:55:08",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      }
+    ]
+  },
+  "kmUCncHJr9SpNV7": {
+    "success": true,
+    "userInfo": {
+      "uid": "kmUCncHJr9SpNV7",
+      "nickname": "game1024",
+      "avatar": "https://img.hellogithub.com/avatar/168624508.jpeg",
+      "contribute_total": 10,
+      "share_repo_total": 2,
+      "comment_repo_total": 0,
+      "permission": {
+        "name": "游客",
+        "code": "visitor"
+      },
+      "in_person": false,
+      "first_login": "2025-06-03T18:34:59",
+      "rank": 34967,
+      "level": 1
+    },
+    "dynamicRecord": [
+      {
+        "uid": "kmUCncHJr9SpNV7",
+        "item": null,
+        "created_at": "2026-02-24T10:01:30",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "kmUCncHJr9SpNV7",
+        "item": {
+          "item_id": "975f473c56ad4369a1c30ac9aa5819e0",
+          "name": "OpenSpeedy",
+          "full_name": "game1024/OpenSpeedy"
+        },
+        "created_at": "2025-06-03T19:56:13",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      }
+    ]
+  },
+  "yeYXT1EUJjxwl0S": {
+    "success": true,
+    "userInfo": {
+      "uid": "yeYXT1EUJjxwl0S",
+      "nickname": "GXFG",
+      "avatar": "https://img.hellogithub.com/avatar/20944987.jpeg",
+      "contribute_total": 7,
+      "share_repo_total": 1,
+      "comment_repo_total": 1,
+      "permission": {
+        "name": "游客",
+        "code": "visitor"
+      },
+      "in_person": false,
+      "first_login": "2026-06-23T16:40:44",
+      "rank": 57390,
+      "level": 1
+    },
+    "dynamicRecord": [
+      {
+        "uid": "yeYXT1EUJjxwl0S",
+        "item": {
+          "item_id": "d621bba94899492f9caa1aec16526841",
+          "name": "newtab-naivetab",
+          "full_name": "GXFG/newtab-naivetab"
+        },
+        "created_at": "2026-09-01T11:15:14",
+        "dynamic_type": "comment",
+        "value": 2,
+        "remark": "发布项目评论"
+      },
+      {
+        "uid": "yeYXT1EUJjxwl0S",
+        "item": {
+          "item_id": "d621bba94899492f9caa1aec16526841",
+          "name": "newtab-naivetab",
+          "full_name": "GXFG/newtab-naivetab"
+        },
+        "created_at": "2026-07-24T11:55:11",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      }
+    ]
+  },
+  "WsQaY6SlnL7qxG3": {
+    "success": true,
+    "userInfo": {
+      "uid": "WsQaY6SlnL7qxG3",
+      "nickname": "DawniN0sA",
+      "avatar": "https://img.hellogithub.com/avatar/87641407.jpeg",
+      "contribute_total": 19,
+      "share_repo_total": 1,
+      "comment_repo_total": 1,
+      "permission": {
+        "name": "游客",
+        "code": "visitor"
+      },
+      "in_person": false,
+      "first_login": "2025-04-18T14:06:09",
+      "rank": 31945,
+      "level": 1
+    },
+    "dynamicRecord": [
+      {
+        "uid": "WsQaY6SlnL7qxG3",
+        "item": null,
+        "created_at": "2025-05-15T15:26:20",
+        "dynamic_type": "comment",
+        "value": 2,
+        "remark": "发布项目评论"
+      },
+      {
+        "uid": "WsQaY6SlnL7qxG3",
+        "item": {
+          "item_id": "743b101346c54f6cb5c20eed2edbaa40",
+          "name": "HuLa",
+          "full_name": "HuLaSpark/HuLa"
+        },
+        "created_at": "2025-05-15T15:16:35",
+        "dynamic_type": "comment",
+        "value": 10,
+        "remark": "评论被置顶"
+      },
+      {
+        "uid": "WsQaY6SlnL7qxG3",
+        "item": {
+          "item_id": "743b101346c54f6cb5c20eed2edbaa40",
+          "name": "HuLa",
+          "full_name": "HuLaSpark/HuLa"
+        },
+        "created_at": "2025-05-15T14:41:52",
+        "dynamic_type": "comment",
+        "value": 2,
+        "remark": "发布项目评论"
+      },
+      {
+        "uid": "WsQaY6SlnL7qxG3",
+        "item": {
+          "item_id": "743b101346c54f6cb5c20eed2edbaa40",
+          "name": "HuLa",
+          "full_name": "HuLaSpark/HuLa"
+        },
+        "created_at": "2025-04-18T14:06:47",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      }
+    ]
+  },
+  "LK4v82s7gOdoNQB": {
+    "success": true,
+    "userInfo": {
+      "uid": "LK4v82s7gOdoNQB",
+      "nickname": "Jason8RwWd",
+      "avatar": "https://img.hellogithub.com/avatar/159670257.jpeg",
+      "contribute_total": 5,
+      "share_repo_total": 1,
+      "comment_repo_total": 0,
+      "permission": {
+        "name": "游客",
+        "code": "visitor"
+      },
+      "in_person": false,
+      "first_login": "2026-08-19T23:13:27",
+      "rank": 61146,
+      "level": 1
+    },
+    "dynamicRecord": [
+      {
+        "uid": "LK4v82s7gOdoNQB",
+        "item": {
+          "item_id": "d4585862d13241468eb7298aa62ea300",
+          "name": "ZenConverter",
+          "full_name": "Jasonzhu1207/ZenConverter"
+        },
+        "created_at": "2026-08-20T00:05:06",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      }
+    ]
+  },
+  "odJT8IizUEw3Gx0": {
+    "success": true,
+    "userInfo": {
+      "uid": "odJT8IizUEw3Gx0",
+      "nickname": "Rainxch Zed",
+      "avatar": "https://img.hellogithub.com/avatar/151833656.jpeg",
+      "contribute_total": 10,
+      "share_repo_total": 2,
+      "comment_repo_total": 0,
+      "permission": {
+        "name": "游客",
+        "code": "visitor"
+      },
+      "in_person": false,
+      "first_login": "2025-10-09T19:37:45",
+      "rank": 41954,
+      "level": 1
+    },
+    "dynamicRecord": [
+      {
+        "uid": "odJT8IizUEw3Gx0",
+        "item": null,
+        "created_at": "2026-06-01T17:22:25",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "odJT8IizUEw3Gx0",
+        "item": {
+          "item_id": "a95f4a4830bc4a69b56f96ac7efaacf8",
+          "name": "komi-store",
+          "full_name": "komi-store/komi-store"
+        },
+        "created_at": "2025-12-17T20:01:36",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      }
+    ]
+  },
+  "r9Fog2slIx5GOK4": {
+    "success": true,
+    "userInfo": {
+      "uid": "r9Fog2slIx5GOK4",
+      "nickname": "gaofer",
+      "avatar": "https://img.hellogithub.com/avatar/35647389.jpeg",
+      "contribute_total": 5,
+      "share_repo_total": 1,
+      "comment_repo_total": 0,
+      "permission": {
+        "name": "游客",
+        "code": "visitor"
+      },
+      "in_person": false,
+      "first_login": "2026-08-06T16:18:58",
+      "rank": 60252,
+      "level": 1
+    },
+    "dynamicRecord": [
+      {
+        "uid": "r9Fog2slIx5GOK4",
+        "item": {
+          "item_id": "8aacdcb1382a43879729c2b8c4fe0afe",
+          "name": "flint-chart",
+          "full_name": "microsoft/flint-chart"
+        },
+        "created_at": "2026-08-06T16:32:10",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      }
+    ]
+  },
+  "SMJiFwlsKCkWf89": {
+    "success": true,
+    "userInfo": {
+      "uid": "SMJiFwlsKCkWf89",
+      "nickname": "Ou",
+      "avatar": "https://img.hellogithub.com/avatar/48356807.png",
+      "contribute_total": 12,
+      "share_repo_total": 2,
+      "comment_repo_total": 1,
+      "permission": {
+        "name": "游客",
+        "code": "visitor"
+      },
+      "in_person": false,
+      "first_login": "2024-11-19T23:45:50",
+      "rank": 25079,
+      "level": 1
+    },
+    "dynamicRecord": [
+      {
+        "uid": "SMJiFwlsKCkWf89",
+        "item": null,
+        "created_at": "2026-07-16T23:37:38",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      },
+      {
+        "uid": "SMJiFwlsKCkWf89",
+        "item": {
+          "item_id": "c2978695e74a423189e9ca2543ab3b36",
+          "name": "newsnow",
+          "full_name": "newsnext/newsnow"
+        },
+        "created_at": "2025-03-15T14:23:33",
+        "dynamic_type": "comment",
+        "value": 2,
+        "remark": "发布项目评论"
+      },
+      {
+        "uid": "SMJiFwlsKCkWf89",
+        "item": {
+          "item_id": "c2978695e74a423189e9ca2543ab3b36",
+          "name": "newsnow",
+          "full_name": "newsnext/newsnow"
+        },
+        "created_at": "2024-11-19T23:47:34",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      }
+    ]
+  },
+  "eRLUbPOy2qZtDgw": {
+    "success": true,
+    "userInfo": {
+      "uid": "eRLUbPOy2qZtDgw",
+      "nickname": "Huang Xin",
+      "avatar": "https://img.hellogithub.com/avatar/751535.png",
+      "contribute_total": 17,
+      "share_repo_total": 1,
+      "comment_repo_total": 1,
+      "permission": {
+        "name": "游客",
+        "code": "visitor"
+      },
+      "in_person": false,
+      "first_login": "2024-12-05T19:46:12",
+      "rank": 25874,
+      "level": 1
+    },
+    "dynamicRecord": [
+      {
+        "uid": "eRLUbPOy2qZtDgw",
+        "item": {
+          "item_id": "8a5b6ade2aee461a8bd94e59200682a7",
+          "name": "readest",
+          "full_name": "readest/readest"
+        },
+        "created_at": "2025-02-05T18:54:03",
+        "dynamic_type": "comment",
+        "value": 10,
+        "remark": "评论被置顶"
+      },
+      {
+        "uid": "eRLUbPOy2qZtDgw",
+        "item": {
+          "item_id": "8a5b6ade2aee461a8bd94e59200682a7",
+          "name": "readest",
+          "full_name": "readest/readest"
+        },
+        "created_at": "2025-02-02T01:02:11",
+        "dynamic_type": "comment",
+        "value": 2,
+        "remark": "发布项目评论"
+      },
+      {
+        "uid": "eRLUbPOy2qZtDgw",
+        "item": {
+          "item_id": "8a5b6ade2aee461a8bd94e59200682a7",
+          "name": "readest",
+          "full_name": "readest/readest"
+        },
+        "created_at": "2024-12-30T22:43:12",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      }
+    ]
+  },
+  "sC6o4RWyuJfhk1B": {
+    "success": true,
+    "userInfo": {
+      "uid": "sC6o4RWyuJfhk1B",
+      "nickname": "Stephan Arenswa",
+      "avatar": "https://img.hellogithub.com/avatar/53045059.jpeg",
+      "contribute_total": 7,
+      "share_repo_total": 1,
+      "comment_repo_total": 1,
+      "permission": {
+        "name": "游客",
+        "code": "visitor"
+      },
+      "in_person": false,
+      "first_login": "2026-08-01T13:00:08",
+      "rank": 59879,
+      "level": 1
+    },
+    "dynamicRecord": [
+      {
+        "uid": "sC6o4RWyuJfhk1B",
+        "item": {
+          "item_id": "7a7e72e001024acbb22d20fbd0c05279",
+          "name": "claude-seo",
+          "full_name": "AgriciDaniel/claude-seo"
+        },
+        "created_at": "2026-08-02T20:29:58",
+        "dynamic_type": "comment",
+        "value": 2,
+        "remark": "发布项目评论"
+      },
+      {
+        "uid": "sC6o4RWyuJfhk1B",
+        "item": {
+          "item_id": "6fbcbfe91ce64f87bda91bf4323e773c",
+          "name": "MacPacker",
+          "full_name": "sarensw/MacPacker"
+        },
+        "created_at": "2026-08-02T20:28:52",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      }
+    ]
+  },
+  "eEvPN8LRJfoYp5K": {
+    "success": true,
+    "userInfo": {
+      "uid": "eEvPN8LRJfoYp5K",
+      "nickname": "keokeo",
+      "avatar": "https://img.hellogithub.com/avatar/oTtM-52xWbb_QWF1TWZ_xFXRSZ88.jpeg",
+      "contribute_total": 5,
+      "share_repo_total": 1,
+      "comment_repo_total": 0,
+      "permission": {
+        "name": "游客",
+        "code": "visitor"
+      },
+      "in_person": false,
+      "first_login": "2026-07-13T15:46:56",
+      "rank": 58589,
+      "level": 1
+    },
+    "dynamicRecord": [
+      {
+        "uid": "eEvPN8LRJfoYp5K",
+        "item": {
+          "item_id": "ed531266a71a4fd7b0594948563bb0ee",
+          "name": "EUI-NEO",
+          "full_name": "sudoevolve/EUI-NEO"
+        },
+        "created_at": "2026-07-13T15:54:51",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      }
+    ]
+  },
+  "LhU6KAuOCtMEH9F": {
+    "success": true,
+    "userInfo": {
+      "uid": "LhU6KAuOCtMEH9F",
+      "nickname": "技术中心",
+      "avatar": "https://img.hellogithub.com/avatar/oTtM-58eqYYI3ubPUUwhyQL9Sg0o.jpeg",
+      "contribute_total": 5,
+      "share_repo_total": 1,
+      "comment_repo_total": 0,
+      "permission": {
+        "name": "游客",
+        "code": "visitor"
+      },
+      "in_person": false,
+      "first_login": "2025-04-29T17:07:48",
+      "rank": 32459,
+      "level": 1
+    },
+    "dynamicRecord": [
+      {
+        "uid": "LhU6KAuOCtMEH9F",
+        "item": {
+          "item_id": "2aee41459a1d44ea8d2b391af80352db",
+          "name": "ChinaTextbook",
+          "full_name": "TapXWorld/ChinaTextbook"
+        },
+        "created_at": "2025-05-16T08:51:16",
+        "dynamic_type": "repository",
+        "value": 5,
+        "remark": "提交项目"
+      }
+    ]
+  }
+}

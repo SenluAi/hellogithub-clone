@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>嫌 AI 写的界面太丑？装上这个开源插件，秒变资深设计师 | HelloGitHub 离线版</title>
+<link rel="icon" href="../assets/favicon.svg"/>
+<style>*{box-sizing:border-box}body{margin:0;background:#f7f8fa;color:#1f2430;font:15px/1.75 -apple-system,"Segoe UI","Microsoft YaHei",sans-serif}
+.wrap{max-width:900px;margin:0 auto;padding:28px 20px 60px}
+.back{display:inline-block;margin-bottom:18px;color:#2563eb;text-decoration:none;font-size:14px}
+a{color:#2563eb;text-decoration:none}
+h1{font-size:24px;margin:0 0 6px}
+h2{font-size:19px;margin:30px 0 10px;padding-bottom:6px;border-bottom:1px solid #e5e7eb}
+.sub{color:#6b7280;font-size:14px;margin-bottom:18px}
+.item{display:block;background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:14px 18px;margin:12px 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.item:hover{border-color:#93c5fd}
+.item .t{font-size:17px;font-weight:600;color:#111827}
+.item .rn{color:#6b7280;font-size:12px;font-family:ui-monospace,Consolas,monospace;margin-top:2px}
+.item .d{color:#374151;font-size:14px;margin-top:6px}
+.item .m{color:#6b7280;font-size:12px;margin-top:8px}
+.grid{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+.chip{padding:6px 14px;border-radius:999px;background:#fff;border:1px solid #e5e7eb;color:#1f2937;font-size:14px}
+.chip:hover{border-color:#93c5fd}
+.chip b{color:#2563eb;font-weight:600}
+.tabs{display:flex;gap:8px;margin:14px 0 4px;flex-wrap:wrap}
+.tabs a{padding:6px 16px;border-radius:999px;background:#fff;border:1px solid #e5e7eb;font-size:14px}
+.tabs a.on{background:#2563eb;border-color:#2563eb;color:#fff}
+article.post{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:20px 24px;margin-top:16px}
+article.post img{max-width:100%;border-radius:8px}
+article.post h2{font-size:19px;margin:24px 0 8px}
+article.post h3{font-size:16px;margin:20px 0 6px}
+article.post table{border-collapse:collapse;width:100%;margin:12px 0;font-size:14px}
+article.post th,article.post td{border:1px solid #e5e7eb;padding:6px 10px;text-align:left}
+article.post blockquote{margin:12px 0;padding:8px 14px;border-left:3px solid #93c5fd;background:#f3f7ff;color:#374151}
+article.post pre{background:#0f172a;color:#e2e8f0;padding:12px 14px;border-radius:8px;overflow:auto;font-size:13px}
+article.post code{background:#eef2f7;padding:1px 5px;border-radius:4px;font-size:13px}</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="back" href="../index.html">← 返回首页</a>
+  <h1>嫌 AI 写的界面太丑？装上这个开源插件，秒变资深设计师</h1>
+  <div class="sub">卤蛋 · 2026-01-06 · 阅读 4035</div>
+<article class="post">
+<img src="https://img.hellogithub.com/article/MJtABIkwcpXVedn_1767662183.png" alt=""/>
+<p>2026 年的第一期「GitHub 热点速览」准时上线！新的一年，让我们看看开源社区迎来了哪些有趣、好玩的开源项目。</p>
+<p>如果你受够了不明真相的后台进程，不妨试试 witr，一条命令就能把进程查个底朝天。刚开年想给你的 Mac 瘦瘦身？极简清理工具 Mole 既轻量又方便。对于正在使用 AI 编程的朋友，ui-ux-pro-max-skill 能让你的 AI 助手秒变资深 UI 设计师，告别千篇一律、AI 味儿十足的界面。哈佛大学开源的 AI 系统工程课程，带你从零手搓深度学习框架 TinyTorch。</p>
+<p>学累了？不妨试试这款被网友直接“封神”的沉浸式桌面歌词工具 BetterLyrics，享受一会儿沉浸式听歌的快乐，劳逸结合才能更好地出发。</p>
+<p>· 本文目录</p>
+<p>· 1\. 热门开源项目</p>
+<p>· 1.1 一条命令揭秘进程身世：witr</p>
+<p>· 1.2 开箱即用的地图组件库：mapcn</p>
+<p>· 1.3 极简的 macOS 系统清理工具：Mole</p>
+<p>· 1.4 AI 编程助手的设计增强插件：ui-ux-pro-max-skill</p>
+<p>· 1.5 机器学习系统工程：cs249r_book</p>
+<p>· 2\. HelloGitHub 热评</p>
+<p>· 2.1 无需发邮件验证邮箱有效性的工具：check-if-email-exists</p>
+<p>· 2.2 沉浸式桌面歌词显示工具：BetterLyrics</p>
+<p>· 3\. 结尾</p>
+<h2>1. 热门开源项目</h2>
+<h3>1.1 一条命令揭秘进程身世：witr</h3>
+<img src="https://img.hellogithub.com/article/thVegsyAKNoFHzv_1767662202.png" alt=""/>
+<p><strong>主语言：Go</strong>，<strong>Star：9.9k</strong>，<strong>周增长：7.4k</strong></p>
+<p>这是一个用 Go 编写的命令行诊断工具，用于快速定位和分析正在运行的进程。它通过端口、服务名或 PID 映射进程信息，生成通俗易懂的进程因果链，直观展示进程的来源、启动方式和持续运行的原因，帮助运维与开发者排查和定位异常进程。</p>
+<blockquote>GitHub 地址→<a href="https://github.com/pranshuparmar/witr" target="_blank" rel="noopener">github.com/pranshuparmar/witr</a></blockquote>
+<h3>1.2 开箱即用的地图组件库：mapcn</h3>
+<img src="https://img.hellogithub.com/article/hicC4W9YFXsLt7y_1767662213.png" alt=""/>
+<p><strong>主语言：TypeScript</strong>，<strong>Star：3k</strong>，<strong>周增长：3k</strong></p>
+<p>该项目是基于 MapLibre GL 和 Tailwind CSS 构建的交互式地图组件，开箱即用无需配置，能够自动适配浅色和深色模式，支持缩放、指南针、定位、标记、弹框和绘制路线等功能，兼容 shadcn/ui 适合 React 生态的开发者。</p>
+<pre><code>import { Map } from &quot;@/components/ui/map&quot;;
+
+export function BasicMapExample() {
+  return (
+    &lt;div className=&quot;h-[400px] w-full&quot;&gt;
+      &lt;Map center={[-74.006, 40.7128]} zoom={12} /&gt;
+    &lt;/div&gt;
+  );
+}
+</code></pre>
+<blockquote>GitHub 地址→<a href="https://github.com/AnmolSaini16/mapcn" target="_blank" rel="noopener">github.com/AnmolSaini16/mapcn</a></blockquote>
+<h3>1.3 极简的 macOS 系统清理工具：Mole</h3>
+<img src="https://img.hellogithub.com/article/1If2Q7CNHTPnwUh_1767662239.png" alt=""/>
+<p><strong>主语言：Shell、Go</strong>，<strong>Star：25k</strong>，<strong>周增长：1.6k</strong></p>
+<p>这是一款专为 macOS 设计的轻量级命令行清理工具，集深度清理、应用卸载、硬盘空间分析和实时状态监控于一体。它主要由 shell 编写，安装简单、零干扰（无广告/弹窗/常驻进程），支持白名单和试运行模式，进一步降低误删风险。</p>
+<blockquote>GitHub 地址→<a href="https://github.com/tw93/Mole" target="_blank" rel="noopener">github.com/tw93/Mole</a></blockquote>
+<h3>1.4 AI 编程助手的设计增强插件：ui-ux-pro-max-skill</h3>
+<img src="https://img.hellogithub.com/article/UlA43pgE9wmF5dJ_1767662258.png" alt=""/>
+<p><strong>主语言：TypeScript</strong>，<strong>Star：6.8k</strong>，<strong>周增长：4.3k</strong></p>
+<p>这是一款面向 AI 编程助手的 UI/UX 设计增强插件，赋予 AI 助手生成专业级界面和用户体验的能力。它内置 57 种 UI 风格、95 套调色方案、56 组字体搭配和 98 条 UX 最佳实践规范的知识库，让 AI 摆脱千篇一律的通用样式代码，自动生成具有较高水准视觉效果和良好交互体验的应用界面代码。</p>
+<pre><code># Install CLI globally
+npm install -g uipro-cli
+
+# Go to your project
+cd /path/to/your/project
+
+# Install for your AI assistant
+uipro init --ai claude      # Claude Code
+uipro init --ai cursor      # Cursor
+uipro init --ai windsurf    # Windsurf
+uipro init --ai antigravity # Antigravity (.agent + .shared)
+uipro init --ai copilot     # GitHub Copilot
+uipro init --ai kiro        # Kiro
+uipro init --ai all         # All assistants
+</code></pre>
+<blockquote>GitHub 地址→<a href="https://github.com/nextlevelbuilder/ui-ux-pro-max-skill" target="_blank" rel="noopener">github.com/nextlevelbuilder/ui-ux-pro-max-skill</a></blockquote>
+<h3>1.5 机器学习系统工程：cs249r_book</h3>
+<img src="https://img.hellogithub.com/article/lTxC6AHkMgO2VRz_1767662273.png" alt=""/>
+<p><strong>主语言：Other</strong>，<strong>Star：15k</strong>，<strong>周增长：3k</strong></p>
+<p>该项目是由哈佛大学开源的 AI 系统工程（CS249r）课程教材，内含书籍和源码。它通过从零实现深度学习框架 TinyTorch 和将模型部署到 Arduino 与树莓派等硬件设备的实践，帮助学习者将机器学习理论与系统工程实践相结合，掌握在实际嵌入式开发中部署 AI 系统的方法。</p>
+<blockquote>GitHub 地址→<a href="https://github.com/harvard-edge/cs249r_book" target="_blank" rel="noopener">github.com/harvard-edge/cs249r_book</a></blockquote>
+<h2>2. HelloGitHub 热评</h2>
+<p>在此章节中，我们将为大家介绍本周 HelloGitHub 网站上的热门开源项目，希望你能从中收获开源神器和编程知识，更欢迎与我们分享你在使用这些<strong>开源项目的体验和评价</strong>，用最真实反馈为开源项目的作者提供动力。</p>
+<img src="https://img.hellogithub.com/article/3GIKMPpxl7zFHY6_1767662284.png" alt=""/>
+<h3>2.1 无需发邮件验证邮箱有效性的工具：check-if-email-exists</h3>
+<img src="https://img.hellogithub.com/article/EHQLPneTidN4ckB_1767662297.png" alt=""/>
+<p><strong>主语言：Rust</strong></p>
+<p>这是一款用 Rust 开发的邮箱验证工具，通过正则表达式、DNS、SMTP 等多重校验，在不发送邮件的情况下验证邮箱有效性，支持 API 和 CLI 等使用方式。</p>
+<blockquote>项目详情→<a href="https://hellogithub.com/repository/reacherhq/check-if-email-exists" target="_blank" rel="noopener">hellogithub.com/repository/reacherhq/check-if-email-exists</a></blockquote>
+<h3>2.2 沉浸式桌面歌词显示工具：BetterLyrics</h3>
+<img src="https://img.hellogithub.com/article/VI2NrXGZgWDcs8w_1767662309.png" alt=""/>
+<p><strong>主语言：C#</strong></p>
+<p>这是一款专为 Windows 设计的沉浸式歌词显示工具，能够自动识别播放器正在播放的音乐，实时检索本地或在线歌词，并通过流畅动画美观地展示在桌面上。</p>
+<blockquote>项目详情→<a href="https://hellogithub.com/repository/jayfunc/BetterLyrics" target="_blank" rel="noopener">hellogithub.com/repository/jayfunc/BetterLyrics</a></blockquote>
+<h2>3. 结尾</h2>
+<p>以上就是本期「GitHub 热点速览」的全部内容，我始终坚信：兴趣是最好的老师！希望这些开源项目能激发你的兴趣，让你找到下一个想尝试和学习的开源项目。如果你也发现了好玩、有趣的 GitHub 开源项目想要分享，欢迎来 <a href="https://hellogithub.com" target="_blank" rel="noopener">HelloGitHub</a> 与我们交流、讨论使用体验。</p>
+<p><strong>往期回顾</strong></p>
+<p>· <a href="https://mp.weixin.qq.com/s/iUWBUmu8Bw8RuC81CqXpEg" target="_blank" rel="noopener">上班摸鱼玩塔防，竟然是为了学架构？</a></p>
+<p>· <a href="https://mp.weixin.qq.com/s/44TR75pFspRM3kGf-6gU2Q" target="_blank" rel="noopener">节省 60% Token 的新数据格式</a></p>
+</article>
+</div>
+</body>
+</html>

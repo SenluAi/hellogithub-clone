@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>一周 Star 破万的开源项目「GitHub 热点速览」 | HelloGitHub 离线版</title>
+<link rel="icon" href="../assets/favicon.svg"/>
+<style>*{box-sizing:border-box}body{margin:0;background:#f7f8fa;color:#1f2430;font:15px/1.75 -apple-system,"Segoe UI","Microsoft YaHei",sans-serif}
+.wrap{max-width:900px;margin:0 auto;padding:28px 20px 60px}
+.back{display:inline-block;margin-bottom:18px;color:#2563eb;text-decoration:none;font-size:14px}
+a{color:#2563eb;text-decoration:none}
+h1{font-size:24px;margin:0 0 6px}
+h2{font-size:19px;margin:30px 0 10px;padding-bottom:6px;border-bottom:1px solid #e5e7eb}
+.sub{color:#6b7280;font-size:14px;margin-bottom:18px}
+.item{display:block;background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:14px 18px;margin:12px 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.item:hover{border-color:#93c5fd}
+.item .t{font-size:17px;font-weight:600;color:#111827}
+.item .rn{color:#6b7280;font-size:12px;font-family:ui-monospace,Consolas,monospace;margin-top:2px}
+.item .d{color:#374151;font-size:14px;margin-top:6px}
+.item .m{color:#6b7280;font-size:12px;margin-top:8px}
+.grid{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+.chip{padding:6px 14px;border-radius:999px;background:#fff;border:1px solid #e5e7eb;color:#1f2937;font-size:14px}
+.chip:hover{border-color:#93c5fd}
+.chip b{color:#2563eb;font-weight:600}
+.tabs{display:flex;gap:8px;margin:14px 0 4px;flex-wrap:wrap}
+.tabs a{padding:6px 16px;border-radius:999px;background:#fff;border:1px solid #e5e7eb;font-size:14px}
+.tabs a.on{background:#2563eb;border-color:#2563eb;color:#fff}
+article.post{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:20px 24px;margin-top:16px}
+article.post img{max-width:100%;border-radius:8px}
+article.post h2{font-size:19px;margin:24px 0 8px}
+article.post h3{font-size:16px;margin:20px 0 6px}
+article.post table{border-collapse:collapse;width:100%;margin:12px 0;font-size:14px}
+article.post th,article.post td{border:1px solid #e5e7eb;padding:6px 10px;text-align:left}
+article.post blockquote{margin:12px 0;padding:8px 14px;border-left:3px solid #93c5fd;background:#f3f7ff;color:#374151}
+article.post pre{background:#0f172a;color:#e2e8f0;padding:12px 14px;border-radius:8px;overflow:auto;font-size:13px}
+article.post code{background:#eef2f7;padding:1px 5px;border-radius:4px;font-size:13px}</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="back" href="../index.html">← 返回首页</a>
+  <h1>一周 Star 破万的开源项目「GitHub 热点速览」</h1>
+  <div class="sub">卤蛋 · 2025-06-17 · 阅读 13149</div>
+<article class="post">
+<img src="../assets/ext/3713813889.png" alt=""/>
+<p>上周的苹果全球开发者大会（WWDC25），万众期待的 AI 加持版 Siri 跳票了，让不少开发者略感失望。然而“东边不亮西边亮”，开源社区迎来了重磅级开源项目 container，一款由苹果开源的轻量级容器工具，可轻松创建和运行 Linux 容器镜像，为 macOS 用户带来原生的容器体验，开源一周便 Star 破万✨！</p>
+<img src="../assets/ext/674d1c8581.png" alt=""/>
+<p>与此同时，苹果还发布了全新视觉设计语言「Liquid Glass」液态玻璃，开源社区也迅速跟进，实现类似效果的 React 库 liquid-glass-react，在短短一周内斩获 1.7k Star。除此之外，免费的在线 3D 建模平台 Chili3D、更强大的 Markdown 排版系统 Quarkdown 以及一站式 LLM 企业级应用平台 TensorZero，也凭借各自独特的亮点赢得开发者青睐，均成功解锁「周增千星」的成就🏆。</p>
+<p>· 本文目录</p>
+<p>· 1\. 热门开源项目</p>
+<p>· 1.1 实现液态玻璃特效的 React 库：liquid-glass-react</p>
+<p>· 1.2 免费的在线 3D 建模平台：Chili3D</p>
+<p>· 1.3 苹果开源的轻量级容器工具：container</p>
+<p>· 1.4 更强大的 Markdown 排版系统：Quarkdown</p>
+<p>· 1.5 一站式 LLM 企业级应用平台：TensorZero</p>
+<p>· 2\. HelloGitHub 热评</p>
+<p>· 2.1 专业级时间序列数据可视化工具：PlotJuggler</p>
+<p>· 2.2 更好用的 df 命令替代工具：dysk</p>
+<p>· 3\. 结尾</p>
+<h2>1. 热门开源项目</h2>
+<h3>1.1 实现液态玻璃特效的 React 库：liquid-glass-react</h3>
+<img src="../assets/ext/3151fa81c0.gif" alt=""/>
+<p><strong>主语言：TypeScript</strong>，<strong>Star：1.7k</strong>，<strong>周增长：1.7k</strong></p>
+<p>该项目是实现类似苹果液态玻璃（Liquid Glass）效果的 React 组件，帮助开发者快速实现现代感十足的动态模糊背景。它通过模拟液体的流动、折射和边缘弯曲等效果，模拟真实的液体流动感，为网页元素添加独特、有吸引力的视觉效果。</p>
+<pre><code>import LiquidGlass from 'liquid-glass-react'
+
+function App() {
+  return (
+    &lt;LiquidGlass&gt;
+      &lt;div className=&quot;p-6&quot;&gt;
+        &lt;h2&gt;Your content here&lt;/h2&gt;
+        &lt;p&gt;This will have the liquid glass effect&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/LiquidGlass&gt;
+  )
+}
+</code></pre>
+<blockquote>GitHub 地址→<span class="ext-link">github.com/rdev/liquid-glass-react</span></blockquote>
+<h3>1.2 免费的在线 3D 建模平台：Chili3D</h3>
+<img src="../assets/ext/9ea2285940.png" alt=""/>
+<p><strong>主语言：TypeScript</strong>，<strong>Star：1.7k</strong>，<strong>周增长：1.4k</strong></p>
+<p>这是一款免费开源的 3D CAD 平台，无需下载安装即可在线建模。它采用 TypeScript 编写，结合 WASM 和 Three.js 技术，带来流畅的 3D 可视化体验，支持创建基本形状（如立方体、圆柱体、圆锥体等）、二维草图绘制（线条、弧线、圆形等）以及高级操作（布尔运算、拉伸、旋转、倒角等）。</p>
+<blockquote>GitHub 地址→<span class="ext-link">github.com/xiangechen/chili3d</span></blockquote>
+<h3>1.3 苹果开源的轻量级容器工具：container</h3>
+<img src="../assets/ext/53ed9a2de0.gif" alt=""/>
+<p><strong>主语言：Swift</strong>，<strong>Star：14k</strong>，<strong>周增长：12k</strong></p>
+<p>这是一款苹果官方开源的轻量级虚拟化容器工具，用于在 Mac 上创建和运行 Linux 容器。它采用 Swift 开发，并针对 Apple 芯片（如 M1、M2 芯片）进行了优化，旨在为 macOS 用户提供高效、原生的容器体验，支持 OCI 标准容器镜像，并可无缝对接 Docker Hub 等主流镜像仓库。</p>
+<blockquote>GitHub 地址→<span class="ext-link">github.com/apple/container</span></blockquote>
+<h3>1.4 更强大的 Markdown 排版系统：Quarkdown</h3>
+<img src="../assets/ext/2d3683d3cb.png" alt=""/>
+<p><strong>主语言：Kotlin</strong>，<strong>Star 6.8k</strong>，<strong>周增长：1.2k</strong></p>
+<p>这是一个现代化的 Markdown 排版系统，通过强大的扩展功能，助力将创意转化为书籍、文章或 PPT。它引入了函数调用、自定义函数和变量定义等扩展，支持布局构建、数学计算、条件语句和循环等功能，可输出 HTML、PDF、幻灯片和分页文档等多种格式。当前采用 CLI 命令行操作，支持自动内容重载和实时预览。</p>
+<pre><code>quarkdown create [directory]  # 创建
+quarkdown c file.qmd          # 编译
+quarkdown c file.qmd -p -w    # 实时预览
+quarkdown c file.qmd --pdf    # 输出 PDF 格式
+</code></pre>
+<blockquote>GitHub 地址→<span class="ext-link">github.com/iamgio/quarkdown</span></blockquote>
+<h3>1.5 一站式 LLM 企业级应用平台：TensorZero</h3>
+<img src="../assets/ext/5705740593.png" alt=""/>
+<p><strong>主语言：Rust</strong>，<strong>Star：7.2k</strong>，<strong>周增长：1k</strong></p>
+<p>这是一个开源的企业级 LLM 应用平台，集成了 LLM 网关、监控、优化、微调、评估和实验等功能。它支持多种主流大模型（如 OpenAI、Anthropic、Llama 等）的一站式接入与统一管理，提供流式推理、多模态、结构化响应、缓存等多种功能。底层采用 Rust 构建，实现了高吞吐量和低延迟，适用于大模型接入和复杂 AI 场景的生产部署。</p>
+<blockquote>GitHub 地址→<span class="ext-link">github.com/tensorzero/tensorzero</span></blockquote>
+<h2>2. HelloGitHub 热评</h2>
+<p>在此章节中，我们将为大家介绍本周 HelloGitHub 网站上的热门开源项目，我们不仅希望您能从中收获开源神器和编程知识，更渴望“听”到您的声音。欢迎您与我们分享使用这些<strong>开源项目的亲身体验和评价</strong>，用最真实反馈为开源项目的作者注入动力。</p>
+<img src="../assets/ext/e71595aa1b.png" alt=""/>
+<h3>2.1 专业级时间序列数据可视化工具：PlotJuggler</h3>
+<img src="../assets/ext/8b32d3860d.gif" alt=""/>
+<p><strong>主语言：C++</strong></p>
+<p>这是一款开源的时间序列数据可视化工具，支持 CSV、ROS、ULog、MQTT 等多种数据格式及实时数据流。它拥有简单易用的界面，能够快速处理大量数据，适用于机器人、自动驾驶、物联网、实验科学等多种数据分析场景。</p>
+<blockquote>项目详情→<span class="ext-link">hellogithub.com/repository/facontidavide/PlotJuggler</span></blockquote>
+<h3>2.2 更好用的 df 命令替代工具：dysk</h3>
+<img src="../assets/ext/96a9473084.png" alt=""/>
+<p><strong>主语言：Rust</strong></p>
+<p>该项目是基于 Rust 开发的查看 Linux 系统磁盘使用情况的工具，提供比 df 命令更直观的数据展示，支持自定义列显示、过滤、排序等功能。</p>
+<blockquote>项目详情→<span class="ext-link">hellogithub.com/repository/Canop/dysk</span></blockquote>
+<h2>3. 结尾</h2>
+<p>以上就是本期「GitHub 热点速览」的全部内容，希望这些开源项目能激发你的兴趣，帮助你找到下一个想要尝试的工具！如果你也发现了好玩、有趣的 GitHub 开源项目想要分享，欢迎来 <span class="ext-link">HelloGitHub</span> 与我们交流心得、讨论使用体验。</p>
+<p><strong>往期回顾</strong></p>
+<p>· <span class="ext-link">3 个超火的开源项目</span></p>
+<p>· <span class="ext-link">揭秘 AI 工具的系统提示词</span></p>
+</article>
+</div>
+</body>
+</html>

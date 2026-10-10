@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>微软开源的 MCP 教程「GitHub 热点速览」 | HelloGitHub 离线版</title>
+<link rel="icon" href="../assets/favicon.svg"/>
+<style>*{box-sizing:border-box}body{margin:0;background:#f7f8fa;color:#1f2430;font:15px/1.75 -apple-system,"Segoe UI","Microsoft YaHei",sans-serif}
+.wrap{max-width:900px;margin:0 auto;padding:28px 20px 60px}
+.back{display:inline-block;margin-bottom:18px;color:#2563eb;text-decoration:none;font-size:14px}
+a{color:#2563eb;text-decoration:none}
+h1{font-size:24px;margin:0 0 6px}
+h2{font-size:19px;margin:30px 0 10px;padding-bottom:6px;border-bottom:1px solid #e5e7eb}
+.sub{color:#6b7280;font-size:14px;margin-bottom:18px}
+.item{display:block;background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:14px 18px;margin:12px 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.item:hover{border-color:#93c5fd}
+.item .t{font-size:17px;font-weight:600;color:#111827}
+.item .rn{color:#6b7280;font-size:12px;font-family:ui-monospace,Consolas,monospace;margin-top:2px}
+.item .d{color:#374151;font-size:14px;margin-top:6px}
+.item .m{color:#6b7280;font-size:12px;margin-top:8px}
+.grid{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+.chip{padding:6px 14px;border-radius:999px;background:#fff;border:1px solid #e5e7eb;color:#1f2937;font-size:14px}
+.chip:hover{border-color:#93c5fd}
+.chip b{color:#2563eb;font-weight:600}
+.tabs{display:flex;gap:8px;margin:14px 0 4px;flex-wrap:wrap}
+.tabs a{padding:6px 16px;border-radius:999px;background:#fff;border:1px solid #e5e7eb;font-size:14px}
+.tabs a.on{background:#2563eb;border-color:#2563eb;color:#fff}
+article.post{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:20px 24px;margin-top:16px}
+article.post img{max-width:100%;border-radius:8px}
+article.post h2{font-size:19px;margin:24px 0 8px}
+article.post h3{font-size:16px;margin:20px 0 6px}
+article.post table{border-collapse:collapse;width:100%;margin:12px 0;font-size:14px}
+article.post th,article.post td{border:1px solid #e5e7eb;padding:6px 10px;text-align:left}
+article.post blockquote{margin:12px 0;padding:8px 14px;border-left:3px solid #93c5fd;background:#f3f7ff;color:#374151}
+article.post pre{background:#0f172a;color:#e2e8f0;padding:12px 14px;border-radius:8px;overflow:auto;font-size:13px}
+article.post code{background:#eef2f7;padding:1px 5px;border-radius:4px;font-size:13px}</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="back" href="../index.html">← 返回首页</a>
+  <h1>微软开源的 MCP 教程「GitHub 热点速览」</h1>
+  <div class="sub">卤蛋 · 2025-08-12 · 阅读 2594</div>
+<article class="post">
+<img src="../assets/ext/6be318f8f5.png" alt=""/>
+<p>上周，最大的开源新闻就是 OpenAI 开源了 gpt-oss 推理模型。尽管模型能力不俗，但似乎并未带来“颠覆性”突破，也许是我们对大模型开源已经有些“审美疲劳”了。</p>
+<img src="../assets/ext/9aacb0131b.png" alt=""/>
+<p>说回本周的热门开源项目，KittenTTS 是一款<strong>小巧却高质量的英文文本转语音模型</strong>，凭借自然流畅的语音效果，一周内收获了 6k Star。谷歌开源的 LangExtract 则利用大模型，通过简短提示和少量示例，能从非结构化文本中高效提取结构化信息。此外，<strong>微软开源的 MCP 教程</strong>，系统地帮助开发者掌握 MCP 原理与最佳实践。还有无需编写代码、可一键集成登录界面的身份认证中间件 Tinyauth。</p>
+<p>最后，精准的网页内容截图库 snapdom 和<strong>开源的网页双语对照翻译浏览器插件</strong>，也是不错的开源项目。</p>
+<p>· 本文目录</p>
+<p>· 1\. 热门开源项目</p>
+<p>· 1.1 开源的零代码身份认证中间件：Tinyauth</p>
+<p>· 1.2 开源的网页双语对照翻译工具：kiss-translator</p>
+<p>· 1.3 基于大模型的智能文本提取库：LangExtract</p>
+<p>· 1.4 轻量小巧的文本转语音模型：KittenTTS</p>
+<p>· 1.5 微软开源的 MCP 教程：mcp-for-beginners</p>
+<p>· 2\. HelloGitHub 热评</p>
+<p>· 2.1 精准的网页内容截图库：snapdom</p>
+<p>· 2.2 在浏览器中运行的 JupyterLab：JupyterLite</p>
+<p>· 3\. 结尾</p>
+<h2>1. 热门开源项目</h2>
+<h3>1.1 开源的零代码身份认证中间件：Tinyauth</h3>
+<img src="../assets/ext/a4d6f40e17.png" alt=""/>
+<p><strong>主语言：Go</strong>，<strong>Star：4.4k</strong>，<strong>周增长：700</strong></p>
+<p>这是一个 Go 语言开发的极简认证中间件，可通过 Docker 快速部署。它能为任何 Web 应用或服务一键添加登录界面或 OAuth 登录（Google、GitHub 等），无需修改现有代码，可无缝集成到 Traefik、Caddy、Nginx 等主流反向代理，极大简化了安全登录的实现流程。</p>
+<blockquote>GitHub 地址→<span class="ext-link">github.com/steveiliop56/tinyauth</span></blockquote>
+<h3>1.2 开源的网页双语对照翻译工具：kiss-translator</h3>
+<img src="../assets/ext/8b26555428.png" alt=""/>
+<p><strong>主语言：JavaScript</strong>，<strong>Star：6.3k</strong>，<strong>周增长：2.2k</strong></p>
+<p>这是一款开源的双语对照翻译浏览器插件。它为用户提供网页内容的快速双语对照翻译功能，便于在阅读外语网页时同步查看原文与译文，支持多翻译引擎（Google、DeepL、OpenAI 等）一键切换，且全部在本地调用 API，不经过第三方服务器、保护隐私。</p>
+<blockquote>GitHub 地址→<span class="ext-link">github.com/fishjar/kiss-translator</span></blockquote>
+<h3>1.3 基于大模型的智能文本提取库：LangExtract</h3>
+<img src="../assets/ext/b9aaa904cb.gif" alt=""/>
+<p><strong>主语言：Python</strong>，<strong>Star：8.1k</strong>，<strong>周增长：4k</strong></p>
+<p>这是一款由 Google 开源的 Python 库，可实现自动识别和提取文本内容。它内置源文本的精确定位与交互式可视化功能。用户只需提供简短提示和少量示例，便可借助大型语言模型（如 Gemini）从非结构化文本中高效、精准地提取结构化信息。</p>
+<pre><code>import langextract as lx
+import textwrap
+
+# 1. Define the prompt and extraction rules
+prompt = textwrap.dedent(&quot;&quot;&quot;\
+    Extract characters, emotions, and relationships in order of appearance.
+    Use exact text for extractions. Do not paraphrase or overlap entities.
+    Provide meaningful attributes for each entity to add context.&quot;&quot;&quot;)
+
+# 2. Provide a high-quality example to guide the model
+examples = [
+    lx.data.ExampleData(
+        text=&quot;ROMEO. But soft! What light through yonder window breaks? It is the east, and Juliet is the sun.&quot;,
+        extractions=[
+            lx.data.Extraction(
+                extraction_class=&quot;character&quot;,
+                extraction_text=&quot;ROMEO&quot;,
+                attributes={&quot;emotional_state&quot;: &quot;wonder&quot;}
+            ),
+            lx.data.Extraction(
+                extraction_class=&quot;emotion&quot;,
+                extraction_text=&quot;But soft!&quot;,
+                attributes={&quot;feeling&quot;: &quot;gentle awe&quot;}
+            ),
+            lx.data.Extraction(
+                extraction_class=&quot;relationship&quot;,
+                extraction_text=&quot;Juliet is the sun&quot;,
+                attributes={&quot;type&quot;: &quot;metaphor&quot;}
+            ),
+        ]
+    )
+]
+</code></pre>
+<blockquote>GitHub 地址→<span class="ext-link">github.com/google/langextract</span></blockquote>
+<h3>1.4 轻量小巧的文本转语音模型：KittenTTS</h3>
+<img src="../assets/ext/30ea092feb.png" alt=""/>
+<p><strong>主语言：Python</strong>，<strong>Star 6.8k</strong>，<strong>周增长：6k</strong></p>
+<p>这是一款轻量级文本转语音（TTS）模型，体积小于 25MB、无需 GPU 即可流畅运行。它能够将文本高质量地转换为自然流畅的语音，支持多种音色，适用于多种设备和场景。</p>
+<blockquote>GitHub 地址→<span class="ext-link">github.com/KittenML/KittenTTS</span></blockquote>
+<h3>1.5 微软开源的 MCP 教程：mcp-for-beginners</h3>
+<img src="../assets/ext/6c25308c27.png" alt=""/>
+<p><strong>主语言：Other</strong>，<strong>Star 8.6k</strong>，<strong>周增长：600</strong></p>
+<p>该项目是微软开源的 MCP 基础教程，内容围绕 Python、.NET、Java、TypeScript 等多种编程语言，通过丰富的代码实例与系统化的学习路径，帮助开发者掌握 MCP 原理与最佳实践。</p>
+<blockquote>GitHub 地址→<span class="ext-link">github.com/microsoft/mcp-for-beginners</span></blockquote>
+<h2>2. HelloGitHub 热评</h2>
+<p>在此章节中，我们将为大家介绍本周 HelloGitHub 网站上的热门开源项目，我们不仅希望您能从中收获开源神器和编程知识，更渴望“听”到您的声音。欢迎您与我们分享使用这些<strong>开源项目的亲身体验和评价</strong>，用最真实反馈为开源项目的作者注入动力。</p>
+<img src="../assets/ext/dc4cb66612.png" alt=""/>
+<h3>2.1 精准的网页内容截图库：snapdom</h3>
+<img src="../assets/ext/a56b1570a2.png" alt=""/>
+<p><strong>主语言：JavaScript</strong></p>
+<p>这是一个高效的网页截图 JavaScript 库，可将网页上的任意 Dom 元素快速、精确地转化为高质量图片，并支持导出为 PNG、JPG、WebP 或 Canvas 格式，适用于网页自动化测试、生成预览图、内容保存等场景。</p>
+<blockquote>项目详情→<span class="ext-link">hellogithub.com/repository/zumerlab/snapdom</span></blockquote>
+<h3>2.2 在浏览器中运行的 JupyterLab：JupyterLite</h3>
+<img src="../assets/ext/08f785837d.gif" alt=""/>
+<p><strong>主语言：TypeScript</strong></p>
+<p>这是一个完全在浏览器中运行的 JupyterLab，无需安装 Python 或配置服务器。它提供在线交互式 Python 编程环境，可作为静态文件部署到任何静态网站托管平台（如 GitHub Pages）。</p>
+<blockquote>项目详情→<span class="ext-link">hellogithub.com/repository/jupyterlite/jupyterlite</span></blockquote>
+<h2>3. 结尾</h2>
+<p>以上就是本期「GitHub 热点速览」的全部内容，希望这些开源项目能激发你的兴趣，帮助你找到下一个想要尝试的工具！如果你也发现了好玩、有趣的 GitHub 开源项目想要分享，欢迎来 <span class="ext-link">HelloGitHub</span> 与我们交流心得、讨论使用体验。</p>
+<p><strong>往期回顾</strong></p>
+<p>· <span class="ext-link">仅一个 Python 文件，狂揽近 2 万 Star</span></p>
+<p>· <span class="ext-link">一周 Star 破万的开源项目</span></p>
+</article>
+</div>
+</body>
+</html>

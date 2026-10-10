@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>榜单 | HelloGitHub 离线版</title>
+<link rel="icon" href="../assets/favicon.svg"/>
+<style>*{box-sizing:border-box}body{margin:0;background:#f7f8fa;color:#1f2430;font:15px/1.75 -apple-system,"Segoe UI","Microsoft YaHei",sans-serif}
+.wrap{max-width:900px;margin:0 auto;padding:28px 20px 60px}
+.back{display:inline-block;margin-bottom:18px;color:#2563eb;text-decoration:none;font-size:14px}
+a{color:#2563eb;text-decoration:none}
+h1{font-size:24px;margin:0 0 6px}
+h2{font-size:19px;margin:30px 0 10px;padding-bottom:6px;border-bottom:1px solid #e5e7eb}
+.sub{color:#6b7280;font-size:14px;margin-bottom:18px}
+.item{display:block;background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:14px 18px;margin:12px 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.item:hover{border-color:#93c5fd}
+.item .t{font-size:17px;font-weight:600;color:#111827}
+.item .rn{color:#6b7280;font-size:12px;font-family:ui-monospace,Consolas,monospace;margin-top:2px}
+.item .d{color:#374151;font-size:14px;margin-top:6px}
+.item .m{color:#6b7280;font-size:12px;margin-top:8px}
+.grid{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+.chip{padding:6px 14px;border-radius:999px;background:#fff;border:1px solid #e5e7eb;color:#1f2937;font-size:14px}
+.chip:hover{border-color:#93c5fd}
+.chip b{color:#2563eb;font-weight:600}
+.tabs{display:flex;gap:8px;margin:14px 0 4px;flex-wrap:wrap}
+.tabs a{padding:6px 16px;border-radius:999px;background:#fff;border:1px solid #e5e7eb;font-size:14px}
+.tabs a.on{background:#2563eb;border-color:#2563eb;color:#fff}
+article.post{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:20px 24px;margin-top:16px}
+article.post img{max-width:100%;border-radius:8px}
+article.post h2{font-size:19px;margin:24px 0 8px}
+article.post h3{font-size:16px;margin:20px 0 6px}
+article.post table{border-collapse:collapse;width:100%;margin:12px 0;font-size:14px}
+article.post th,article.post td{border:1px solid #e5e7eb;padding:6px 10px;text-align:left}
+article.post blockquote{margin:12px 0;padding:8px 14px;border-left:3px solid #93c5fd;background:#f3f7ff;color:#374151}
+article.post pre{background:#0f172a;color:#e2e8f0;padding:12px 14px;border-radius:8px;overflow:auto;font-size:13px}
+article.post code{background:#eef2f7;padding:1px 5px;border-radius:4px;font-size:13px}</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="back" href="../index.html">← 返回首页</a>
+  <h1>HelloGitHub 榜单</h1>
+  <div class="sub">月度榜 / 年度榜 / 周榜 · 数据抓自原站接口</div>
+  <div class="tabs"><a class="on" href="#monthly">月度</a><a href="#yearly">年度</a><a href="#weekly">周榜</a></div>
+  <h2 id="monthly">月度榜 <span class="sub" style="font-weight:400">（20 个）</span></h2>
+  <div class="sub">最近一个月最受欢迎的开源项目</div>
+  <a class="item" href="../repo/yang0__handraw-style.html">
+    <div class="t">手绘风格 AI 生图技能包</div>
+    <div class="rn">yang0/handraw-style</div>
+    <div class="d">这是一个可安装到 Codex 的 AI 生图技能包，收录了 278 种手绘风格、120 种排版样式和 30 种经典主题色。选定编号并说明主题，即可生成中英双语生</div>
+    <div class="m">HTML · 2269 次浏览 · 站内详情</div>
+  </a>
+  <a class="item" href="../repo/xingkongliang__skills-manager.html">
+    <div class="t">统一管理 AI 技能包的工具</div>
+    <div class="rn">xingkongliang/skills-manager</div>
+    <div class="d">这是一款跨平台的 AI 智能体技能管理工具，可将散落在不同工具中的技能集中存入本地仓库，并一键同步到 Claude Code、Codex、Cursor 等工具。</div>
+    <div class="m">Rust · 1648 次浏览 · 站内详情</div>
+  </a>
+  <a class="item" href="../repo/baidu-baige__LoongForge.html">
+    <div class="t">更快地训练大模型和具身模型</div>
+    <div class="rn">baidu-baige/LoongForge</div>
+    <div class="d">该项目是百度开源的模型训练框架，支持主流的 LLM、VLM、扩散和具身模型。它采用多后端架构，提供开箱即用的配置和脚本，支持预训练、SFT 与 LoRA，适配 </div>
+    <div class="m">Python · 1968 次浏览 · 站内详情</div>
+  </a>
+  <a class="item" href="../repo/geeklee__srt-whiteboard-animation.html">
+    <div class="t">把字幕变成手绘动画</div>
+    <div class="rn">geeklee/srt-whiteboard-animation</div>
+    <div class="d">这是一个可将 SRT 字幕转换为白板手绘视频的 AI 技能包。它会解析字幕内容，按叙事顺序拆分场景并生成分镜和线稿，再让画面元素随字幕依次出现，通过笔尖连续勾勒</div>
+    <div class="m">Python · 1211 次浏览 · 站内详情</div>
+  </a>
+  <a class="item" href="../repo/tianma-if__edgeever.html">
+    <div class="t">AI 原生的个人笔记应用</div>
+    <div class="rn">tianma-if/edgeever</div>
+    <div class="d">这是一款开源的笔记与知识库应用，采用印象笔记经典的三栏布局，可零成本部署在 Cloudflare 上。它提供 REST API、MCP 和 CLI 接口，适配 </div>
+    <div class="m">TypeScript · 1659 次浏览 · 站内详情</div>
+  </a>
+  <a class="item" href="../repo/ChenLiu-1996__figures4papers.html">
+    <div class="t">绘制论文配图的 Python 脚本集合</div>
+    <div class="rn">ChenLiu-1996/figures4papers</div>
+    <div class="d">该项目是一套用于制作论文配图的工具，内含 Python 脚本和 AI Skills，支持绘制对比柱状图、构成分解图、趋势图等多种学术图表。</div>
+    <div class="m">Python · 962 次浏览 · 站内详情</div>
+  </a>
+  <a class="item" href="../repo/Jinnrry__PMail.html">
+    <div class="t">一分钟搭建个人域名邮箱</div>
+    <div class="rn">Jinnrry/PMail</div>
+    <div class="d">该项目是用 Go 编写的个人邮件服务器，仅需一台服务器和域名，就能部署自己的域名邮箱。它开箱即用、体积小、占用资源少，内置邮件收发服务和 Web 管理界面，支持</div>
+    <div class="m">Go · 817 次浏览 · 站内详情</div>
+  </a>
+  <a class="item" href="../repo/RayrenSX__iPhoneMirror.html">
+    <div class="t">Windows 上的 iPhone 投屏工具</div>
+    <div class="rn">RayrenSX/iPhoneMirror</div>
+    <div class="d">这是一款 Windows 本地投屏工具，可通过 USB 或 AirPlay 传输 iPhone/iPad 画面和声音，支持多设备、独立窗口、截图、OBS、蓝牙鼠</div>
+    <div class="m">C# · 732 次浏览 · 站内详情</div>
+  </a>
+  <a class="item" href="../repo/OpenMouse-Project__openmouse.html">
+    <div class="t">免装驱动的网页版游戏鼠标设置工具</div>
+    <div class="rn">OpenMouse-Project/openmouse</div>
+    <div class="d">这是一款基于浏览器的游戏鼠标控制面板，连接鼠标后即可查看设备信息，调整 DPI、回报率等设置，不用安装驱动软件。它通过 WebHID 与鼠标通信，支持罗技、雷蛇</div>
+    <div class="m">TypeScript · 934 次浏览 · 站内详情</div>
+  </a>
+  <a class="item" href="../repo/TencentCloud__TencentDB-Agent-Memory.html">
+    <div class="t">让多个 AI 智能体共享团队经验</div>
+    <div class="rn">TencentCloud/TencentDB-Agent-Memory</div>
+    <div class="d">这是一款开源的 AI 智能体团队记忆系统，可将对话、文档和代码整理成可复用的团队记忆，供不同智能体和团队成员共享。它能从对话中提取记忆与技能，将文档和代码转换为</div>
+    <div class="m">TypeScript · 786 次浏览 · 站内详情</div>
+  </a>
+  <a class="item" href="../repo/multimodal-art-projection__YuE.html">
+    <div class="t">先写曲谱再生成歌曲的音乐模型</div>
+    <div class="rn">multimodal-art-projection/YuE</div>
+    <div class="d">该项目是开源的歌曲生成模型，输入歌词和风格描述，即可生成包含人声与伴奏的完整歌曲。它会先生成旋律与和弦乐谱，再根据乐谱生成音频，支持编辑曲谱后重新生成歌曲，也能</div>
+    <div class="m">Python · 685 次浏览 · 站内详情</div>
+  </a>
+  <a class="item" href="../repo/flet-dev__flet.html">
+    <div class="t">用 Python 开发跨平台应用的框架</div>
+    <div class="rn">flet-dev/flet</div>
+    <div class="d">该项目是基于 Flutter 的 Python 应用开发框架，只用 Python 就能构建 Web、桌面和移动应用，支持 iOS、Android、Windows</div>
+    <div class="m">Python · 717 次浏览 · 站内详情</div>
+  </a>
+  <a class="item" href="../repo/stablyai__orca.html">
+    <div class="t">让多个 AI 编程智能体并行开发的 IDE</div>
+    <div class="rn">stablyai/orca</div>
+    <div class="d">这是一款跨平台的 AI 编程智能体编排工具，能够让 Claude Code、Codex 等分别在独立的 Git 工作树中并行运行，并通过同一界面统一管理。它能将</div>
+    <div class="m">TypeScript · 597 次浏览 · 站内详情</div>
+  </a>
+  <a class="item" href="../repo/citrolabs__ego-lite.html">
+    <div class="t">与 AI 智能体共用且互不干扰的浏览器</div>
+    <div class="rn">citrolabs/ego-lite</div>
+    <div class="d">这是一款专为人和 AI 智能体共同使用而设计的浏览器。每个 Agent 都在独立空间中执行任务，不会影响正常浏览网页。智能体可直接编写 JavaScript 完</div>
+    <div class="m">JavaScript · 536 次浏览 · 站内详情</div>
+  </a>
+  <a class="item" href="../repo/okalachev__flix.html">
+    <div class="t">基于 ESP32 的四旋翼无人机</div>
+    <div class="rn">okalachev/flix</div>
+    <div class="d">该项目是基于 ESP32 的四旋翼无人机，内含 3D 打印机架、接线图和飞控固件。它通过 Wi-Fi 或 ESP-NOW 使用 MAVLink 协议通信，可用 </div>
+    <div class="m">C++ · 751 次浏览 · 站内详情</div>
+  </a>
+  <a class="item" href="../repo/pollen-robotics__microduck.html">
+    <div class="t">迷你鸭子机器人</div>
+    <div class="rn">pollen-robotics/microduck</div>
+    <div class="d">该项目是双足鸭子机器人 Microduck 的控制系统。机器人高约 25 厘米、重 800 克，可通过手柄遥控行走，支持加装轮子、叼起物品和摔倒后自行站起。</div>
+    <div class="m">Rust · 984 次浏览 · 站内详情</div>
+  </a>
+  <a class="item" href="../repo/lhlGitHub__threejs-architecture-effects.html">
+    <div class="t">让 AI 生成逐层搭建的 3D 古建筑</div>
+    <div class="rn">lhlGitHub/threejs-architecture-effects</div>
+    <div class="d">这是一个适用于 Codex、Claude Code 和 Cursor 的 AI 技能，可生成基于 Three.js 的 3D 中式古建网站。建筑会按照砖墙、木构</div>
+    <div class="m">TypeScript · 780 次浏览 · 站内详情</div>
+  </a>
+  <a class="item" href="../repo/riba2534__claude-opus-5-5-demo.html">
+    <div class="t">一句提示词生成的 3D 网页游戏</div>
+    <div class="rn">riba2534/claude-opus-5-5-demo</div>
+    <div class="d">该项目是 Claude Opus 5.5 代码生成实测的产物，包含鹈鹕骑车、射击和赛车三款 3D 网页游戏。每个游戏仅用一句提示词，由模型自主完成开发、测试和部</div>
+    <div class="m">JavaScript · 890 次浏览 · 站内详情</div>
+  </a>
+  <a class="item" href="../repo/bilirec__bilirec.html">
+    <div class="t">适用于低配设备的 B 站直播录制工具</div>
+    <div class="rn">bilirec/bilirec</div>
+    <div class="d">该项目是专为低配设备优化的 B 站直播录制工具，内存占用极少。它内置 Web 管理界面，支持开播自动录制、自动分段、断流重连和自动转 MP4 等功能。</div>
+    <div class="m">Go · 422 次浏览 · 站内详情</div>
+  </a>
+  <a class="item" href="../repo/Lakr233__vphone-cli.html">
+    <div class="t">在 Mac 上创建并运行虚拟 iPhone</div>
+    <div class="rn">Lakr233/vphone-cli</div>
+    <div class="d">这是一款适用于 Apple Silicon Mac 的虚拟 iPhone 工具，基于苹果虚拟化框架创建和管理虚拟机，可通过图形启动器或命令行操作，支持文件浏览、</div>
+    <div class="m">Swift · 387 次浏览 · 站内详情</div>
+  </a>
+  <h2 id="yearly">年度榜 <span class="sub" style="font-weight:400">（20 个）</span></h2>
+  <div class="sub">最近一年最受欢迎的开源项目</div>
+  <a class="item" href="https://github.com/ayangweb/BongoCat" target="_blank" rel="noopener">
+    <div class="t">跨平台可爱的互动桌宠应用</div>
+    <div class="rn">ayangweb/BongoCat</div>
+    <div class="d">这是一款开源的跨平台桌面宠物应用，以可爱的猫咪形象陪伴你的每一次键盘与鼠标操作。它基于 Tauri 构建，支持 macOS、Windows 和 Linux，无论</div>
+    <div class="m">Rust · 43926 次浏览 · GitHub</div>
+  </a>
+  <a class="item" href="https://github.com/jingyaogong/minimind" target="_blank" rel="noopener">
+    <div class="t">从零开始训练小型语言模型</div>
+    <div class="rn">jingyaogong/minimind</div>
+    <div class="d">这不仅是一个微型语言模型的实现，更是一份入门 LLM 的教程，旨在降低学习和上手 LLM 的门槛 。它提供了从数据预处理到模型训练、微调和推理的全流程代码和教程</div>
+    <div class="m">Python · 14217 次浏览 · GitHub</div>
+  </a>
+  <a class="item" href="https://github.com/linshenkx/prompt-optimizer" target="_blank" rel="noopener">
+    <div class="t">优化 AI 提示词的工具</div>
+    <div class="rn">linshenkx/prompt-optimizer</div>
+    <div class="d">这是一款纯前端实现的提示词优化器，帮助用户快速编写更高质量的提示词。支持多种主流 AI 模型与自定义 API 地址，并可实时对比优化前后的效果。</div>
+    <div class="m">TypeScript · 9867 次浏览 · GitHub</div>
+  </a>
+  <a class="item" href="https://github.com/vikiboss/60s" target="_blank" rel="noopener">
+    <div class="t">每日 60 秒资讯 API 集合</div>
+    <div class="rn">vikiboss/60s</div>
+    <div class="d">该项目集合了包括每日新闻、实时票房、汇率、热搜榜、随机段子等多种数据的 API 服务。</div>
+    <div class="m">TypeScript · 18310 次浏览 · GitHub</div>
+  </a>
+  <a class="item" href="https://github.com/readest/readest" target="_blank" rel="noopener">
+    <div class="t">沉浸式的电子书阅读器</div>
+    <div class="rn">readest/readest</div>
+    <div class="d">这是一款为热爱阅读的用户量身打造的阅读软件，将极简设计与强大功能融合，为你带来专注、沉浸的阅读体验。它基于 Next.js 和 Tauri 开发，支持 macO</div>
+    <div class="m">TypeScript · 19574 次浏览 · GitHub</div>
+  </a>
+  <a class="item" href="https://github.com/newsnext/newsnow" target="_blank" rel="noopener">
+    <div class="t">全开源的实时资讯平台</div>
+    <div class="rn">newsnext/newsnow</div>
+    <div class="d">这是一款高颜值的实时新闻与热榜网站，相比传统热榜产品更加注重实时新闻。它前后端完全开源、部署简单，可轻松托管到 Cloudflare Pages 或 Verce</div>
+    <div class="m">TypeScript · 14569 次浏览 · GitHub</div>
+  </a>
+  <a class="item" href="https://github.com/subframe7536/maple-font" target="_blank" rel="noopener">
+    <div class="t">开源圆角等宽字体</div>
+    <div class="rn">subframe7536/maple-font</div>
+    <div class="d">这是一款高质量的等宽字体，具备可变字体、圆角设计、智能连字、图标等特性，支持简体中文、繁体中文和日语字符集，以及通过脚本自定义构建字体，满足不同平台和个性化需求</div>
+    <div class="m">Python · 8899 次浏览 · GitHub</div>
+  </a>
+  <a class="item" href="https://github.com/xming521/WeClone" target="_blank" rel="noopener">
+    <div class="t">用微信聊天记录微调大语言模型</div>
+    <div class="rn">xming521/WeClone</div>
+    <div class="d">该项目是通过个人微信聊天记录对大语言模型（LLM）进行微调，打造专属的数字分身。它提供从聊天数据到模型微调、从文本生成到语音克隆、从训练到部署的全链路解决方案。</div>
+    <div class="m">Python · 12811 次浏览 · GitHub</div>
+  </a>
+  <a class="item" href="https://github.com/DigitalPlatDev/FreeDomain" target="_blank" rel="noopener">
+    <div class="t">领取你的免费域名</div>
+    <div class="rn">DigitalPlatDev/FreeDomain</div>
+    <div class="d">该项目是由非营利组织 DigitalPlat 发起，旨在为个人和组织免费提供域名注册服务。用户可注册一个免费域名，并将其托管在 Cloudflare、Hostr</div>
+    <div class="m">Markdown · 12025 次浏览 · GitHub</div>
+  </a>
+  <a class="item" href="https://github.com/HuLaSpark/HuLa" target="_blank" rel="noopener">
+    <div class="t">易用的跨平台开源聊天应用</div>
+    <div class="rn">HuLaSpark/HuLa</div>
+    <div class="d">这是一款专为多端打造的现代化即时通讯系统，实现了从桌面到移动平台的无缝通讯体验。它基于 Tauri、Vite 6、Vue 3 和 TypeScript 构建，支</div>
+    <div class="m">Vue · 13556 次浏览 · GitHub</div>
+  </a>
+  <a class="item" href="https://github.com/hzpt-inet-club/english-note" target="_blank" rel="noopener">
+    <div class="t">《从零开始学习英语语法》</div>
+    <div class="rn">hzpt-inet-club/english-note</div>
+    <div class="d">这是一本面向英语基础薄弱同学的英语语法入门书籍，内容言简意赅、插图幽默风趣。</div>
+    <div class="m">Other · 8067 次浏览 · GitHub</div>
+  </a>
+  <a class="item" href="https://github.com/AstrBotDevs/AstrBot" target="_blank" rel="noopener">
+    <div class="t">易上手的多平台 LLM 聊天机器人</div>
+    <div class="rn">AstrBotDevs/AstrBot</div>
+    <div class="d">该项目是基于 Python 构建的 LLM 聊天机器人及开发框架，支持集成多种消息平台和大语言模型。它提供了可视化管理面板和灵活的插件扩展机制，支持速率限制、白</div>
+    <div class="m">Python · 5350 次浏览 · GitHub</div>
+  </a>
+  <a class="item" href="https://github.com/KlingAIResearch/LivePortrait" target="_blank" rel="noopener">
+    <div class="t">让静态照片“活”起来</div>
+    <div class="rn">KlingAIResearch/LivePortrait</div>
+    <div class="d">该项目能够通过一张照片快速生成高质量、生动的视频，尤其擅长捕捉和还原面部表情，支持人类和动物肖像的动画生成。</div>
+    <div class="m">Python · 9277 次浏览 · GitHub</div>
+  </a>
+  <a class="item" href="https://github.com/ImagineAILab/ai-by-hand-excel" target="_blank" rel="noopener">
+    <div class="t">用 Excel 手搓各种 AI 算法和模型</div>
+    <div class="rn">ImagineAILab/ai-by-hand-excel</div>
+    <div class="d">该项目是通过 Excel 的形式实现并演示人工智能与深度学习的核心算法和概念，让初学者可以动手操作并理解 AI 的运行原理，包括矩阵乘法、MLP、RNN、Tra</div>
+    <div class="m">Other · 12679 次浏览 · GitHub</div>
+  </a>
+  <a class="item" href="https://github.com/zyronon/TypeWords" target="_blank" rel="noopener">
+    <div class="t">极简的打字背单词网站</div>
+    <div class="rn">zyronon/TypeWords</div>
+    <div class="d">这是一款基于网页的背单词软件，帮助用户通过键盘输入来记忆单词。它界面简洁、交互流畅，支持单词发音、错误统计和生词本等功能。</div>
+    <div class="m">Vue · 9963 次浏览 · GitHub</div>
+  </a>
+  <a class="item" href="https://github.com/hacksider/Deep-Live-Cam" target="_blank" rel="noopener">
+    <div class="t">实时换脸与深度伪造技术</div>
+    <div class="rn">hacksider/Deep-Live-Cam</div>
+    <div class="d">该项目利用 AI 技术实现了视频和图片的实时人脸替换。用户仅需提供一张图片，即可将选定的人脸替换到目标视频或图片上，生成栩栩如生的深度伪造效果。它采用 Pyth</div>
+    <div class="m">Python · 9084 次浏览 · GitHub</div>
+  </a>
+  <a class="item" href="https://github.com/Anionex/banana-slides" target="_blank" rel="noopener">
+    <div class="t">AI 驱动的 PPT 生成工具</div>
+    <div class="rn">Anionex/banana-slides</div>
+    <div class="d">该项目基于 Nano Banana Pro API，能够根据用户的想法、大纲或文档（如 PDF、Markdown）自动生成结构清晰、排版精美的 PPT，并支持通</div>
+    <div class="m">TypeScript · 6972 次浏览 · GitHub</div>
+  </a>
+  <a class="item" href="https://github.com/TapXWorld/ChinaTextbook" target="_blank" rel="noopener">
+    <div class="t">免费开源的教材资源集合</div>
+    <div class="rn">TapXWorld/ChinaTextbook</div>
+    <div class="d">该项目整理了国内小初高、大学等各学科 PDF 教材，全部资源均免费、无水印，支持一键下载，并持续更新。</div>
+    <div class="m">Roff · 27775 次浏览 · GitHub</div>
+  </a>
+  <a class="item" href="https://github.com/game1024/OpenSpeedy" target="_blank" rel="noopener">
+    <div class="t">开箱即用的游戏变速器</div>
+    <div class="rn">game1024/OpenSpeedy</div>
+    <div class="d">这是一款完全免费、开源的 Windows 游戏加速工具。它通过 Hook 系统时间函数，实现对游戏速度的灵活调节，并提供简单易用的界面，兼容多种单机游戏。请勿用</div>
+    <div class="m">TypeScript · 26135 次浏览 · GitHub</div>
+  </a>
+  <a class="item" href="https://github.com/komi-store/komi-store" target="_blank" rel="noopener">
+    <div class="t">跨平台的 GitHub 应用商店</div>
+    <div class="rn">komi-store/komi-store</div>
+    <div class="d">这是一款基于 Kotlin 开发的跨平台开源应用商店客户端，支持一键发现热门开源项目、下载安装包（如 APK、EXE、DMG 等），以及追踪已安装应用并提示更新</div>
+    <div class="m">Kotlin · 12530 次浏览 · GitHub</div>
+  </a>
+  <h2 id="weekly">周榜 <span class="sub" style="font-weight:400">（20 个）</span></h2>
+  <div class="sub">最近一周最受欢迎的开源项目</div>
+  <a class="item" href="../repo/baidu-baige__LoongForge.html">
+    <div class="t">更快地训练大模型和具身模型</div>
+    <div class="rn">baidu-baige/LoongForge</div>
+    <div class="d">该项目是百度开源的模型训练框架，支持主流的 LLM、VLM、扩散和具身模型。它采用多后端架构，提供开箱即用的配置和脚本，支持预训练、SFT 与 LoRA，适配 </div>
+    <div class="m">Python · 1968 次浏览 · 站内详情</div>
+  </a>
+  <a class="item" href="../repo/yang0__handraw-style.html">
+    <div class="t">手绘风格 AI 生图技能包</div>
+    <div class="rn">yang0/handraw-style</div>
+    <div class="d">这是一个可安装到 Codex 的 AI 生图技能包，收录了 278 种手绘风格、120 种排版样式和 30 种经典主题色。选定编号并说明主题，即可生成中英双语生</div>
+    <div class="m">HTML · 2269 次浏览 · 站内详情</div>
+  </a>
+  <a class="item" href="../repo/xingkongliang__skills-manager.html">
+    <div class="t">统一管理 AI 技能包的工具</div>
+    <div class="rn">xingkongliang/skills-manager</div>
+    <div class="d">这是一款跨平台的 AI 智能体技能管理工具，可将散落在不同工具中的技能集中存入本地仓库，并一键同步到 Claude Code、Codex、Cursor 等工具。</div>
+    <div class="m">Rust · 1648 次浏览 · 站内详情</div>
+  </a>
+  <a class="item" href="../repo/chuspeeism__dashi-ppt-skill.html">
+    <div class="t">让 AI Agent 帮你做 PPT</div>
+    <div class="rn">chuspeeism/dashi-ppt-skill</div>
+    <div class="d">这是一个能够生成可编辑 PPT 的技能包，把文档丢给 Agent 即可生成网页版 PPT，支持在浏览器里直接修改文字、换图片、调布局，以及一键导出为可编辑的 P</div>
+    <div class="m">JavaScript · 5256 次浏览 · 站内详情</div>
+  </a>
+  <a class="item" href="../repo/geeklee__srt-whiteboard-animation.html">
+    <div class="t">把字幕变成手绘动画</div>
+    <div class="rn">geeklee/srt-whiteboard-animation</div>
+    <div class="d">这是一个可将 SRT 字幕转换为白板手绘视频的 AI 技能包。它会解析字幕内容，按叙事顺序拆分场景并生成分镜和线稿，再让画面元素随字幕依次出现，通过笔尖连续勾勒</div>
+    <div class="m">Python · 1211 次浏览 · 站内详情</div>
+  </a>
+  <a class="item" href="../repo/tianma-if__edgeever.html">
+    <div class="t">AI 原生的个人笔记应用</div>
+    <div class="rn">tianma-if/edgeever</div>
+    <div class="d">这是一款开源的笔记与知识库应用，采用印象笔记经典的三栏布局，可零成本部署在 Cloudflare 上。它提供 REST API、MCP 和 CLI 接口，适配 </div>
+    <div class="m">TypeScript · 1659 次浏览 · 站内详情</div>
+  </a>
+  <a class="item" href="../repo/ChenLiu-1996__figures4papers.html">
+    <div class="t">绘制论文配图的 Python 脚本集合</div>
+    <div class="rn">ChenLiu-1996/figures4papers</div>
+    <div class="d">该项目是一套用于制作论文配图的工具，内含 Python 脚本和 AI Skills，支持绘制对比柱状图、构成分解图、趋势图等多种学术图表。</div>
+    <div class="m">Python · 962 次浏览 · 站内详情</div>
+  </a>
+  <a class="item" href="../repo/Jinnrry__PMail.html">
+    <div class="t">一分钟搭建个人域名邮箱</div>
+    <div class="rn">Jinnrry/PMail</div>
+    <div class="d">该项目是用 Go 编写的个人邮件服务器，仅需一台服务器和域名，就能部署自己的域名邮箱。它开箱即用、体积小、占用资源少，内置邮件收发服务和 Web 管理界面，支持</div>
+    <div class="m">Go · 817 次浏览 · 站内详情</div>
+  </a>
+  <a class="item" href="../repo/RayrenSX__iPhoneMirror.html">
+    <div class="t">Windows 上的 iPhone 投屏工具</div>
+    <div class="rn">RayrenSX/iPhoneMirror</div>
+    <div class="d">这是一款 Windows 本地投屏工具，可通过 USB 或 AirPlay 传输 iPhone/iPad 画面和声音，支持多设备、独立窗口、截图、OBS、蓝牙鼠</div>
+    <div class="m">C# · 732 次浏览 · 站内详情</div>
+  </a>
+  <a class="item" href="../repo/OpenMouse-Project__openmouse.html">
+    <div class="t">免装驱动的网页版游戏鼠标设置工具</div>
+    <div class="rn">OpenMouse-Project/openmouse</div>
+    <div class="d">这是一款基于浏览器的游戏鼠标控制面板，连接鼠标后即可查看设备信息，调整 DPI、回报率等设置，不用安装驱动软件。它通过 WebHID 与鼠标通信，支持罗技、雷蛇</div>
+    <div class="m">TypeScript · 934 次浏览 · 站内详情</div>
+  </a>
+  <a class="item" href="../repo/TencentCloud__TencentDB-Agent-Memory.html">
+    <div class="t">让多个 AI 智能体共享团队经验</div>
+    <div class="rn">TencentCloud/TencentDB-Agent-Memory</div>
+    <div class="d">这是一款开源的 AI 智能体团队记忆系统，可将对话、文档和代码整理成可复用的团队记忆，供不同智能体和团队成员共享。它能从对话中提取记忆与技能，将文档和代码转换为</div>
+    <div class="m">TypeScript · 786 次浏览 · 站内详情</div>
+  </a>
+  <a class="item" href="../repo/multimodal-art-projection__YuE.html">
+    <div class="t">先写曲谱再生成歌曲的音乐模型</div>
+    <div class="rn">multimodal-art-projection/YuE</div>
+    <div class="d">该项目是开源的歌曲生成模型，输入歌词和风格描述，即可生成包含人声与伴奏的完整歌曲。它会先生成旋律与和弦乐谱，再根据乐谱生成音频，支持编辑曲谱后重新生成歌曲，也能</div>
+    <div class="m">Python · 685 次浏览 · 站内详情</div>
+  </a>
+  <a class="item" href="../repo/flet-dev__flet.html">
+    <div class="t">用 Python 开发跨平台应用的框架</div>
+    <div class="rn">flet-dev/flet</div>
+    <div class="d">该项目是基于 Flutter 的 Python 应用开发框架，只用 Python 就能构建 Web、桌面和移动应用，支持 iOS、Android、Windows</div>
+    <div class="m">Python · 717 次浏览 · 站内详情</div>
+  </a>
+  <a class="item" href="../repo/stablyai__orca.html">
+    <div class="t">让多个 AI 编程智能体并行开发的 IDE</div>
+    <div class="rn">stablyai/orca</div>
+    <div class="d">这是一款跨平台的 AI 编程智能体编排工具，能够让 Claude Code、Codex 等分别在独立的 Git 工作树中并行运行，并通过同一界面统一管理。它能将</div>
+    <div class="m">TypeScript · 597 次浏览 · 站内详情</div>
+  </a>
+  <a class="item" href="../repo/citrolabs__ego-lite.html">
+    <div class="t">与 AI 智能体共用且互不干扰的浏览器</div>
+    <div class="rn">citrolabs/ego-lite</div>
+    <div class="d">这是一款专为人和 AI 智能体共同使用而设计的浏览器。每个 Agent 都在独立空间中执行任务，不会影响正常浏览网页。智能体可直接编写 JavaScript 完</div>
+    <div class="m">JavaScript · 536 次浏览 · 站内详情</div>
+  </a>
+  <a class="item" href="../repo/okalachev__flix.html">
+    <div class="t">基于 ESP32 的四旋翼无人机</div>
+    <div class="rn">okalachev/flix</div>
+    <div class="d">该项目是基于 ESP32 的四旋翼无人机，内含 3D 打印机架、接线图和飞控固件。它通过 Wi-Fi 或 ESP-NOW 使用 MAVLink 协议通信，可用 </div>
+    <div class="m">C++ · 751 次浏览 · 站内详情</div>
+  </a>
+  <a class="item" href="../repo/pollen-robotics__microduck.html">
+    <div class="t">迷你鸭子机器人</div>
+    <div class="rn">pollen-robotics/microduck</div>
+    <div class="d">该项目是双足鸭子机器人 Microduck 的控制系统。机器人高约 25 厘米、重 800 克，可通过手柄遥控行走，支持加装轮子、叼起物品和摔倒后自行站起。</div>
+    <div class="m">Rust · 984 次浏览 · 站内详情</div>
+  </a>
+  <a class="item" href="../repo/lhlGitHub__threejs-architecture-effects.html">
+    <div class="t">让 AI 生成逐层搭建的 3D 古建筑</div>
+    <div class="rn">lhlGitHub/threejs-architecture-effects</div>
+    <div class="d">这是一个适用于 Codex、Claude Code 和 Cursor 的 AI 技能，可生成基于 Three.js 的 3D 中式古建网站。建筑会按照砖墙、木构</div>
+    <div class="m">TypeScript · 780 次浏览 · 站内详情</div>
+  </a>
+  <a class="item" href="../repo/riba2534__claude-opus-5-5-demo.html">
+    <div class="t">一句提示词生成的 3D 网页游戏</div>
+    <div class="rn">riba2534/claude-opus-5-5-demo</div>
+    <div class="d">该项目是 Claude Opus 5.5 代码生成实测的产物，包含鹈鹕骑车、射击和赛车三款 3D 网页游戏。每个游戏仅用一句提示词，由模型自主完成开发、测试和部</div>
+    <div class="m">JavaScript · 890 次浏览 · 站内详情</div>
+  </a>
+  <a class="item" href="../repo/bilirec__bilirec.html">
+    <div class="t">适用于低配设备的 B 站直播录制工具</div>
+    <div class="rn">bilirec/bilirec</div>
+    <div class="d">该项目是专为低配设备优化的 B 站直播录制工具，内存占用极少。它内置 Web 管理界面，支持开播自动录制、自动分段、断流重连和自动转 MP4 等功能。</div>
+    <div class="m">Go · 422 次浏览 · 站内详情</div>
+  </a>
+</div>
+</body>
+</html>

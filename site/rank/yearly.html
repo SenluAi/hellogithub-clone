@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>年度榜 | HelloGitHub 离线版</title>
+<link rel="icon" href="../assets/favicon.svg"/>
+<style>*{box-sizing:border-box}body{margin:0;background:#f7f8fa;color:#1f2430;font:15px/1.75 -apple-system,"Segoe UI","Microsoft YaHei",sans-serif}
+.wrap{max-width:900px;margin:0 auto;padding:28px 20px 60px}
+.back{display:inline-block;margin-bottom:18px;color:#2563eb;text-decoration:none;font-size:14px}
+a{color:#2563eb;text-decoration:none}
+h1{font-size:24px;margin:0 0 6px}
+h2{font-size:19px;margin:26px 0 10px;padding-bottom:6px;border-bottom:1px solid #e5e7eb}
+.sub{color:#6b7280;font-size:14px;margin:6px 0 10px}
+.pick{display:flex;flex-wrap:wrap;gap:8px;margin:6px 0 4px}
+.pick a{padding:4px 12px;border-radius:999px;background:#fff;border:1px solid #e5e7eb;font-size:13px;color:#1f2937}
+.pick a:hover{border-color:#93c5fd}
+.pick a.on{background:#2563eb;border-color:#2563eb;color:#fff}
+.pick a.mute{color:#c3c7cf}
+.item{display:block;background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:14px 18px;margin:12px 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.item:hover{border-color:#93c5fd}
+.item .t{font-size:17px;font-weight:600;color:#111827}
+.item .rn{color:#6b7280;font-size:12px;font-family:ui-monospace,Consolas,monospace;margin-top:2px}
+.item .d{color:#374151;font-size:14px;margin-top:6px}
+.item .m{color:#6b7280;font-size:12px;margin-top:8px}
+.rank{display:inline-block;min-width:26px;height:26px;line-height:26px;text-align:center;border-radius:8px;background:#eef2ff;color:#4338ca;font-weight:600;font-size:13px;margin-right:8px}
+.rank.top3{background:#2563eb;color:#fff}
+.grid{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+.chip{padding:8px 16px;border-radius:999px;background:#fff;border:1px solid #e5e7eb;color:#1f2937;font-size:14px}
+.chip:hover{border-color:#93c5fd}
+.chip b{color:#2563eb;font-weight:600}</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="back" href="../index.html">← 返回首页</a>
+  <div class="pick" style="margin-bottom:14px">
+    <a href="./monthly.html">月度榜</a>
+    <a href="./yearly.html" class="on">年度榜</a>
+    <a href="./weekly.html">周榜</a>
+    <a href="./index.html">榜单总览</a>
+  </div>
+  <h1>HelloGitHub 年度榜</h1>
+  <div class="sub">按年份排列，共 10 个年度榜（2017 ~ 2026）· 当前显示 2026 年度榜</div>
+  <div class="sub">选择年份：</div>
+  <div class="pick"><a href="./yearly-2017.html">2017 年</a><a href="./yearly-2018.html">2018 年</a><a href="./yearly-2019.html">2019 年</a><a href="./yearly-2020.html">2020 年</a><a href="./yearly-2021.html">2021 年</a><a href="./yearly-2022.html">2022 年</a><a href="./yearly-2023.html">2023 年</a><a href="./yearly-2024.html">2024 年</a><a href="./yearly-2025.html">2025 年</a><a href="./yearly-2026.html" class="on">2026 年</a></div>
+  <div class="sub">全部年份索引：</div>
+  <div class="grid"><a class="chip" href="./yearly-2017.html">2017 年度榜 <b>100</b></a><a class="chip" href="./yearly-2018.html">2018 年度榜 <b>100</b></a><a class="chip" href="./yearly-2019.html">2019 年度榜 <b>100</b></a><a class="chip" href="./yearly-2020.html">2020 年度榜 <b>100</b></a><a class="chip" href="./yearly-2021.html">2021 年度榜 <b>100</b></a><a class="chip" href="./yearly-2022.html">2022 年度榜 <b>100</b></a><a class="chip" href="./yearly-2023.html">2023 年度榜 <b>100</b></a><a class="chip" href="./yearly-2024.html">2024 年度榜 <b>100</b></a><a class="chip" href="./yearly-2025.html">2025 年度榜 <b>100</b></a><a class="chip" href="./yearly-2026.html">2026 年度榜 <b>100</b></a></div>
+  <h2>2026 年度榜单（100 个）</h2>
+  <a class="item" href="../repo/shareAI-lab__learn-claude-code.html">
+    <div class="t"><span class="rank top3">1</span>从零开始动手实现 AI Agent</div>
+    <div class="rn">shareAI-lab/learn-claude-code</div>
+    <div class="d">该项目是讲解如何从零构建类似 Claude Code 的 AI Agent 工具，共计 12 节课，每节课都有一个可运行的 Python 文件。内容从最基础的 </div>
+    <div class="m">Python · 17143 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/rohitg00__ai-engineering-from-scratch.html">
+    <div class="t"><span class="rank top3">2</span>从零开始学习 AI 工程</div>
+    <div class="rn">rohitg00/ai-engineering-from-scratch</div>
+    <div class="d">这是一套免费、开源、完整的 AI 工程学习教程，共分为 20 个阶段、435 节课、学习时长约 320 小时。内容从线性代数等数学基础出发，贯穿机器学习基础、深</div>
+    <div class="m">Python · 10583 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/Thysrael__Horizon.html">
+    <div class="t"><span class="rank top3">3</span>你的专属 AI 新闻雷达工具</div>
+    <div class="rn">Thysrael/Horizon</div>
+    <div class="d">这是一款 AI 驱动的个人新闻聚合与简报生成工具，支持从 Hacker News、Reddit、RSS、Telegram、GitHub 等多渠道获取内容，经过去</div>
+    <div class="m">Python · 16527 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/bojieli__ai-agent-book.html">
+    <div class="t"><span class="rank">4</span>《深入理解 AI Agent：设计原理与工程实践》</div>
+    <div class="rn">bojieli/ai-agent-book</div>
+    <div class="d">这是一本讲解 AI Agent 的开源中文书籍，围绕「Agent = LLM + 上下文 + 工具」展开，共 10 章。内容从原理讲到生产实践，涵盖上下文工程、</div>
+    <div class="m">Python · 10088 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/t8y2__dbx.html">
+    <div class="t"><span class="rank">5</span>轻量级跨平台数据库桌面客户端</div>
+    <div class="rn">t8y2/dbx</div>
+    <div class="d">这是一款轻量级、跨平台、可离线使用的数据库桌面客户端，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB 等 40+ 种数据库。它</div>
+    <div class="m">Rust · 9991 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/hugohe3__ppt-master.html">
+    <div class="t"><span class="rank">6</span>用 AI 将文档转换为可编辑的 PPT</div>
+    <div class="rn">hugohe3/ppt-master</div>
+    <div class="d">该项目能够根据 PDF、Word、URL 和 Markdown 等格式的文档，生成可编辑的 .pptx 文件，支持调整文字、布局和样式。它内置多种画布格式，支持</div>
+    <div class="m">Python · 8241 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/luongnv89__claude-howto.html">
+    <div class="t"><span class="rank">7</span>快速上手 Claude Code 的教程</div>
+    <div class="rn">luongnv89/claude-howto</div>
+    <div class="d">该项目从输入 claude 命令开始，手把手教你如何将 Claude Code 功能组装起来，成为一套可复用的 Agent 工作流。它提供了清晰的学习路径和使用</div>
+    <div class="m">Python · 8392 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/chuspeeism__dashi-ppt-skill.html">
+    <div class="t"><span class="rank">8</span>让 AI Agent 帮你做 PPT</div>
+    <div class="rn">chuspeeism/dashi-ppt-skill</div>
+    <div class="d">这是一个能够生成可编辑 PPT 的技能包，把文档丢给 Agent 即可生成网页版 PPT，支持在浏览器里直接修改文字、换图片、调布局，以及一键导出为可编辑的 P</div>
+    <div class="m">JavaScript · 5264 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/JOYCEQL__magic-resume.html">
+    <div class="t"><span class="rank">9</span>在线 AI 简历编辑器</div>
+    <div class="rn">JOYCEQL/magic-resume</div>
+    <div class="d">这是一款免费的在线 AI 简历编辑器，无需登录、内置多种模板。它基于 TanStack Start、TypeScript 和 Tiptap 构建，支持实时预览、</div>
+    <div class="m">TypeScript · 4939 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/ZhuLinsen__daily_stock_analysis.html">
+    <div class="t"><span class="rank">10</span>基于 LLM 的智能股票分析系统</div>
+    <div class="rn">ZhuLinsen/daily_stock_analysis</div>
+    <div class="d">这是一个由 LLM 驱动的智能股票分析工具，支持 A 股、港股和美股的每日自动分析与推送。它通过 AkShare、Tushare、YFinance 等数据源获取</div>
+    <div class="m">Python · 14646 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/echo-loop__Echo-Loop.html">
+    <div class="t"><span class="rank">11</span>把英语音频变成听说训练的应用</div>
+    <div class="rn">echo-loop/Echo-Loop</div>
+    <div class="d">这是一款专注于英语听说训练的应用，帮助用户把一段音频从完全陌生练到听懂会说。支持导入本地音频和字幕，提供逐句精听、意群划分、跟读评分、段落复述等功能，还可将生词</div>
+    <div class="m">Dart · 4907 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/openclaw__openclaw.html">
+    <div class="t"><span class="rank">12</span>现象级的个人 AI 助手</div>
+    <div class="rn">openclaw/openclaw</div>
+    <div class="d">这是一款用 TypeScript 开发的开源个人 AI 助手，可快速部署在 macOS、Windows 和 Linux 系统，并支持通过 WhatsApp、Te</div>
+    <div class="m">TypeScript · 10540 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/4thfever__cultivation-world-simulator.html">
+    <div class="t"><span class="rank">13</span>AI 驱动的修仙世界模拟器</div>
+    <div class="rn">4thfever/cultivation-world-simulator</div>
+    <div class="d">这是一款基于 LLM 的修仙模拟器游戏，不同于传统 RPG，游戏内的 NPC 均是 AI 智能体，有独立的性格、记忆和行为逻辑，而玩家在游戏中扮演“天道”，以上</div>
+    <div class="m">Python · 11474 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/NousResearch__hermes-agent.html">
+    <div class="t"><span class="rank">14</span>越用越聪明的 AI 智能体</div>
+    <div class="rn">NousResearch/hermes-agent</div>
+    <div class="d">这是一款开源的自我进化型 AI Agent，能够与用户共同成长的个人 AI 助手。它内置学习循环机制，可根据过往任务经历自动创建和优化技能（Skills），支持</div>
+    <div class="m">Python · 7585 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/Tianyu199509__DeskBox.html">
+    <div class="t"><span class="rank">15</span>让 Windows 桌面井然有序</div>
+    <div class="rn">Tianyu199509/DeskBox</div>
+    <div class="d">这是一款开源的 Windows 桌面整理工具，为桌面加入具有 Windows 原生质感的文件格子和日常工具。它内置待办、随记、搜索、天气和音乐控制等小组件，支持</div>
+    <div class="m">C# · 8407 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/virgiliojr94__book-to-skill.html">
+    <div class="t"><span class="rank">16</span>把技术书变成智能体技能</div>
+    <div class="rn">virgiliojr94/book-to-skill</div>
+    <div class="d">这是一款可以将技术书籍和文档转化成 Agent 技能的工具，让 AI 编程助手按需加载并基于原书内容回答。它会自动生成 SKILL.md、按章节拆分的文件、术语</div>
+    <div class="m">Python · 5091 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/refactoringhq__tolaria.html">
+    <div class="t"><span class="rank">17</span>基于 Git 的本地 Markdown 知识库工具</div>
+    <div class="rn">refactoringhq/tolaria</div>
+    <div class="d">这是一款用来管理 Markdown 知识库的桌面应用，每个知识库即一个 Git 仓库，天然拥有版本历史和变更记录。笔记以 Markdown 文件存储随时可迁移，</div>
+    <div class="m">TypeScript · 8053 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/farion1231__cc-switch.html">
+    <div class="t"><span class="rank">18</span>一键切换 AI 渠道配置的工具</div>
+    <div class="rn">farion1231/cc-switch</div>
+    <div class="d">这是一款跨平台的 AI 编程助手增强工具，支持 Claude Code、Codex 和 Gemini CLI 等。它提供了一键切换 API 节点、自动故障转移、</div>
+    <div class="m">Rust · 5692 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/SteveTheKiller__KillerPDF.html">
+    <div class="t"><span class="rank">19</span>免费开源的 PDF 编辑器</div>
+    <div class="rn">SteveTheKiller/KillerPDF</div>
+    <div class="d">这是一款仅 6MB 大小的 PDF 编辑工具，支持标注、合并、拆分、编辑文字、手绘、签名和加密等功能，适用于 Windows 10/11 系统。</div>
+    <div class="m">C# · 5503 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/QuantumNous__new-api.html">
+    <div class="t"><span class="rank">20</span>新一代 AI 模型聚合管理与分发系统</div>
+    <div class="rn">QuantumNous/new-api</div>
+    <div class="d">该项目是基于 One API 二次开发的 AI 模型接口管理与分发平台。它将 OpenAl、Claude、Gemini、DeepSeek 等多种主流大模型与 A</div>
+    <div class="m">Go · 9390 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/Nutlope__hallmark.html">
+    <div class="t"><span class="rank">21</span>拒绝 AI 味的网页设计技能</div>
+    <div class="rn">Nutlope/hallmark</div>
+    <div class="d">这是一个面向 Claude Code、Cursor 和 Codex 的网页设计技能，旨在避免 AI 生成页面千篇一律。它内置 20 个主题、4 种命令模式、57</div>
+    <div class="m">CSS · 3862 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/Hypostasis-Cat__HypoMux.html">
+    <div class="t"><span class="rank">22</span>把多张网卡的带宽叠加起来</div>
+    <div class="rn">Hypostasis-Cat/HypoMux</div>
+    <div class="d">这是一款专为 Windows 平台打造的多网卡带宽聚合下载加速工具。当电脑同时接入网线、Wi-Fi 或手机热点时，它可将下载任务分配到不同网卡上，实现远超单网卡</div>
+    <div class="m">Go · 4984 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/FireRedTeam__FireRed-OpenStoryline.html">
+    <div class="t"><span class="rank">23</span>AI 驱动的对话式视频创作智能体</div>
+    <div class="rn">FireRedTeam/FireRed-OpenStoryline</div>
+    <div class="d">这是一款基于 LLM/VLM 构建的自动化视频创作智能体。用户可通过自然语言描述意图，系统会自动完成素材收集、剪辑、构建故事线、配音和配乐，支持对话式精修，包括</div>
+    <div class="m">Python · 5181 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/STranslate__STranslate.html">
+    <div class="t"><span class="rank">24</span>即用即走的桌面翻译与 OCR 工具</div>
+    <div class="rn">STranslate/STranslate</div>
+    <div class="d">这是一款基于 WPF 开发的 Windows 翻译与 OCR 工具，集成了 Google、DeepL、OpenAI 等翻译服务，支持划词翻译、截图识别、全文翻译</div>
+    <div class="m">C# · 6142 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/hasaneyldrm__exercises-dataset.html">
+    <div class="t"><span class="rank">25</span>上千个健身动作的集合</div>
+    <div class="rn">hasaneyldrm/exercises-dataset</div>
+    <div class="d">这是一份包含 1000+ 个健身动作的开放数据集，每条记录标注了动作名称、目标肌群、协同肌肉、所需器械和分步教程。教程提供中文等 10 种语言，并配有 180x</div>
+    <div class="m">HTML · 4449 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/PDFCraftTool__pdfcraft.html">
+    <div class="t"><span class="rank">26</span>无需上传文件的 PDF 全能工具箱</div>
+    <div class="rn">PDFCraftTool/pdfcraft</div>
+    <div class="d">这是一款基于 Next.js 和 WebAssembly 构建的开源 PDF 工具箱，所有文件操作均在本地浏览器内完成，无需上传到外部服务器。它提供节点式编排 </div>
+    <div class="m">TypeScript · 6179 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/anthropics__skills.html">
+    <div class="t"><span class="rank">27</span>Claude 官方开源的 Skills 教程</div>
+    <div class="rn">anthropics/skills</div>
+    <div class="d">该项目是 Anthropic 官方开源的 Agent Skills 仓库，介绍如何通过标准化的 SKILL.md 文件结构，将提示词和工具调用封装为插件形式，为</div>
+    <div class="m">Python · 7827 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/builtbybel__FluentCleaner.html">
+    <div class="t"><span class="rank">28</span>更好用的 Windows 系统清理工具</div>
+    <div class="rn">builtbybel/FluentCleaner</div>
+    <div class="d">这是一款基于 WinUI 3 构建的 Windows 系统清理工具，灵感来自经典的 CCleaner。它使用维护多年、覆盖数千款应用的 winapp2.ini </div>
+    <div class="m">C# · 4822 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/THU-MAIC__OpenMAIC.html">
+    <div class="t"><span class="rank">29</span>开源的 AI 互动课堂平台</div>
+    <div class="rn">THU-MAIC/OpenMAIC</div>
+    <div class="d">该项目是由清华团队开发的多智能体互动课堂平台，可将任意主题或文档一键生成沉浸式课程，AI 老师和智能体同学实时授课、讨论、互动。它内置白板绘图和语音合成，课程可</div>
+    <div class="m">TypeScript · 4742 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/plainhub__plain-app.html">
+    <div class="t"><span class="rank">30</span>在浏览器中管理你的手机</div>
+    <div class="rn">plainhub/plain-app</div>
+    <div class="d">这是一款 Kotlin 开发的 Android 应用，让你可以在同一局域网内通过任意电脑上的浏览器，轻松查看和管理手机中的联系人、短信、通话记录、文件和照片，并</div>
+    <div class="m">Kotlin · 5260 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/snownico0722__PaperTodo.html">
+    <div class="t"><span class="rank">31</span>极简的 Windows 桌面便签工具</div>
+    <div class="rn">snownico0722/PaperTodo</div>
+    <div class="d">这是一款极简的 Windows 桌面便签工具，每张便签是独立无边框浮动窗口，无主窗口、无账号、无分类管理，内容自动保存。支持待办纸和笔记纸（轻量 Markdow</div>
+    <div class="m">C# · 4654 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/TurixAI__TuriX-CUA.html">
+    <div class="t"><span class="rank">32</span>让大模型直接帮你干活的智能体</div>
+    <div class="rn">TurixAI/TuriX-CUA</div>
+    <div class="d">这是一款由 AI 驱动的桌面自动化工具（Computer-use-Agent），用户只需通过自然语言描述任务，即可让 AI 自主规划并在桌面环境中自动执行点击、</div>
+    <div class="m">Python · 14571 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/Andyyyy64__whichllm.html">
+    <div class="t"><span class="rank">33</span>帮你找到本地能跑的最佳大模型</div>
+    <div class="rn">Andyyyy64/whichllm</div>
+    <div class="d">该项目能够自动检测本机 GPU/CPU/RAM 配置，并从 HuggingFace 中筛选出适合当前硬件的大模型。它基于 LiveBench、Chatbot A</div>
+    <div class="m">Python · 7239 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/tw93__Mole.html">
+    <div class="t"><span class="rank">34</span>极简的 macOS 系统清理工具</div>
+    <div class="rn">tw93/Mole</div>
+    <div class="d">这是一款专为 macOS 设计的轻量级命令行清理工具，集深度清理、应用卸载、硬盘空间分析和实时状态监控于一体。它主要由 shell 编写，安装简单、零干扰（无广</div>
+    <div class="m">Shell · 3987 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/MicYou-Dev__MicYou.html">
+    <div class="t"><span class="rank">35</span>把 Android 手机变成无线麦克风</div>
+    <div class="rn">MicYou-Dev/MicYou</div>
+    <div class="d">这是一款将 Android 手机变成电脑麦克风的跨平台工具，支持 Wi-Fi、USB 和蓝牙连接，可在 Windows、Linux、macOS 上接收音频。内置</div>
+    <div class="m">Rust · 3899 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/Turbo1123__roubao.html">
+    <div class="t"><span class="rank">36</span>开源的 AI 手机自动化助手</div>
+    <div class="rn">Turbo1123/roubao</div>
+    <div class="d">这是一款开源的 Android AI 手机自动化助手，无需电脑即可让用户通过自然语言指令操控手机自动完成任务。它基于视觉语言模型识别屏幕截图，结合委托执行或 G</div>
+    <div class="m">Kotlin · 6823 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/mattpocock__skills.html">
+    <div class="t"><span class="rank">37</span>让 AI 编程工具告别瞎写的技能包</div>
+    <div class="rn">mattpocock/skills</div>
+    <div class="d">这是一款由资深开发者 Matt Pocock 打造的 AI 编码工具技能包，适用于 Claude Code、Codex 等，通过一行命令即可安装。它包含需求对齐</div>
+    <div class="m">Shell · 5193 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/nextlevelbuilder__ui-ux-pro-max-skill.html">
+    <div class="t"><span class="rank">38</span>AI 编程助手的设计增强插件</div>
+    <div class="rn">nextlevelbuilder/ui-ux-pro-max-skill</div>
+    <div class="d">这是一款面向 AI 编程助手的 UI/UX 设计增强插件，赋予 AI 助手生成专业级界面和用户体验的能力。它内置 57 种 UI 风格、95 套调色方案、56 </div>
+    <div class="m">Python · 6704 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/liketrek__TREK.html">
+    <div class="t"><span class="rank">39</span>可多人协作的旅行规划平台</div>
+    <div class="rn">liketrek/TREK</div>
+    <div class="d">这是一款可自托管的旅行规划平台，支持多人实时协作、交互式地图、费用分摊、行李清单、预订管理和旅行计划等功能。它内置 MCP 服务，可结合 AI 助手规划旅行。</div>
+    <div class="m">TypeScript · 4323 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/tt-a1i__archify.html">
+    <div class="t"><span class="rank">40</span>让 AI 读代码画出架构图</div>
+    <div class="rn">tt-a1i/archify</div>
+    <div class="d">这是一款面向 Codex、Claude Code、Cursor 和 OpenCode 的架构图生成技能，可读取代码仓库或系统描述，生成可交互的架构图。它提供 5</div>
+    <div class="m">JavaScript · 5541 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/iOfficeAI__OfficeCLI.html">
+    <div class="t"><span class="rank">41</span>直接操作 Word、Excel 和 PPT 的命令行工具</div>
+    <div class="rn">iOfficeAI/OfficeCLI</div>
+    <div class="d">这是一款无需安装 Office 即可创建、读取和修改 Word、Excel 和 PowerPoint 文件的命令行工具，安装后自动为 Claude Code、C</div>
+    <div class="m">C# · 6195 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/earthtojake__text-to-cad.html">
+    <div class="t"><span class="rank">42</span>一句话生成 CAD 模型的技能包</div>
+    <div class="rn">earthtojake/text-to-cad</div>
+    <div class="d">这是一套赋予 AI 智能体 CAD 建模能力的技能包，支持通过自然语言或参考图片生成、修改和校验 CAD 模型。以 STEP 为主格式，可导出 STL、3MF、</div>
+    <div class="m">Python · 3324 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/slopus__happy.html">
+    <div class="t"><span class="rank">43</span>用手机操控 Claude Code 和 Codex</div>
+    <div class="rn">slopus/happy</div>
+    <div class="d">这是一款可以远程操作 Claude Code 或 Codex 的工具，让你随时随地通过手机查看和远程控制 AI 编程助手，提供了 iOS、Android 和 W</div>
+    <div class="m">TypeScript · 4659 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/FareedKhan-dev__train-llm-from-scratch.html">
+    <div class="t"><span class="rank">44</span>从零开始训练大语言模型</div>
+    <div class="rn">FareedKhan-dev/train-llm-from-scratch</div>
+    <div class="d">该项目是手把手带你从零训练大语言模型的实战教程，不是简单调用 transformers 跑个示例，而是用 PyTorch 从底层实现 Transformer、预</div>
+    <div class="m">Python · 4135 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/memstechtips__Winhance.html">
+    <div class="t"><span class="rank">45</span>开箱即用的 Windows 系统优化工具</div>
+    <div class="rn">memstechtips/Winhance</div>
+    <div class="d">这是一款基于 C# 开发的 Windows 10/11 一站式系统优化工具，无需重装系统即可定制、精简系统。它集成了软件管理、系统优化、界面定制等功能，支持一键</div>
+    <div class="m">C# · 6334 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/HaujetZhao__CapsWriter-Offline.html">
+    <div class="t"><span class="rank">46</span>超低延迟的离线语音输入工具</div>
+    <div class="rn">HaujetZhao/CapsWriter-Offline</div>
+    <div class="d">这是一款完全离线的语音输入工具，按住 CapsLock 键说话、松开即可转换为文字。支持实时语音识别、音频文件转录、数字格式转换、热词替换、LLM 润色等功能，</div>
+    <div class="m">Python · 3130 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/XiaoLuoLYG__GOD.html">
+    <div class="t"><span class="rank">47</span>AI 智能体小镇</div>
+    <div class="rn">XiaoLuoLYG/GOD</div>
+    <div class="d">这是一款本地优先的多智能体模拟和实时操控平台，不同于只能旁观的 Agent 模拟器，支持随时暂停/回放、注入干预指令、向单个或全体成员提问，以及一键重置整个模拟</div>
+    <div class="m">Python · 6484 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/s010s__prehistoric-animal-museum.html">
+    <div class="t"><span class="rank">48</span>陪孩子在线逛史前动物博物馆</div>
+    <div class="rn">s010s/prehistoric-animal-museum</div>
+    <div class="d">该项目是专为儿童设计的 3D 史前动物博物馆，收录了海陆空 18 种动物，支持旋转缩放、中英双语旁白和设置探险形象等功能。</div>
+    <div class="m">TypeScript · 3855 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/codewhale-hq__Codewhale.html">
+    <div class="t"><span class="rank">49</span>在终端里跑的 DeepSeek 编程助手</div>
+    <div class="rn">codewhale-hq/Codewhale</div>
+    <div class="d">这是一款面向 DeepSeek V4 的终端 AI 编程助手，能够在 TUI 界面中直接读写文件、执行 Shell 命令、管理 Git 和网页搜索。它提供 Pl</div>
+    <div class="m">Rust · 8788 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/BigDawnGhost__wenyi.html">
+    <div class="t"><span class="rank">50</span>整本翻译外文小说的工具</div>
+    <div class="rn">BigDawnGhost/wenyi</div>
+    <div class="d">这是一个用于翻译长篇小说的命令行工具，支持 EPUB、FB2、TXT、Markdown、HTML 和 PDF 文件格式。它通过全书分析、滚动上下文、动态术语表、</div>
+    <div class="m">Python · 2374 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/Veirt__weathr.html">
+    <div class="t"><span class="rank">51</span>Rust 写的实时 ASCII 天气动画</div>
+    <div class="rn">Veirt/weathr</div>
+    <div class="d">这是一款用 Rust 编写的终端查看天气工具，可通过 ASCII 动画实时展示当前天气情况，支持下雨、下雪、闪电和昼夜变化等动画效果。</div>
+    <div class="m">Rust · 4528 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/huanfeng__WindInput.html">
+    <div class="t"><span class="rank">52</span>Rust 写的开源中文输入法</div>
+    <div class="rn">huanfeng/WindInput</div>
+    <div class="d">这是一款用 Rust 编写的轻量级中文输入法，资源占用低、启动速度快，支持五笔 86、五笔拼音混输、全拼和双拼。</div>
+    <div class="m">Rust · 3492 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/debugtheworldbot__keyStats.html">
+    <div class="t"><span class="rank">53</span>开源的键鼠统计工具</div>
+    <div class="rn">debugtheworldbot/keyStats</div>
+    <div class="d">这是一款轻量级的 macOS/Windows 应用，在不记录具体输入内容的前提下，量化用户的输入行为，支持统计键盘敲击次数、鼠标点击次数、鼠标移动和滚动距离。</div>
+    <div class="m">Swift · 3832 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/rtk-ai__rtk.html">
+    <div class="t"><span class="rank">54</span>降低 Token 消耗的命令行工具</div>
+    <div class="rn">rtk-ai/rtk</div>
+    <div class="d">这是一款用于降低 AI 编程助手 Token 消耗的工具，通过压缩常见开发命令的输出、合并重复日志、删除代码注释和多余空行等方式，可将 Token 消耗减少 6</div>
+    <div class="m">Rust · 4836 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/deepseek-ai__deepseek-harness.html">
+    <div class="t"><span class="rank">55</span>DeepSeek 开源的智能体框架</div>
+    <div class="rn">deepseek-ai/deepseek-harness</div>
+    <div class="d">该项目是 DeepSeek 官方开源的智能体框架，采用一切皆插件的设计理念，模型适配器、工具、会话日志和智能体循环都是可替换的插件，并提供开箱即用的 Web 界</div>
+    <div class="m">TypeScript · 3716 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/bleachbit__bleachbit.html">
+    <div class="t"><span class="rank">56</span>免费开源的磁盘清理工具</div>
+    <div class="rn">bleachbit/bleachbit</div>
+    <div class="d">这是一款适用于 Windows 和 Linux 的开源磁盘清理工具，可用于清除临时文件、浏览器缓存、Cookies、浏览历史等，并支持安全删除、文件粉碎和批量自</div>
+    <div class="m">Python · 4674 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/brunosimon__folio-2025.html">
+    <div class="t"><span class="rank">57</span>当个人主页变成 3D 游戏</div>
+    <div class="rn">brunosimon/folio-2025</div>
+    <div class="d">该项目是前端大神 Bruno Simon 的开源新作，他将个人主页打造成一个可以驾车探索的沉浸式 3D 开放世界游戏，融入了物理模拟、天气系统、植被、昼夜交替等</div>
+    <div class="m">JavaScript · 4135 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/helloianneo__ian-xiaohei-illustrations.html">
+    <div class="t"><span class="rank">58</span>为文章生成手绘配图的技能</div>
+    <div class="rn">helloianneo/ian-xiaohei-illustrations</div>
+    <div class="d">该项目是用于生成中文文章配图的 Agent 技能，能够提炼文章中的判断、流程、状态和隐喻，画成白底、手绘、有趣和清爽的 16:9 正文配图。</div>
+    <div class="m">Other · 2816 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/obra__superpowers.html">
+    <div class="t"><span class="rank">59</span>让 AI 编程工具按流程工作</div>
+    <div class="rn">obra/superpowers</div>
+    <div class="d">该项目是专为 AI 编程智能体打造的完整软件开发工作流，通过组合技能（skills）和指令，让智能体不只是生成代码，而是按照流程进行设计、规划和实现。</div>
+    <div class="m">Shell · 4789 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/sqmw__MFCMouseEffect.html">
+    <div class="t"><span class="rank">60</span>Windows 鼠标特效增强工具</div>
+    <div class="rn">sqmw/MFCMouseEffect</div>
+    <div class="d">这是一款轻量级的 Windows 桌面鼠标/光标特效工具，支持点击波纹、粒子拖尾、悬停发光、漂浮文字等多种鼠标特效。</div>
+    <div class="m">C++ · 4002 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/bradautomates__claude-video.html">
+    <div class="t"><span class="rank">61</span>让 AI 助手看懂视频</div>
+    <div class="rn">bradautomates/claude-video</div>
+    <div class="d">这是一个为 Claude Code 等 AI 助手提供视频理解能力的技能包。输入视频网址或本地文件后，它会借助 yt-dlp 和 FFmpeg 提取关键帧与字幕</div>
+    <div class="m">Python · 1730 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/hanshuaikang__nezha.html">
+    <div class="t"><span class="rank">62</span>让多个 AI 编程助手同时干活的工具</div>
+    <div class="rn">hanshuaikang/nezha</div>
+    <div class="d">这是一款专为多项目并行 Vibe Coding 而打造的 AI 编程桌面工具，原生支持 Claude Code 和 Codex。它采用 Tauri+React+</div>
+    <div class="m">TypeScript · 5443 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/yang0__handraw-style.html">
+    <div class="t"><span class="rank">63</span>手绘风格 AI 生图技能包</div>
+    <div class="rn">yang0/handraw-style</div>
+    <div class="d">这是一个可安装到 Codex 的 AI 生图技能包，收录了 278 种手绘风格、120 种排版样式和 30 种经典主题色。选定编号并说明主题，即可生成中英双语生</div>
+    <div class="m">HTML · 2276 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/umlx5h__LLPlayer.html">
+    <div class="t"><span class="rank">64</span>自动生成双语字幕的视频播放器</div>
+    <div class="rn">umlx5h/LLPlayer</div>
+    <div class="d">这是一款基于 C# 开发的 Windows 视频播放器，可实时生成双语字幕。它通过 Whisper 语音转文字模型，能够为无字幕视频实时生成字幕，并结合上下文通</div>
+    <div class="m">C# · 2649 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/lyogavin__airllm.html">
+    <div class="t"><span class="rank">65</span>仅需 4GB 显存就能跑 70B 大模型</div>
+    <div class="rn">lyogavin/airllm</div>
+    <div class="d">这是一个通过分层加载大幅降低推理显存占用的 Python 库，无需量化、蒸馏或剪枝，仅需 4GB 显存即可运行 70B 大模型。它支持 Llama 3.x、Qw</div>
+    <div class="m">Jupyter Notebook · 4757 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/unhappychoice__gittype.html">
+    <div class="t"><span class="rank">66</span>把代码变成打字游戏的工具</div>
+    <div class="rn">unhappychoice/gittype</div>
+    <div class="d">这是一款能够将你写的代码或 GitHub 项目转换成打字挑战的工具，支持 Rust、TypeScript、Python 等编程语言，并提供实时准确率统计和多种游</div>
+    <div class="m">Rust · 2969 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/JabRef__jabref.html">
+    <div class="t"><span class="rank">67</span>写论文用的文献管理工具</div>
+    <div class="rn">JabRef/jabref</div>
+    <div class="d">这是一款免费开源、跨平台的文献与引用管理工具，原生支持 BibTeX/BibLaTeX。它可以从 Google 学术、arXiv 等平台检索论文，自动补全文献信</div>
+    <div class="m">Java · 1730 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/guokaigdg__animal-island-ui.html">
+    <div class="t"><span class="rank">68</span>动物森友会风格的 React 组件库</div>
+    <div class="rn">guokaigdg/animal-island-ui</div>
+    <div class="d">这是一款以《集合啦！动物森友会》游戏界面为设计灵感的 React UI 组件库，包含 Button、Card、Switch、Time、Phone 等常用组件。</div>
+    <div class="m">TypeScript · 2989 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/thedotmack__claude-mem.html">
+    <div class="t"><span class="rank">69</span>让 Claude Code 拥有长期记忆</div>
+    <div class="rn">thedotmack/claude-mem</div>
+    <div class="d">这是一款为 Claude Code 打造的持久化记忆插件，能够自动记录编码过程中的关键信息，并在后续会话中自动注入相关上下文。它支持语义压缩、跨会话记忆检索、上</div>
+    <div class="m">TypeScript · 2945 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/hardikpandya__stop-slop.html">
+    <div class="t"><span class="rank">70</span>让 AI 写作少一些套路</div>
+    <div class="rn">hardikpandya/stop-slop</div>
+    <div class="d">这是一个专门用于去掉 AI 味的写作技能包，让模型在生成、润色和审稿时主动规避那些一眼像 AI 写的句式，比如套话开场白、商业黑话、夸张转折、无意义金句等。</div>
+    <div class="m">Other · 2808 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/allenk__GeminiWatermarkTool.html">
+    <div class="t"><span class="rank">71</span>Gemini 生成图片水印清除工具</div>
+    <div class="rn">allenk/GeminiWatermarkTool</div>
+    <div class="d">这是一款用于移除 Gemini Nano Banana 和 Pro 生成图片右下角可见水印的工具，不支持隐形水印（SynthID）。它跨平台、无需联网、开箱即用</div>
+    <div class="m">C++ · 2339 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/JuliusBrussee__caveman.html">
+    <div class="t"><span class="rank">72</span>让 AI 编程助手少说废话</div>
+    <div class="rn">JuliusBrussee/caveman</div>
+    <div class="d">这是一款让 AI 编程助手用原始人风格、极简文字回答用户问题的技能包，在保留技术准确性的前提下，可减少 75% 的输出 token。</div>
+    <div class="m">Go · 1802 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/tobi__qmd.html">
+    <div class="t"><span class="rank">73</span>本地运行的智能知识库搜索工具</div>
+    <div class="rn">tobi/qmd</div>
+    <div class="d">这是一款完全本地运行的智能搜索引擎，可用于检索个人文档、知识库、会议记录和 Markdown 文件。它集成了本地运行轻量化模型、BM25 全文检索、向量语义搜索</div>
+    <div class="m">TypeScript · 4606 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/ssnangua__ColorTxt.html">
+    <div class="t"><span class="rank">74</span>会给小说上色的阅读器</div>
+    <div class="rn">ssnangua/ColorTxt</div>
+    <div class="d">这是一款基于 Electron 构建的本地小说阅读器，支持 TXT、EPUB、MOBI、PDF 等格式。它可自动为正文中的人名和关键词设置颜色，并支持章节识别、</div>
+    <div class="m">TypeScript · 2061 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/originalankur__maptoposter.html">
+    <div class="t"><span class="rank">75</span>极简的城市地图海报生成器</div>
+    <div class="rn">originalankur/maptoposter</div>
+    <div class="d">该项目是用 Python 开发的城市地图海报生成器，可将城市地图数据转化为美观、极简风格的艺术海报。它利用 OpenStreetMap 的数据，自动绘制指定城市</div>
+    <div class="m">Python · 3981 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/tamnd__kage.html">
+    <div class="t"><span class="rank">76</span>把整个网站打包离线阅读</div>
+    <div class="rn">tamnd/kage</div>
+    <div class="d">该项目是用 Go 编写的网站离线保存工具，可将任意网站保存为可离线浏览的本地文件夹。保存后的网页看起来和线上一样，但不会发起任何网络请求，还支持打包成单个 .z</div>
+    <div class="m">Go · 2137 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/D4Vinci__Scrapling.html">
+    <div class="t"><span class="rank">77</span>自适应网页改版的 Python 爬虫框架</div>
+    <div class="rn">D4Vinci/Scrapling</div>
+    <div class="d">这是一款自适应的 Python 爬虫框架，解析器会学习网站结构变化，在页面改版后自动重新定位目标元素。内置开箱即用的抓取器，支持多会话并发、断点继续、域名屏蔽和</div>
+    <div class="m">Python · 2922 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/lightpanda-io__browser.html">
+    <div class="t"><span class="rank">78</span>启动速度极快的无头浏览器</div>
+    <div class="rn">lightpanda-io/browser</div>
+    <div class="d">这是一款完全用 Zig 语言从零开发的无头浏览器，启动比 Chrome 快 11 倍、内存占用低 9 倍，支持 JavaScript 和 Web API，兼容 </div>
+    <div class="m">Zig · 5442 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/Archeb__opentrace.html">
+    <div class="t"><span class="rank">79</span>跨平台的可视化路由追踪工具</div>
+    <div class="rn">Archeb/opentrace</div>
+    <div class="d">这是一款基于 NextTrace 开发的可视化路由追踪工具，能够直观展示数据包从本地到目标服务器的传输路径，显示每一跳的 IP 地址、延迟和地理位置信息，支持 </div>
+    <div class="m">C# · 2579 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/nexu-io__open-design.html">
+    <div class="t"><span class="rank">80</span>Claude Design 的开源替代品</div>
+    <div class="rn">nexu-io/open-design</div>
+    <div class="d">该项目是 Claude Design 的开源替代方案，支持本地运行和部署到 Vercel，全程无需订阅和账号。它可以自动检测 PATH 中的 10+ 款 AI </div>
+    <div class="m">TypeScript · 2811 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/guillaumemeyer__watermarks-remover.html">
+    <div class="t"><span class="rank">81</span>清除 AI 水印的工具</div>
+    <div class="rn">guillaumemeyer/watermarks-remover</div>
+    <div class="d">这是一款用于删除 AI 生成内容里的来源标记和隐形水印的工具，可处理 Claude、Gemini、OpenAI 等水印，支持文本、图片、文档和视频等多种内容类型</div>
+    <div class="m">Python · 2289 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/alchaincyf__huashu-design.html">
+    <div class="t"><span class="rank">82</span>一句话生成能交付的设计稿</div>
+    <div class="rn">alchaincyf/huashu-design</div>
+    <div class="d">这是一个面向 Claude Code 等 agent 的设计技能包，基于 HTML 工作流生成高保真原型、演讲幻灯片、信息图和动画内容。它支持多种设计方向推荐、</div>
+    <div class="m">HTML · 2822 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/calesthio__OpenMontage.html">
+    <div class="t"><span class="rank">83</span>把 AI 编程助手变成视频工作室</div>
+    <div class="rn">calesthio/OpenMontage</div>
+    <div class="d">这是一个开源的智能体视频制作系统，可让 Claude Code、Cursor、Copilot、Windsurf 和 Codex 根据自然语言完成调研、脚本、素材</div>
+    <div class="m">Python · 2400 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/pranshuparmar__witr.html">
+    <div class="t"><span class="rank">84</span>一条命令揭秘进程身世</div>
+    <div class="rn">pranshuparmar/witr</div>
+    <div class="d">这是一个用 Go 编写的命令行诊断工具，用于快速定位和分析正在运行的进程。它通过端口、服务名或 PID 映射进程信息，生成通俗易懂的进程因果链，直观展示进程的来</div>
+    <div class="m">Go · 2797 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/louis-e__arnis.html">
+    <div class="t"><span class="rank">85</span>将现实世界场景装进我的世界</div>
+    <div class="rn">louis-e/arnis</div>
+    <div class="d">这是一款能够将现实世界的地理数据转化为 Minecraft 游戏内地图的工具，用户仅需在交互式地图上选择区域，即可自动生成包含地形、街道、建筑和森林的游戏存档，</div>
+    <div class="m">Rust · 2857 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/yhzhang0128__egos-2000.html">
+    <div class="t"><span class="rank">86</span>仅 2000 行的教学操作系统</div>
+    <div class="rn">yhzhang0128/egos-2000</div>
+    <div class="d">这是一个仅用 2000 行代码实现的极简操作系统，内含 9 个课程实验，旨在让每位学生都能看完并理解操作系统的全部源码。它体积小、结构清晰，可以在 QEMU 模</div>
+    <div class="m">C · 2877 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/xingkongliang__skills-manager.html">
+    <div class="t"><span class="rank">87</span>统一管理 AI 技能包的工具</div>
+    <div class="rn">xingkongliang/skills-manager</div>
+    <div class="d">这是一款跨平台的 AI 智能体技能管理工具，可将散落在不同工具中的技能集中存入本地仓库，并一键同步到 Claude Code、Codex、Cursor 等工具。</div>
+    <div class="m">Rust · 1658 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/AgriciDaniel__claude-seo.html">
+    <div class="t"><span class="rank">88</span>给 Claude 装上 SEO 专家</div>
+    <div class="rn">AgriciDaniel/claude-seo</div>
+    <div class="d">这是一款面向 Claude Code 的 SEO 技能包，可输出带评分、优先级和可验证建议的行动方案，适用于技术 SEO、Schema、本地和国际化 SEO 等</div>
+    <div class="m">Python · 1562 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/andrewyng__context-hub.html">
+    <div class="t"><span class="rank">89</span>减少 AI 编码幻觉的专属知识库</div>
+    <div class="rn">andrewyng/context-hub</div>
+    <div class="d">该项目是专为 Claude Code 等 AI 编程工具，提供由社区精心整理、版本化的 API 文档知识库，支持按需检索、本地标注和反馈循环等功能，有效减少 A</div>
+    <div class="m">JavaScript · 3395 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/dorianborian__sesame-robot.html">
+    <div class="t"><span class="rank">90</span>桌面级开源迷你四足机器人</div>
+    <div class="rn">dorianborian/sesame-robot</div>
+    <div class="d">这是一个基于 ESP32 的开源四足机器人，硬件成本仅需数百元。内含自制所需的 3D 打印模型、物料清单和固件，支持 WiFi 远程控制、语音控制、动作编排和 </div>
+    <div class="m">C · 2645 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/baidu-baige__LoongForge.html">
+    <div class="t"><span class="rank">91</span>更快地训练大模型和具身模型</div>
+    <div class="rn">baidu-baige/LoongForge</div>
+    <div class="d">该项目是百度开源的模型训练框架，支持主流的 LLM、VLM、扩散和具身模型。它采用多后端架构，提供开箱即用的配置和脚本，支持预训练、SFT 与 LoRA，适配 </div>
+    <div class="m">Python · 1974 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/abhigyanpatwari__GitNexus.html">
+    <div class="t"><span class="rank">92</span>生成代码仓库知识图谱的工具</div>
+    <div class="rn">abhigyanpatwari/GitNexus</div>
+    <div class="d">该项目能够根据代码仓库生成包含调用链、依赖关系和执行流程的交互式知识图谱，为 Cursor、Claude Code 等 AI 编程工具提供结构化上下文。</div>
+    <div class="m">TypeScript · 2220 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/Imbad0202__academic-research-skills.html">
+    <div class="t"><span class="rank">93</span>用于学术研究的 Claude Code 技能包</div>
+    <div class="rn">Imbad0202/academic-research-skills</div>
+    <div class="d">这是一套面向学术研究的 Claude Code 技能包，将查文献、引用验证、数据核查、逻辑一致性检查和写作风格校准等繁琐的工作交给 AI 处理。它不是替你写论文</div>
+    <div class="m">Python · 1737 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/luanti-org__luanti.html">
+    <div class="t"><span class="rank">94</span>开源体素游戏创作平台</div>
+    <div class="rn">luanti-org/luanti</div>
+    <div class="d">这是一个开源体素游戏引擎，可以用 Lua 快速做出自己的 3D 方块游戏。它内置内容商店可直接下载来自社区的模组和游戏，支持单人、局域网和多人联机，可在 Win</div>
+    <div class="m">C++ · 3472 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/DietrichGebert__ponytail.html">
+    <div class="t"><span class="rank">95</span>让 AI 编程助手少写代码</div>
+    <div class="rn">DietrichGebert/ponytail</div>
+    <div class="d">该项目是把一位懒得多写一行代码的资深程序员，装进你的 AI 编程助手的技能包。让 AI 少写代码，防止过度工程化，可减少约 54% 代码量、20% 花费和 27</div>
+    <div class="m">JavaScript · 2244 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/earendil-works__pi.html">
+    <div class="t"><span class="rank">96</span>极简的 AI Agent 工具箱</div>
+    <div class="rn">earendil-works/pi</div>
+    <div class="d">这是一款基于 TypeScript 开发的 AI Agent 工具箱，爆火的 OpenClaw 就是基于该项目开发出来的。它提供开发 AI Agent 所需的基</div>
+    <div class="m">TypeScript · 4092 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/zensical__zensical.html">
+    <div class="t"><span class="rank">97</span>开箱即用的静态网站生成器</div>
+    <div class="rn">zensical/zensical</div>
+    <div class="d">该项目是由 Material for MkDocs 团队用 Rust 和 Pyhton 重写的静态网站生成器，可基于 Markdown 文件构建出美观、专业且具</div>
+    <div class="m">Rust · 2625 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/maillab__cloud-mail.html">
+    <div class="t"><span class="rank">98</span>基于 Cloudflare 的轻量级邮箱服务</div>
+    <div class="rn">maillab/cloud-mail</div>
+    <div class="d">这是一款基于 Cloudflare 的轻量级、响应式邮箱服务，只需一个域名即可在 Cloudflare Workers 上低成本快速搭建邮件服务平台，支持群发、</div>
+    <div class="m">JavaScript · 2269 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/MarSeventh__CloudFlare-ImgBed.html">
+    <div class="t"><span class="rank">99</span>基于 CF Pages 的免费文件托管开源方案</div>
+    <div class="rn">MarSeventh/CloudFlare-ImgBed</div>
+    <div class="d">这是一款基于 Cloudflare Pages 的开源文件托管解决方案，支持无服务器和 Docker 两种部署方式，可利用 Cloudflare 免费额度实现零</div>
+    <div class="m">JavaScript · 2959 次浏览 · 2026 年度榜</div>
+  </a>
+  <a class="item" href="../repo/heygen-com__hyperframes.html">
+    <div class="t"><span class="rank">100</span>用 HTML 制作视频的技能包</div>
+    <div class="rn">heygen-com/hyperframes</div>
+    <div class="d">这是一个让开发者用 HTML 创作视频的技能包，内置 GSAP、anime.js、Lottie、Three.js 等框架，支持实时预览/编辑、背景移除、语音合成</div>
+    <div class="m">TypeScript · 2655 次浏览 · 2026 年度榜</div>
+  </a>
+</div>
+</body>
+</html>

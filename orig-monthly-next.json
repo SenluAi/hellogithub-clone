@@ -1,0 +1,220 @@
+{
+ "props": {
+  "pageProps": {
+   "_nextI18Next": {
+    "initialI18nStore": {
+     "zh": {
+      "common": {
+       "header": {
+        "search": "搜索开源项目",
+        "home": "首页",
+        "periodical": "月刊",
+        "rank": "榜单",
+        "article": "文章",
+        "submit": "提交项目",
+        "profile": "我的主页",
+        "notification": "消息中心",
+        "logout": "退出"
+       },
+       "login": {
+        "text": "登录",
+        "title": "选择登录方式",
+        "tips": "登录即表示同意",
+        "agreement": "用户协议",
+        "oauth": "通过 {{platform}} 登录",
+        "redirect": "等待跳转中...",
+        "redirect_bar_text": "正在登录，等待跳转中..."
+       },
+       "user_side": {
+        "contribute_label": "贡献值",
+        "profile": "我的主页",
+        "admin": "管理中心",
+        "logout": "退出登录",
+        "login": "立即登录"
+       },
+       "advert": {
+        "desc": "服务器还剩",
+        "desc2": "微信扫码赞助本站",
+        "next": "距离目标还差",
+        "next2": "距离下个目标还差",
+        "day": "天",
+        "year": "年"
+       },
+       "site_stats": {
+        "user": "用户总数",
+        "repo": "开源项目",
+        "title": "关于本站",
+        "desc": "HelloGitHub 是一个发现和分享有趣、入门级开源项目的平台。\n希望大家能够在这里找到编程的快乐、 轻松搞定问题的技术方案、\n大呼过瘾的开源神器， 顺其自然地开启开源之旅。"
+       },
+       "recommend": {
+        "title": "推荐项目",
+        "desc": "内容整理自 spdx 和 GitHub 网站，并遵循",
+        "desc2": "协议。",
+        "change": "换一换"
+       },
+       "footer": {
+        "feedback": "问题反馈",
+        "business": "商务合作",
+        "contact": "联系我们",
+        "agreement": "用户协议",
+        "source": "社区源码",
+        "sitemap": "站点地图",
+        "links": "友情链接",
+        "server_sponsor": "服务器由",
+        "server_sponsor2": "提供",
+        "cdn_sponsor": "专业的",
+        "cdn_sponsor2": "提供云存储服务"
+       },
+       "submit_repo": {
+        "text": "提交",
+        "view_repo": "审核进度",
+        "title": "推荐或自荐开源项目",
+        "description": "通过审核的开源项目，才会在首页展示",
+        "url_placeholder": "项目地址",
+        "url_tip": "👆 仅接受 GitHub 上的开源项目",
+        "title_placeholder": "标题：请用一句话介绍项目",
+        "summary_placeholder": "描述：请从它是什么、解决了什么痛点等方面介绍项目，包括用的技术、支持的功能、适用的场景。（描述通俗易懂、符合要求可以提高通过率！）",
+        "summary_tip": "字数限制 10-300 字符",
+        "create_err": "地址不能为空",
+        "create_err2": "标题不能少于 5 个字",
+        "create_err3": "描述不能少于 10 个字",
+        "create_err4": "标题不能超过 50 个字",
+        "create_err5": "描述不能超过 300 个字",
+        "create_success": "感谢您的分享！今天还可以提交 {{remaining}} 次",
+        "check_url_err": "地址必须是 https://github.com 开头",
+        "check_url_err2": "该项目已存在，换一个试试吧~",
+        "check_url_err3": "地址不合规",
+        "check_url_err4": "请求失败，稍后重试"
+       },
+       "collect": {
+        "title": "新建收藏夹",
+        "create_success": "新建成功",
+        "create_fail": "新建失败",
+        "edit_success": "修改成功",
+        "edit_fail": "修改失败",
+        "name": "名称",
+        "name_placeholder": "请输入收藏夹名称",
+        "desc": "描述",
+        "desc_placeholder": "请输入收藏描述（限100字，选填）",
+        "pravite": "私有",
+        "pravite_desc": "仅个人可见",
+        "public": "公开",
+        "public_desc": "所有人可见",
+        "button": {
+         "cancel": "取消",
+         "confirm": "确定"
+        }
+       },
+       "feedback": {
+        "success": "提交成功",
+        "err": "内容不能为空",
+        "err2": "内容不能超过 1000 个字",
+        "content_placeholder": "请在这里留下您反馈的详情，我们会认真阅读并及时做出响应。",
+        "limit": "字数限制 1-1000 字符",
+        "contact_placeholder": "联系方式：微信/手机号/邮箱",
+        "submit": "提交",
+        "contact_info": "您也可以直接联系我：",
+        "contact_info_desc": "xueweihan（微信）",
+        "options": {
+         "feedback": {
+          "name": "建议",
+          "title": "建议改善"
+         },
+         "bug": {
+          "title": "问题反馈"
+         },
+         "bussiess": {
+          "name": "商务",
+          "title": "商务合作"
+         },
+         "other": {
+          "name": "其它",
+          "title": "畅所欲言"
+         }
+        }
+       },
+       "redirect": "即将离开 HelloGitHub 社区，跳转到👇",
+       "theme": {
+        "dark": "黑暗主题",
+        "light": "明亮主题"
+       },
+       "return": "返回首页",
+       "links": {
+        "title": "友情链接",
+        "vacancy": "虚位以待"
+       }
+      },
+      "home": {
+       "title": "有趣的开源社区",
+       "description": "HelloGitHub 开源社区，专注于发现和分享有趣、入门级的开源项目。在这里，探索开源技术解决方案，体验开源的乐趣，自荐或推荐开源项目，开启你的开源之旅。",
+       "bottom_text_login": "你不经意间触碰到了底线",
+       "bottom_text_nologin": "到底啦！登录可查看更多内容",
+       "nav": {
+        "newest": "最新",
+        "monthly": "月度",
+        "yearly": "年度",
+        "all": "全部",
+        "featured": "精选"
+       },
+       "tag_side": {
+        "title": "热门标签",
+        "manage": "管理标签"
+       },
+       "tag_modal": {
+        "tips": "操作提示：点击左侧标签为「选择」，拖拽右侧已选标签可「排序」",
+        "selected": "已选：",
+        "fetch_fail_msg": "获取标签失败",
+        "add": "添加标签",
+        "save": "保存",
+        "save_success_msg": "保存成功！",
+        "save_fail_msg": "保存失败！",
+        "max_tag_msg": "最多只能选择 {{maxTotal}} 个标签！"
+       }
+      }
+     }
+    },
+    "initialLocale": "zh",
+    "ns": [
+     "common",
+     "home"
+    ],
+    "userConfig": {
+     "i18n": {
+      "defaultLocale": "zh",
+      "locales": [
+       "zh",
+       "en"
+      ]
+     },
+     "localePath": "/data/geese/public/locales",
+     "default": {
+      "i18n": {
+       "defaultLocale": "zh",
+       "locales": [
+        "zh",
+        "en"
+       ]
+      },
+      "localePath": "/data/geese/public/locales"
+     }
+    }
+   }
+  },
+  "__N_SSP": true
+ },
+ "page": "/",
+ "query": {
+  "rank_by": "monthly"
+ },
+ "buildId": "jYm0AiB4lR2XXKLAUlbgy",
+ "isFallback": false,
+ "gssp": true,
+ "customServer": true,
+ "locale": "zh",
+ "locales": [
+  "zh",
+  "en"
+ ],
+ "defaultLocale": "zh",
+ "scriptLoader": []
+}

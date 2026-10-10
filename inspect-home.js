@@ -1,0 +1,15 @@
+const fs = require('fs');
+const h = fs.readFileSync('C:/Users/Mr Li/Desktop/hellogithub-clone/site/index.html', 'utf8');
+const headEnd = h.indexOf('</head>');
+console.log('=== HEAD length', headEnd);
+const head = h.slice(0, headEnd);
+console.log('--- link tags ---');
+console.log([...head.matchAll(/<link[^>]*>/g)].map(m => m[0]).join('\n'));
+console.log('--- script tags ---');
+console.log([...head.matchAll(/<script[^>]*>/g)].map(m => m[0]).join('\n'));
+console.log('=== body start ===');
+const b = h.indexOf('<body');
+console.log(h.slice(b, b + 200));
+console.log('=== first card around repo link ===');
+const i = h.indexOf('./repo/');
+console.log(JSON.stringify(h.slice(i - 900, i + 400)));

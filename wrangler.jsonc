@@ -1,0 +1,23 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "hellogithub-clone",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-10-06",
+  "observability": { "enabled": true },
+  "workers_dev": true,
+  "assets": {
+    "directory": "site",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/*"]
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "hellogithub-clone",
+      "database_id": "922c4ee6-f5c2-4d9f-9367-2ccf76bfeace"
+    }
+  ],
+  "routes": [
+    { "pattern": "hellogithub.senlinlu.cn", "custom_domain": true }
+  ]
+}

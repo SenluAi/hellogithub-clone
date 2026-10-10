@@ -1,0 +1,14 @@
+const fs = require('fs');
+const t = fs.readFileSync('C:/Users/Mr Li/Desktop/hellogithub-clone/site/index.html', 'utf8');
+const head = t.slice(0, t.indexOf('</head>'));
+console.log('=== head 里的 css/js 引用 ===');
+console.log((head.match(/<(link|script)[^>]*>/g) || []).join('\n').slice(0, 2500));
+console.log('\n=== 图片域名统计 ===');
+const imgs = t.match(/<img[^>]*src="([^"]+)"/g) || [];
+const host = {};
+imgs.forEach(s => { const u = s.match(/src="([^"]+)"/)[1]; let h = u.startsWith('http') ? u.split('/')[2] : '(站内)'; host[h] = (host[h] || 0) + 1; });
+console.log(JSON.stringify(host, null, 1), '共', imgs.length);
+console.log('\n=== 前 5 张图 ===');
+console.log(imgs.slice(0, 5).join('\n'));
+console.log('\n=== assets 目录 ===');
+console.log(fs.readdirSync('C:/Users/Mr Li/Desktop/hellogithub-clone/site').join('  '));

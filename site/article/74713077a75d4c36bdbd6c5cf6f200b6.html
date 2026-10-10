@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>揭秘 AI 工具的系统提示词「GitHub 热点速览」 | HelloGitHub 离线版</title>
+<link rel="icon" href="../assets/favicon.svg"/>
+<style>*{box-sizing:border-box}body{margin:0;background:#f7f8fa;color:#1f2430;font:15px/1.75 -apple-system,"Segoe UI","Microsoft YaHei",sans-serif}
+.wrap{max-width:900px;margin:0 auto;padding:28px 20px 60px}
+.back{display:inline-block;margin-bottom:18px;color:#2563eb;text-decoration:none;font-size:14px}
+a{color:#2563eb;text-decoration:none}
+h1{font-size:24px;margin:0 0 6px}
+h2{font-size:19px;margin:30px 0 10px;padding-bottom:6px;border-bottom:1px solid #e5e7eb}
+.sub{color:#6b7280;font-size:14px;margin-bottom:18px}
+.item{display:block;background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:14px 18px;margin:12px 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.item:hover{border-color:#93c5fd}
+.item .t{font-size:17px;font-weight:600;color:#111827}
+.item .rn{color:#6b7280;font-size:12px;font-family:ui-monospace,Consolas,monospace;margin-top:2px}
+.item .d{color:#374151;font-size:14px;margin-top:6px}
+.item .m{color:#6b7280;font-size:12px;margin-top:8px}
+.grid{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+.chip{padding:6px 14px;border-radius:999px;background:#fff;border:1px solid #e5e7eb;color:#1f2937;font-size:14px}
+.chip:hover{border-color:#93c5fd}
+.chip b{color:#2563eb;font-weight:600}
+.tabs{display:flex;gap:8px;margin:14px 0 4px;flex-wrap:wrap}
+.tabs a{padding:6px 16px;border-radius:999px;background:#fff;border:1px solid #e5e7eb;font-size:14px}
+.tabs a.on{background:#2563eb;border-color:#2563eb;color:#fff}
+article.post{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:20px 24px;margin-top:16px}
+article.post img{max-width:100%;border-radius:8px}
+article.post h2{font-size:19px;margin:24px 0 8px}
+article.post h3{font-size:16px;margin:20px 0 6px}
+article.post table{border-collapse:collapse;width:100%;margin:12px 0;font-size:14px}
+article.post th,article.post td{border:1px solid #e5e7eb;padding:6px 10px;text-align:left}
+article.post blockquote{margin:12px 0;padding:8px 14px;border-left:3px solid #93c5fd;background:#f3f7ff;color:#374151}
+article.post pre{background:#0f172a;color:#e2e8f0;padding:12px 14px;border-radius:8px;overflow:auto;font-size:13px}
+article.post code{background:#eef2f7;padding:1px 5px;border-radius:4px;font-size:13px}</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="back" href="../index.html">← 返回首页</a>
+  <h1>揭秘 AI 工具的系统提示词「GitHub 热点速览」</h1>
+  <div class="sub">卤蛋 · 2025-05-06 · 阅读 2419</div>
+<article class="post">
+<img src="../assets/ext/d37a466d8a.png" alt=""/>
+<p>这次的五一假期，你打卡了哪些好玩的地方？🏞️ 无论身在何处，都别忘了每周二来咱们的「GitHub 热点速览」打卡！准时为你奉上最新、最热的开源项目！</p>
+<p>如果你也曾对 Cursor 这类 AI 编程工具的强大感到惊叹，那一定对其背后的“魔法”（系统提示词）充满好奇。上周一个汇集了各大 AI 工具（Cursor、Devin、Windsurf 等）系统提示词的开源项目，迅速走红并狂揽 5k+ Star。尽管这些提示词是作者（x1xhlol）通过一些“手段”提取，<strong>尚未得到官方认证</strong>，但它们极大地满足了大家的好奇心，并且其中有许多值得学习和借鉴的提示工程技巧。</p>
+<p>除了揭秘 AI，完全在本地进行文件转换的 VERT，让你无需担心隐私泄露，轻松搭建属于自己的文件转换服务。同样关注个人隐私的还有 Dawarich，这款可自托管的个人足迹管理平台，拥有强大的可视化能力，让你完全掌控自己的地理位置历史。最后，别忘了 HelloGitHub 推荐的优雅等宽字体 Maple Mono 和能让旧音箱支持 AirPlay 的 Shairport Sync 哦！</p>
+<p>· 本文目录</p>
+<p>· 1\. 热门开源项目</p>
+<p>· 1.1 AI 工具的系统提示词集合：system-prompts-and-models-of-ai-tools</p>
+<p>· 1.2 开源的本地文件转换工具：VERT</p>
+<p>· 1.3 个人地图时间线管理平台：Dawarich</p>
+<p>· 1.4 更好用的 MCP Python 框架：FastMCP</p>
+<p>· 1.5 操作计算机的智能代理框架：Agent-S</p>
+<p>· 2\. HelloGitHub 热评</p>
+<p>· 2.1 开源圆角等宽字体：Maple Mono</p>
+<p>· 2.2 开源的 AirPlay 音频无缝接入方案：Shairport Sync</p>
+<p>· 3\. 结尾</p>
+<h2>1. 热门开源项目</h2>
+<h3>1.1 AI 工具的系统提示词集合：system-prompts-and-models-of-ai-tools</h3>
+<img src="../assets/ext/f820db57f5.png" alt=""/>
+<p><strong>主语言：Other</strong>，<strong>Star：38k</strong>，<strong>周增长：5k</strong></p>
+<p>该项目汇集了作者自行提取的多种主流 AI 编程和智能体工具的系统提示词（System Prompts）、内部工具描述和模型的相关信息，包括 FULL v0、Cursor、Manus、Same.dev、Lovable、Devin、Replit Agent、Windsurf Agent、VSCode Agent 以及部分开源 AI 工具的系统提示词。</p>
+<blockquote>GitHub 地址→<span class="ext-link">github.com/x1xhlol/system-prompts-and-models-of-ai-tools</span></blockquote>
+<h3>1.2 开源的本地文件转换工具：VERT</h3>
+<img src="../assets/ext/b69321fa12.png" alt=""/>
+<p><strong>主语言：Svelte、TypeScript</strong>，<strong>Star：2.6k</strong></p>
+<p>该项目是基于 Svelte 和 TypeScript 构建的文件转换工具，完全本地化且免费。它利用 WebAssembly 技术，实现所有文件转换过程均在本地完成，无需依赖云端服务，支持图片、文本、视频等多种格式转换，无文件大小限制，并可通过 Docker 一键完成部署。</p>
+<blockquote>GitHub 地址→<span class="ext-link">github.com/VERT-sh/VERT</span></blockquote>
+<h3>1.3 个人地图时间线管理平台：Dawarich</h3>
+<img src="../assets/ext/2687b0a736.jpg" alt=""/>
+<p><strong>主语言：Ruby</strong>，<strong>Star：4.7k</strong></p>
+<p>这是一款用 Ruby 开发的自托管位置历史管理平台，可作为 Google 地图时间线的开源替代品。它提供丰富的可视化方式，让用户能够在交互式地图上查看个人位置历史和旅行足迹，支持多种位置数据来源，包括 Google 地图时间线、OwnTracks 以及照片地理信息等。轻松查看走过的国家和城市数量、总行程等地理轨迹。</p>
+<blockquote>GitHub 地址→<span class="ext-link">github.com/Freika/dawarich</span></blockquote>
+<h3>1.4 更好用的 MCP Python 框架：FastMCP</h3>
+<img src="../assets/ext/2093e50c82.png" alt=""/>
+<p><strong>主语言：Python</strong>，<strong>Star 8.6k</strong>，<strong>周增长：700</strong></p>
+<p>该项目是用于构建 MCP（Model Context Protocol）服务器和客户端的 Python 框架，帮助开发者以更快速、简洁的方式向 LLM 暴露数据资源和工具。相比官方 SDK，它的 API 设计更加简洁、开发效率更高，且具备更强的可扩展性，支持多种客户端/服务端传输模式（Stdio、SSE、内存）、资源模板机制，并可通过 OpenAPI/FastAPI 自动生成 MCP 服务，极大地降低了 MCP 服务器与客户端的开发门槛。</p>
+<pre><code># server.py
+from fastmcp import FastMCP
+
+mcp = FastMCP(&quot;Demo 🚀&quot;)
+
+@mcp.tool()
+def add(a: int, b: int) -&gt; int:
+    &quot;&quot;&quot;Add two numbers&quot;&quot;&quot;
+    return a + b
+
+if __name__ == &quot;__main__&quot;:
+    mcp.run()
+
+# fastmcp run server.py
+</code></pre>
+<blockquote>GitHub 地址→<span class="ext-link">github.com/jlowin/fastmcp</span></blockquote>
+<h3>1.5 操作计算机的智能代理框架：Agent-S</h3>
+<img src="../assets/ext/7ac1921c10.png" alt=""/>
+<p><strong>主语言：Python</strong>，<strong>Star：4.1k</strong>，<strong>周增长：1.7k</strong></p>
+<p>这是一个让 AI 像人一样操作电脑（如 macOS、Windows、Linux、Android），可自动完成复杂的 GUI 操作任务的 AI Agent 框架。它采用“通用体+专家体”组合架构，支持主动分层规划。通过集成大模型（LLM）和视觉多模态模型，能够理解屏幕截图、界面结构等输入，并生成操作指令，实现自动点击、输入、窗口切换、搜索等操作。</p>
+<blockquote>GitHub 地址→<span class="ext-link">github.com/simular-ai/Agent-S</span></blockquote>
+<h2>2. HelloGitHub 热评</h2>
+<p>在此章节中，我们将为大家介绍本周 HelloGitHub 网站上的热门开源项目，我们不仅希望您能从中收获开源神器和编程知识，更渴望“听”到您的声音。欢迎您与我们分享使用这些<strong>开源项目的亲身体验和评价</strong>，用最真实反馈为开源项目的作者注入动力。</p>
+<h3>2.1 开源圆角等宽字体：Maple Mono</h3>
+<img src="../assets/ext/8f9575bcd1.png" alt=""/>
+<p><strong>主语言：Python</strong></p>
+<p>这是一款高质量的等宽字体，具备可变字体、圆角设计、智能连字、图标等特性，支持简体中文、繁体中文和日语字符集，以及通过脚本自定义构建字体，满足不同平台和个性化需求。</p>
+<blockquote>项目详情→<span class="ext-link">hellogithub.com/repository/subframe7536/maple-font</span></blockquote>
+<h3>2.2 开源的 AirPlay 音频无缝接入方案：Shairport Sync</h3>
+<img src="../assets/ext/74c291847e.png" alt=""/>
+<p><strong>主语言：C</strong></p>
+<p>这是一款支持 AirPlay/AirPlay 2 协议的音频播放器，能够接收并播放来自苹果设备的 AirPlay 音频流。只需树莓派等低成本设备，就可以将普通音响升级为支持 AirPlay 的无线音响，轻松打造家庭多房间无线音频系统。</p>
+<blockquote>项目详情→<span class="ext-link">hellogithub.com/repository/mikebrady/shairport-sync</span></blockquote>
+<h2>3. 结尾</h2>
+<p>以上就是本期「GitHub 热点速览」的全部内容，希望这些开源项目能激发你的兴趣，找到你下一个想去尝试的工具！如果你也发现了好玩、有趣的 GitHub 开源项目想要分享，欢迎来 <span class="ext-link">HelloGitHub</span> 与我们交流心得、讨论使用体验。</p>
+<p><strong>往期回顾</strong></p>
+<p>· <span class="ext-link">一天 Star 破万的开源项目</span></p>
+<p>· <span class="ext-link">7 个最近很火的开源项目</span></p>
+</article>
+</div>
+</body>
+</html>

@@ -1,0 +1,362 @@
+[
+ {
+  "owner": "baidu-baige",
+  "name": "LoongForge",
+  "title": "",
+  "key": "baidu-baige/LoongForge"
+ },
+ {
+  "owner": "yang0",
+  "name": "handraw-style",
+  "title": "",
+  "key": "yang0/handraw-style"
+ },
+ {
+  "owner": "xingkongliang",
+  "name": "skills-manager",
+  "title": "",
+  "key": "xingkongliang/skills-manager"
+ },
+ {
+  "owner": "geeklee",
+  "name": "srt-whiteboard-animation",
+  "title": "",
+  "key": "geeklee/srt-whiteboard-animation"
+ },
+ {
+  "owner": "chuspeeism",
+  "name": "dashi-ppt-skill",
+  "title": "",
+  "key": "chuspeeism/dashi-ppt-skill"
+ },
+ {
+  "owner": "tianma-if",
+  "name": "edgeever",
+  "title": "",
+  "key": "tianma-if/edgeever"
+ },
+ {
+  "owner": "ChenLiu-1996",
+  "name": "figures4papers",
+  "title": "",
+  "key": "ChenLiu-1996/figures4papers"
+ },
+ {
+  "owner": "Jinnrry",
+  "name": "PMail",
+  "title": "",
+  "key": "Jinnrry/PMail"
+ },
+ {
+  "owner": "RayrenSX",
+  "name": "iPhoneMirror",
+  "title": "",
+  "key": "RayrenSX/iPhoneMirror"
+ },
+ {
+  "owner": "OpenMouse-Project",
+  "name": "openmouse",
+  "title": "",
+  "key": "OpenMouse-Project/openmouse"
+ },
+ {
+  "owner": "TencentCloud",
+  "name": "TencentDB-Agent-Memory",
+  "title": "",
+  "key": "TencentCloud/TencentDB-Agent-Memory"
+ },
+ {
+  "owner": "multimodal-art-projection",
+  "name": "YuE",
+  "title": "",
+  "key": "multimodal-art-projection/YuE"
+ },
+ {
+  "owner": "flet-dev",
+  "name": "flet",
+  "title": "",
+  "key": "flet-dev/flet"
+ },
+ {
+  "owner": "stablyai",
+  "name": "orca",
+  "title": "",
+  "key": "stablyai/orca"
+ },
+ {
+  "owner": "citrolabs",
+  "name": "ego-lite",
+  "title": "",
+  "key": "citrolabs/ego-lite"
+ },
+ {
+  "owner": "okalachev",
+  "name": "flix",
+  "title": "",
+  "key": "okalachev/flix"
+ },
+ {
+  "owner": "pollen-robotics",
+  "name": "microduck",
+  "title": "",
+  "key": "pollen-robotics/microduck"
+ },
+ {
+  "owner": "lhlGitHub",
+  "name": "threejs-architecture-effects",
+  "title": "",
+  "key": "lhlGitHub/threejs-architecture-effects"
+ },
+ {
+  "owner": "riba2534",
+  "name": "claude-opus-5-5-demo",
+  "title": "",
+  "key": "riba2534/claude-opus-5-5-demo"
+ },
+ {
+  "owner": "bilirec",
+  "name": "bilirec",
+  "title": "",
+  "key": "bilirec/bilirec"
+ },
+ {
+  "owner": "Lakr233",
+  "name": "vphone-cli",
+  "title": "",
+  "key": "Lakr233/vphone-cli"
+ },
+ {
+  "owner": "rakyll",
+  "name": "hey",
+  "title": "",
+  "key": "rakyll/hey"
+ },
+ {
+  "owner": "davatron5000",
+  "name": "microlighter",
+  "title": "",
+  "key": "davatron5000/microlighter"
+ },
+ {
+  "owner": "kserve",
+  "name": "kserve",
+  "title": "",
+  "key": "kserve/kserve"
+ },
+ {
+  "owner": "sirmalloc",
+  "name": "ccstatusline",
+  "title": "",
+  "key": "sirmalloc/ccstatusline"
+ },
+ {
+  "owner": "Tianyu199509",
+  "name": "DeskBox",
+  "title": "",
+  "key": "Tianyu199509/DeskBox"
+ },
+ {
+  "owner": "arnegiacomo",
+  "name": "fugleramme",
+  "title": "",
+  "key": "arnegiacomo/fugleramme"
+ },
+ {
+  "owner": "virgiliojr94",
+  "name": "book-to-skill",
+  "title": "",
+  "key": "virgiliojr94/book-to-skill"
+ },
+ {
+  "owner": "RankFTW",
+  "name": "RHI",
+  "title": "",
+  "key": "RankFTW/RHI"
+ },
+ {
+  "owner": "WooHooDai",
+  "name": "linkding-cn",
+  "title": "",
+  "key": "WooHooDai/linkding-cn"
+ },
+ {
+  "owner": "armory3d",
+  "name": "armorpaint",
+  "title": "",
+  "key": "armory3d/armorpaint"
+ },
+ {
+  "owner": "thaw-app",
+  "name": "Thaw",
+  "title": "",
+  "key": "thaw-app/Thaw"
+ },
+ {
+  "owner": "r0x0r",
+  "name": "pywebview",
+  "title": "",
+  "key": "r0x0r/pywebview"
+ },
+ {
+  "owner": "pgsty",
+  "name": "pigsty",
+  "title": "",
+  "key": "pgsty/pigsty"
+ },
+ {
+  "owner": "sigoden",
+  "name": "window-switcher",
+  "title": "",
+  "key": "sigoden/window-switcher"
+ },
+ {
+  "owner": "iAmCorey",
+  "name": "birth",
+  "title": "",
+  "key": "iAmCorey/birth"
+ },
+ {
+  "owner": "Canop",
+  "name": "broot",
+  "title": "",
+  "key": "Canop/broot"
+ },
+ {
+  "owner": "abue-ammar",
+  "name": "tinycast",
+  "title": "",
+  "key": "abue-ammar/tinycast"
+ },
+ {
+  "owner": "sharkdp",
+  "name": "numbat",
+  "title": "",
+  "key": "sharkdp/numbat"
+ },
+ {
+  "owner": "kr8s-org",
+  "name": "kr8s",
+  "title": "",
+  "key": "kr8s-org/kr8s"
+ },
+ {
+  "owner": "s010s",
+  "name": "prehistoric-animal-museum",
+  "title": "",
+  "key": "s010s/prehistoric-animal-museum"
+ },
+ {
+  "owner": "huanfeng",
+  "name": "WindInput",
+  "title": "",
+  "key": "huanfeng/WindInput"
+ },
+ {
+  "owner": "deepseek-ai",
+  "name": "deepseek-harness",
+  "title": "",
+  "key": "deepseek-ai/deepseek-harness"
+ },
+ {
+  "owner": "bojieli",
+  "name": "ai-agent-book",
+  "title": "",
+  "key": "bojieli/ai-agent-book"
+ },
+ {
+  "owner": "helloianneo",
+  "name": "ian-xiaohei-illustrations",
+  "title": "",
+  "key": "helloianneo/ian-xiaohei-illustrations"
+ },
+ {
+  "owner": "lyogavin",
+  "name": "airllm",
+  "title": "",
+  "key": "lyogavin/airllm"
+ },
+ {
+  "owner": "JOYCEQL",
+  "name": "magic-resume",
+  "title": "",
+  "key": "JOYCEQL/magic-resume"
+ },
+ {
+  "owner": "guillaumemeyer",
+  "name": "watermarks-remover",
+  "title": "",
+  "key": "guillaumemeyer/watermarks-remover"
+ },
+ {
+  "owner": "ayghri",
+  "name": "i-have-adhd",
+  "title": "",
+  "key": "ayghri/i-have-adhd"
+ },
+ {
+  "owner": "luolangaga",
+  "name": "tubatools",
+  "title": "",
+  "key": "luolangaga/tubatools"
+ },
+ {
+  "owner": "plannotator",
+  "name": "effective-html",
+  "title": "",
+  "key": "plannotator/effective-html"
+ },
+ {
+  "owner": "Nutlope",
+  "name": "hallmark",
+  "title": "",
+  "key": "Nutlope/hallmark"
+ },
+ {
+  "owner": "Hypostasis-Cat",
+  "name": "HypoMux",
+  "title": "",
+  "key": "Hypostasis-Cat/HypoMux"
+ },
+ {
+  "owner": "hasaneyldrm",
+  "name": "exercises-dataset",
+  "title": "",
+  "key": "hasaneyldrm/exercises-dataset"
+ },
+ {
+  "owner": "builtbybel",
+  "name": "FluentCleaner",
+  "title": "",
+  "key": "builtbybel/FluentCleaner"
+ },
+ {
+  "owner": "liketrek",
+  "name": "TREK",
+  "title": "",
+  "key": "liketrek/TREK"
+ },
+ {
+  "owner": "tt-a1i",
+  "name": "archify",
+  "title": "",
+  "key": "tt-a1i/archify"
+ },
+ {
+  "owner": "didriksg",
+  "name": "Crisp",
+  "title": "",
+  "key": "didriksg/Crisp"
+ },
+ {
+  "owner": "jhd3197",
+  "name": "ServerKit",
+  "title": "",
+  "key": "jhd3197/ServerKit"
+ },
+ {
+  "owner": "BigDawnGhost",
+  "name": "wenyi",
+  "title": "",
+  "key": "BigDawnGhost/wenyi"
+ }
+]

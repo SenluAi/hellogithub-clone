@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>登录 - HelloGitHub 离线镜像</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f8fafc;color:#0f172a;font:16px/1.7 -apple-system,"Segoe UI","Microsoft YaHei",sans-serif}
+.wrap{max-width:760px;margin:0 auto;padding:28px 18px 60px}
+a.back{display:inline-block;margin-bottom:14px;color:#2563eb;text-decoration:none;font-size:14px}
+h1{font-size:26px;margin:6px 0 4px}.sub{color:#64748b;font-size:14px;margin:0 0 16px}
+.card{background:#fff;border:1px solid #e2e8f0;border-radius:10px;padding:18px 20px;margin:14px 0}
+.card h2{font-size:17px;margin:0 0 10px}
+.tabs{display:flex;gap:8px;margin:0 0 6px}
+.tab{padding:7px 16px;border:1px solid #cbd5e1;background:#fff;color:#475569;border-radius:20px;font-size:14px;font-family:inherit;cursor:pointer}
+.tab.on{background:#2563eb;border-color:#2563eb;color:#fff}
+label{display:block;font-size:14px;color:#334155;margin:10px 0 4px}
+input{width:100%;padding:10px 12px;font-size:15px;border:1px solid #cbd5e1;border-radius:8px;background:#fff;color:#0f172a;font-family:inherit}
+input:focus{outline:none;border-color:#2563eb;box-shadow:0 0 0 3px rgba(37,99,235,.15)}
+.btn{display:inline-block;margin:14px 8px 0 0;padding:9px 16px;border:0;border-radius:8px;background:#2563eb;color:#fff;text-decoration:none;font-size:14px;font-family:inherit;cursor:pointer}
+.btn.gray{background:#fff;color:#475569;border:1px solid #cbd5e1}
+.err{color:#dc2626;font-size:13px;margin:8px 0 0;min-height:18px}
+.ok{color:#059669;font-size:13px;margin:8px 0 0}
+.note{color:#64748b;font-size:13px}
+ul.favs{padding-left:0;list-style:none;margin:6px 0}
+ul.favs li{display:flex;align-items:center;gap:10px;border-bottom:1px dashed #e2e8f0;padding:7px 0}
+ul.favs a{color:#2563eb;text-decoration:none;flex:1}
+ul.favs button{border:1px solid #cbd5e1;background:#fff;color:#64748b;border-radius:6px;font-size:12px;padding:3px 8px;cursor:pointer;font-family:inherit}
+</style></head>
+<body><div class="wrap">
+<a class="back" href="../index.html">← 返回首页</a>
+<h1>账号</h1>
+<p class="sub">HelloGitHub 站点账号：登录后收藏、阅读记录会保存在云端，换设备也能同步。</p>
+
+<div class="card" id="authCard" hidden>
+<div class="tabs">
+<button type="button" class="tab on" id="tabLogin">登录</button>
+<button type="button" class="tab" id="tabReg">注册</button>
+</div>
+
+<form id="loginForm" novalidate>
+<label for="lu">账号</label>
+<input id="lu" type="text" placeholder="手机号或用户名" autocomplete="username">
+<label for="lp">密码</label>
+<input id="lp" type="password" placeholder="请输入密码" autocomplete="current-password">
+<p class="err" id="loginErr"></p>
+<button type="submit" class="btn">登录</button>
+</form>
+
+<form id="regForm" hidden novalidate>
+<label for="ru">账号</label>
+<input id="ru" type="text" placeholder="11 位手机号，或 4-32 位字母/数字" autocomplete="username">
+<label for="rn">昵称（可选）</label>
+<input id="rn" type="text" placeholder="展示用昵称" autocomplete="nickname">
+<label for="rp">密码</label>
+<input id="rp" type="password" placeholder="至少 6 位" autocomplete="new-password">
+<label for="rp2">确认密码</label>
+<input id="rp2" type="password" placeholder="再输一次密码" autocomplete="new-password">
+<p class="err" id="regErr"></p>
+<button type="submit" class="btn">注册并登录</button>
+</form>
+</div>
+
+<div class="card" id="userCard" hidden>
+<h2>已登录</h2>
+<div style="display:flex;align-items:center;gap:12px;margin:6px 0 10px">
+<img id="uAvatar" alt="我的头像" style="width:64px;height:64px;border-radius:50%;object-fit:cover;border:1px solid #e5e7eb;background:#f3f4f6">
+<label class="btn gray" for="avatarFile" style="cursor:pointer;margin:0">更换头像</label>
+<input type="file" id="avatarFile" accept="image/*" hidden>
+<span class="note" id="avatarMsg"></span>
+</div>
+<p>昵称：<b id="uNick"></b>　<span class="note">账号：<span id="uName"></span></span></p>
+<h2 style="margin-top:16px">我的收藏 <span class="note" id="favCount"></span></h2>
+<p class="note" id="favEmpty">还没有收藏，去项目页点右下角「☆ 收藏」试试。</p>
+<ul class="favs" id="favList"></ul>
+<a class="btn" href="../index.html">返回首页</a>
+<button type="button" class="btn gray" id="logoutBtn">退出登录</button>
+<p class="note" id="msg"></p>
+</div>
+
+<div class="card">
+<h2>站内导航</h2>
+<p class="sub"><a href="../index.html">首页</a> ·
+<a href="../periodical/index.html">月刊</a> ·
+<a href="../rank/index.html">榜单</a> ·
+<a href="../article/index.html">文章</a> ·
+<a href="../tag/index.html">标签</a> ·
+<a href="../list/index.html">全部项目</a> ·
+<a href="../submit/index.html">提交项目</a></p>
+</div>
+</div>
+<script>
+(function () {
+  var authCard = document.getElementById('authCard');
+  var userCard = document.getElementById('userCard');
+  var loginForm = document.getElementById('loginForm');
+  var regForm = document.getElementById('regForm');
+
+  function api(path, method, data) {
+    return fetch(path, {
+      method: method || 'GET',
+      credentials: 'same-origin',
+      headers: data ? { 'content-type': 'application/json' } : undefined,
+      body: data ? JSON.stringify(data) : undefined
+    }).then(function (r) {
+      return r.json().then(function (j) { return { status: r.status, body: j }; }, function () { return { status: r.status, body: {} }; });
+    });
+  }
+
+  function esc(s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+
+  function showLogin() { loginForm.hidden = false; regForm.hidden = true; document.getElementById('tabLogin').classList.add('on'); document.getElementById('tabReg').classList.remove('on'); }
+  function showReg() { loginForm.hidden = true; regForm.hidden = false; document.getElementById('tabReg').classList.add('on'); document.getElementById('tabLogin').classList.remove('on'); }
+  document.getElementById('tabLogin').addEventListener('click', showLogin);
+  document.getElementById('tabReg').addEventListener('click', showReg);
+
+  function loadFavs() {
+    return api('/api/favorites').then(function (res) {
+      var items = (res.body && res.body.items) || [];
+      document.getElementById('favCount').textContent = items.length ? '（' + items.length + '）' : '';
+      document.getElementById('favEmpty').hidden = items.length > 0;
+      var ul = document.getElementById('favList');
+      ul.innerHTML = '';
+      items.forEach(function (it) {
+        var li = document.createElement('li');
+        var a = document.createElement('a');
+        a.href = '..' + it.slug;
+        a.textContent = it.title || it.slug;
+        var b = document.createElement('button');
+        b.type = 'button';
+        b.textContent = '取消收藏';
+        b.addEventListener('click', function () {
+          api('/api/favorites', 'DELETE', { slug: it.slug }).then(loadFavs);
+        });
+        li.appendChild(a); li.appendChild(b); ul.appendChild(li);
+      });
+    });
+  }
+
+  var avatarImg = document.getElementById('uAvatar');
+  function defaultAvatar(user) {
+    var nick = String((user && (user.nickname || user.username)) || '?');
+    var ch = nick.replace(/^\s+/, '').charAt(0) || '?';
+    var colors = ['#2563eb', '#16a34a', '#db2777', '#f59e0b', '#7c3aed', '#0891b2', '#dc2626', '#0d9488'];
+    var k = String((user && user.username) || nick), n = 7;
+    for (var i = 0; i < k.length; i++) n = (n * 31 + k.charCodeAt(i)) % 9973;
+    var svg = '<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64"><rect width="64" height="64" rx="32" fill="' + colors[n % colors.length] + '"/><text x="32" y="43" font-family="-apple-system,Segoe UI,Microsoft YaHei,sans-serif" font-size="30" fill="#ffffff" text-anchor="middle">' + esc(ch) + '</text></svg>';
+    return 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg);
+  }
+  function render(user) {
+    if (user) {
+      authCard.hidden = true;
+      userCard.hidden = false;
+      document.getElementById('uNick').textContent = user.nickname || user.username;
+      document.getElementById('uName').textContent = user.username;
+      avatarImg.src = user.avatar || defaultAvatar(user);
+      document.getElementById('avatarMsg').textContent = '';
+      loadFavs();
+    } else {
+      authCard.hidden = false;
+      userCard.hidden = true;
+    }
+  }
+  (function bindAvatarUpload() {
+    var file = document.getElementById('avatarFile');
+    var msg = document.getElementById('avatarMsg');
+    if (!file) return;
+    file.addEventListener('change', function () {
+      var f = file.files && file.files[0];
+      if (!f) return;
+      if (!/^image\//.test(f.type)) { msg.textContent = '请选择图片文件'; return; }
+      msg.textContent = '正在处理…';
+      var reader = new FileReader();
+      reader.onload = function () {
+        var im = new Image();
+        im.onload = function () {
+          var size = 256, cv = document.createElement('canvas');
+          cv.width = size; cv.height = size;
+          var cx = cv.getContext('2d'), side = Math.min(im.width, im.height);
+          cx.drawImage(im, (im.width - side) / 2, (im.height - side) / 2, side, side, 0, 0, size, size);
+          var data = cv.toDataURL('image/jpeg', 0.85);
+          api('/api/avatar', 'POST', { avatar: data }).then(function (res) {
+            if (res.body && res.body.ok) { avatarImg.src = data; msg.textContent = '头像已更新'; }
+            else { msg.textContent = (res.body && res.body.error) || '上传失败，请重试'; }
+          }, function () { msg.textContent = '网络异常，请稍后重试'; });
+        };
+        im.onerror = function () { msg.textContent = '图片无法读取'; };
+        im.src = reader.result;
+      };
+      reader.readAsDataURL(f);
+    });
+  })();
+
+  api('/api/me').then(function (res) {
+    render(res.body && res.body.user ? res.body.user : null);
+  }, function () {
+    document.getElementById('loginErr').textContent = '无法连接服务器，请刷新重试';
+    render(null);
+  });
+
+  loginForm.addEventListener('submit', function (ev) {
+    ev.preventDefault();
+    var err = document.getElementById('loginErr');
+    var u = document.getElementById('lu').value.trim();
+    var p = document.getElementById('lp').value;
+    err.textContent = '';
+    if (!u || !p) { err.textContent = '请填写账号和密码'; return; }
+    api('/api/login', 'POST', { username: u, password: p }).then(function (res) {
+      if (res.body && res.body.ok) { document.getElementById('lp').value = ''; render(res.body.user); }
+      else { err.textContent = (res.body && res.body.error) || '登录失败'; }
+    });
+  });
+
+  regForm.addEventListener('submit', function (ev) {
+    ev.preventDefault();
+    var err = document.getElementById('regErr');
+    var u = document.getElementById('ru').value.trim();
+    var n = document.getElementById('rn').value.trim();
+    var p = document.getElementById('rp').value;
+    var p2 = document.getElementById('rp2').value;
+    err.textContent = '';
+    if (!u) { err.textContent = '请填写账号'; return; }
+    if (p.length < 6) { err.textContent = '密码至少 6 位'; return; }
+    if (p !== p2) { err.textContent = '两次输入的密码不一致'; return; }
+    api('/api/register', 'POST', { username: u, password: p, nickname: n }).then(function (res) {
+      if (res.body && res.body.ok) { render(res.body.user); }
+      else { err.textContent = (res.body && res.body.error) || '注册失败'; }
+    });
+  });
+
+  document.getElementById('logoutBtn').addEventListener('click', function () {
+    api('/api/logout', 'POST').then(function () { render(null); });
+  });
+})();
+</script>
+</body></html>
