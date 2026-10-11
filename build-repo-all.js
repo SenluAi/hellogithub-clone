@@ -78,14 +78,14 @@ for (const [key, x] of items) {
     <p class="summary">${esc(x.summary || (d && d.summary) || '暂无中文简介')}</p>
   </div>
 ${rel.length ? `  <h2>所属榜单</h2>\n  <div class="related">${rel.join('')}</div>\n` : ''}  <h2>项目源码</h2>
-  <p>来源：github.com/${esc(key)}（本页为离线镜像的站内详情页）</p>
-  <p class="note">本页内容整理自 HelloGitHub 的公开项目介绍，仅供个人学习与离线翻阅；离线镜像不提供跳转原站的可点链接。</p>`;
+  <p><a class="src" href="https://github.com/${esc(key)}" target="_blank" rel="noopener noreferrer" style="display:inline-block;padding:8px 16px;border-radius:8px;background:#2563eb;color:#fff;text-decoration:none;font-size:14px">在 GitHub 上查看 ${esc(key)} ↗</a></p>
+  <p class="note">本页内容整理自 HelloGitHub 的公开项目介绍，仅供学习与浏览。</p>`;
   fs.writeFileSync(file, `<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>${esc(title)} · ${esc(key)} | HelloGitHub 离线版</title>
+<title>${esc(title)} · ${esc(key)} | HelloGitHub</title>
 <link rel="icon" href="../assets/favicon.svg"/>
 <style>${css}</style>
 </head>

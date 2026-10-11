@@ -42,7 +42,7 @@ for (const [key, r] of Object.entries(details)) {
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>${esc(r.title || r.name)} · ${esc(r.full_name)} | HelloGitHub 离线版</title>
+<title>${esc(r.title || r.name)} · ${esc(r.full_name)} | HelloGitHub</title>
 <link rel="icon" href="../assets/favicon.svg"/>
 <style>${css}</style>
 </head>
@@ -66,7 +66,7 @@ for (const [key, r] of Object.entries(details)) {
   ${tags ? `<h2>标签</h2><div class="tags">${tags}</div>` : ''}
   <h2>项目源码</h2>
   <p><a class="btn" href="${esc(r.url)}" target="_blank" rel="noopener">在 GitHub 上查看 ↗</a></p>
-  <p class="note">本页是离线镜像的站内详情页，介绍内容来自 HelloGitHub 公开页面；README 与源码请点上方按钮前往 GitHub 查看。</p>
+  <p class="note">本页介绍内容来自 HelloGitHub 公开页面；README 与源码请点上方按钮前往 GitHub 查看。</p>
 </div>
 </body>
 </html>`;

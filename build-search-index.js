@@ -18,7 +18,7 @@ for (const f of fs.readdirSync(REPO)) {
   const title = x.title || x.name || key;
   data.push({
     f: 'repo/' + f,
-    t: title + ' · ' + key + ' | HelloGitHub 离线版',
+    t: title + ' · ' + key + ' | HelloGitHub',
     h: title,
     s: x.summary || '',
     g: [x.primary_lang || '', key.split('/')[0]].filter(Boolean).join(' '),

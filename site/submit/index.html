@@ -1,33 +1,145 @@
 <!doctype html>
-<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>提交项目 - HelloGitHub 离线镜像</title>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>提交项目 - HelloGitHub</title>
 <style>
 *{box-sizing:border-box}body{margin:0;background:#f8fafc;color:#0f172a;font:16px/1.7 -apple-system,"Segoe UI","Microsoft YaHei",sans-serif}
 .wrap{max-width:760px;margin:0 auto;padding:28px 18px 60px}
 a.back{display:inline-block;margin-bottom:14px;color:#2563eb;text-decoration:none;font-size:14px}
 h1{font-size:26px;margin:6px 0 4px}.sub{color:#64748b;font-size:14px;margin:0 0 18px}
 .card{background:#fff;border:1px solid #e2e8f0;border-radius:10px;padding:18px 20px;margin:14px 0}
-.card h2{font-size:17px;margin:0 0 8px}
-.btn{display:inline-block;margin:6px 8px 6px 0;padding:8px 14px;border-radius:8px;background:#2563eb;color:#fff;text-decoration:none;font-size:14px}
+.card h2{font-size:17px;margin:0 0 10px}
+label{display:block;font-size:14px;color:#334155;margin:12px 0 4px;font-weight:600}
+input,select,textarea{width:100%;padding:9px 11px;border:1px solid #cbd5e1;border-radius:8px;font:inherit;font-size:14px;background:#fff;color:#0f172a}
+textarea{min-height:96px;resize:vertical}
+.btn{display:inline-block;margin:14px 8px 0 0;padding:9px 18px;border-radius:8px;background:#2563eb;color:#fff;border:0;font-size:14px;font-family:inherit;cursor:pointer}
 .btn.ghost{background:#fff;color:#2563eb;border:1px solid #bfdbfe}
-ul{padding-left:20px}li{margin:4px 0}
-.note{color:#64748b;font-size:13px}
+.btn[disabled]{background:#94a3b8;cursor:not-allowed}
+.btn.small{padding:4px 10px;font-size:12px;margin:0}
+#hg-sub-msg{margin-top:10px;font-size:14px;min-height:22px}
+.tip{color:#64748b;font-size:13px}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{border-bottom:1px solid #e2e8f0;padding:8px 6px;text-align:left;vertical-align:top}
+th{color:#64748b;font-weight:600;font-size:13px}
+.st{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;white-space:nowrap}
+.st.pending{background:#fef3c7;color:#92400e}.st.approved{background:#dcfce7;color:#166534}.st.rejected{background:#fee2e2;color:#991b1b}
+td a{color:#2563eb;word-break:break-all}
 </style></head>
 <body><div class="wrap">
 <a class="back" href="../index.html">← 返回首页</a>
 <h1>提交项目</h1>
-<p class="sub">本页是 HelloGitHub 离线镜像的站内页面</p>
+<p class="sub">把你喜欢的开源项目推荐给 HelloGitHub（登录后可提交）</p>
+
 <div class="card">
-<h2>投稿需要到原站完成</h2>
-<p>原站的「提交项目」需要先登录账号，再把开源项目地址提交给 HelloGitHub 团队审核，通过后才会在首页展示。这些操作依赖服务端，离线镜像无法代办。</p>
-<p class="note">如需投稿，请自行在浏览器中访问原站 hellogithub.com 并登录后提交（此处为纯文本，不提供跳转）。</p>
+<h2>提交新项目</h2>
+<p class="tip" id="hg-sub-status">正在检查登录状态…</p>
+<form id="hg-sub-form">
+  <label for="s-url">项目地址 *</label>
+  <input id="s-url" name="url" type="url" placeholder="https://github.com/owner/repo" autocomplete="off">
+  <label for="s-name">项目名称 *</label>
+  <input id="s-name" name="name" type="text" placeholder="例如：HelloGitHub" autocomplete="off">
+  <label for="s-cat">项目分类</label>
+  <select id="s-cat" name="category">
+    <option value="前端">前端</option>
+    <option value="后端">后端</option>
+    <option value="移动端">移动端</option>
+    <option value="AI / 机器学习">AI / 机器学习</option>
+    <option value="工具 / 效率">工具 / 效率</option>
+    <option value="其他">其他</option>
+  </select>
+  <label for="s-desc">项目简介 *</label>
+  <textarea id="s-desc" name="description" placeholder="用一两句话说明这个项目是做什么的、有什么亮点（至少 10 个字）"></textarea>
+  <button class="btn" id="hg-sub-btn" type="submit" disabled>提交项目</button>
+  <a class="btn ghost" href="../login/index.html" id="hg-login-link">去登录</a>
+  <div id="hg-sub-msg"></div>
+</form>
 </div>
+
 <div class="card">
-<h2>在站内找项目</h2>
-<p class="sub">站内导航：<a href="../index.html">首页</a> ·
-<a href="../periodical/index.html">月刊</a> ·
-<a href="../rank/index.html">榜单</a> ·
-<a href="../article/index.html">文章</a> ·
-<a href="../tag/index.html">标签</a> ·
-<a href="../list/index.html">全部项目</a></p>
+<h2>我的提交</h2>
+<div id="hg-sub-list" class="tip">登录后可以看到自己提交过的项目。</div>
 </div>
-</div></body></html>
+</div>
+<script id="hg-sub-script">
+(function(){
+  var form=document.getElementById('hg-sub-form');
+  var btn=document.getElementById('hg-sub-btn');
+  var msg=document.getElementById('hg-sub-msg');
+  var statusEl=document.getElementById('hg-sub-status');
+  var listEl=document.getElementById('hg-sub-list');
+  var loginLink=document.getElementById('hg-login-link');
+  var ST={pending:'待审核',approved:'已通过',rejected:'未通过'};
+  function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c];});}
+  function say(text,ok){msg.textContent=text||'';msg.style.color=ok?'#15803d':'#b91c1c';}
+  function render(items){
+    if(!items||!items.length){listEl.className='tip';listEl.textContent='你还没有提交过项目。';return;}
+    var h='<table><thead><tr><th>项目</th><th>分类</th><th>状态</th><th>提交时间</th><th></th></tr></thead><tbody>';
+    for(var i=0;i<items.length;i++){
+      var it=items[i];
+      var st=ST[it.status]||it.status;
+      var time=(it.created_at||'').slice(0,10);
+      h+='<tr><td><a href="'+esc(it.url)+'" title="'+esc(it.url)+'">'+esc(it.name||it.url)+'</a></td>'+
+         '<td>'+esc(it.category||'—')+'</td>'+
+         '<td><span class="st '+esc(it.status)+'">'+esc(st)+'</span></td>'+
+         '<td>'+esc(time)+'</td>'+
+         '<td>'+(it.status==='pending'?'<button type="button" class="btn small ghost" data-del="'+it.id+'">撤回</button>':'')+'</td></tr>';
+    }
+    listEl.className='';
+    listEl.innerHTML=h+'</tbody></table>';
+  }
+  function loadList(){
+    return fetch('../api/submissions',{credentials:'same-origin'}).then(function(r){return r.json();}).then(function(d){
+      if(d&&d.ok){render(d.items);}else{listEl.className='tip';listEl.textContent=(d&&d.error)||'读取提交记录失败。';}
+    }).catch(function(){listEl.className='tip';listEl.textContent='读取提交记录失败，请稍后重试。';});
+  }
+  fetch('../api/me',{credentials:'same-origin'}).then(function(r){return r.json();}).then(function(d){
+    var u=d&&d.user;
+    if(u){
+      statusEl.textContent='已登录：'+u.nickname+'，可以直接提交项目。';
+      statusEl.style.color='#15803d';
+      btn.disabled=false;
+      loginLink.style.display='none';
+      loadList();
+    }else{
+      statusEl.textContent='你还没有登录，登录后才能提交项目。';
+      statusEl.style.color='#b45309';
+      btn.disabled=true;
+      listEl.className='tip';
+      listEl.textContent='登录后可以看到自己提交过的项目。';
+    }
+  }).catch(function(){statusEl.textContent='登录状态读取失败，请刷新重试。';});
+  listEl.addEventListener('click',function(e){
+    var b=e.target.closest?e.target.closest('[data-del]'):null;
+    if(!b)return;
+    var id=b.getAttribute('data-del');
+    if(!confirm('确定撤回这条提交吗？'))return;
+    fetch('../api/submissions?id='+encodeURIComponent(id),{method:'DELETE',credentials:'same-origin'}).then(function(r){return r.json();}).then(function(d){
+      if(d&&d.ok){say('已撤回。',true);return loadList();}
+      say((d&&d.error)||'撤回失败。',false);
+    }).catch(function(){say('撤回失败，请稍后重试。',false);});
+  });
+  form.addEventListener('submit',function(e){
+    e.preventDefault();
+    var url=document.getElementById('s-url').value.trim();
+    var name=document.getElementById('s-name').value.trim();
+    var category=document.getElementById('s-cat').value;
+    var description=document.getElementById('s-desc').value.trim();
+    if(!/^https?:\/\/\S+$/i.test(url)){say('请填写以 http:// 或 https:// 开头的项目地址。',false);return;}
+    if(name.length<2){say('请填写项目名称（至少 2 个字）。',false);return;}
+    if(description.length<10){say('项目简介至少 10 个字。',false);return;}
+    btn.disabled=true;say('正在提交…',true);
+    fetch('../api/submissions',{method:'POST',credentials:'same-origin',headers:{'content-type':'application/json'},
+      body:JSON.stringify({url:url,name:name,category:category,description:description})})
+      .then(function(r){return r.json().then(function(j){return{status:r.status,body:j};});})
+      .then(function(res){
+        btn.disabled=false;
+        if(res.status===401){say('登录已过期，请先登录再提交。',false);return;}
+        if(res.body&&res.body.ok){
+          say('提交成功，正在等待审核。',true);
+          form.reset();
+          return loadList();
+        }
+        say((res.body&&res.body.error)||'提交失败，请稍后重试。',false);
+      }).catch(function(){btn.disabled=false;say('提交失败，请检查网络后重试。',false);});
+  });
+})();
+</script>
+</body></html>

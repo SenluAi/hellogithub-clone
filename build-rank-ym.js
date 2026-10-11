@@ -50,7 +50,7 @@ function page(title, body) {
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>${esc(title)} | HelloGitHub 离线版</title>
+<title>${esc(title)} | HelloGitHub</title>
 <link rel="icon" href="../assets/favicon.svg"/>
 <style>${css}</style>
 </head>

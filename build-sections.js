@@ -54,7 +54,7 @@ function page(title, body, depth) {
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>${esc(title)} | HelloGitHub 离线版</title>
+<title>${esc(title)} | HelloGitHub</title>
 <link rel="icon" href="${up}assets/favicon.svg"/>
 <style>${css}</style>
 </head>
@@ -96,7 +96,7 @@ function itemHtml(x, up) {
 ${list.map(x => itemHtml(x, '../')).join('\n')}`;
   }).join('\n');
   fs.writeFileSync(path.join(dir, 'index.html'), page('榜单', `  <h1>HelloGitHub 榜单</h1>
-  <div class="sub">月度榜 / 年度榜 / 周榜 · 数据抓自原站接口</div>
+  <div class="sub">月度榜 / 年度榜 / 周榜 · 数据来源于公开榜单</div>
   <div class="tabs"><a class="on" href="#monthly">月度</a><a href="#yearly">年度</a><a href="#weekly">周榜</a></div>
 ${body}`, 1));
   console.log('生成 rank/index.html：月度 ' + (rank.monthly || []).length + ' 年度 ' + (rank.yearly || []).length + ' 周榜 ' + (rank.weekly || []).length);
@@ -108,7 +108,7 @@ ${body}`, 1));
   fs.mkdirSync(dir, { recursive: true });
   const list = all.slice().sort((a, b) => (b.updated_at || '').localeCompare(a.updated_at || ''));
   fs.writeFileSync(path.join(dir, 'index.html'), page('全部项目', `  <h1>全部开源项目</h1>
-  <div class="sub">共 ${list.length} 个（原站接口按页返回，本站复刻了可获取的部分，其余可在原站查看）</div>
+  <div class="sub">共 ${list.length} 个</div>
 ${list.map(x => itemHtml(x, '../')).join('\n')}`, 1));
   console.log('生成 list/index.html：' + list.length + ' 个项目');
 })();
@@ -132,8 +132,8 @@ ${list.map(x => itemHtml(x, '../')).join('\n')}`, 1));
     const itemHtmls = items.map(x => itemHtml(x, '../')).join('\n');
     const body = `  <h1>HelloGitHub 月刊 第 ${v.num} 期</h1>
   <div class="sub">发布日期：${esc(date)}${items.length ? ` · 本期收录 ${items.length} 个项目` : ''}</div>
-${items.length ? itemHtmls : `  <p class="sub">本站只复刻了原站接口可获取的部分项目，这一期的项目列表没有抓到。</p>
-  <p><a href="https://hellogithub.com/periodical/${v.num}" target="_blank" rel="noopener">在原站查看第 ${v.num} 期 →</a></p>`}`;
+${items.length ? itemHtmls : `  <p class="sub">暂未获取到这一期的项目列表。</p>
+  <p><a href="https://hellogithub.com/periodical/${v.num}" target="_blank" rel="noopener">查看第 ${v.num} 期 →</a></p>`}`;
     fs.writeFileSync(path.join(dir, v.num + '.html'), page(`月刊 第 ${v.num} 期`, body, 1));
     return `  <a class="chip" href="./${v.num}.html">第 ${v.num} 期 <b>${esc(date.slice(0, 7))}</b></a>`;
   }).join('\n');
@@ -213,11 +213,11 @@ ${mdToHtml(detail.content || a.desc || '')}
     return `  <a class="item" href="${esc(href)}"${target}>
     <div class="t">${esc(a.title)}</div>
     <div class="d">${esc(a.desc || '')}</div>
-    <div class="m">${esc(a.author || '')} · ${esc((a.publish_at || '').slice(0, 10))} · 阅读 ${esc(a.clicks_count || 0)}${local ? ' · 站内正文' : ' · 原站正文'}</div>
+    <div class="m">${esc(a.author || '')} · ${esc((a.publish_at || '').slice(0, 10))} · 阅读 ${esc(a.clicks_count || 0)}${local ? ' · 站内正文' : ' · 完整正文'}</div>
   </a>`;
   }).join('\n');
   fs.writeFileSync(path.join(dir, 'index.html'), page('文章', `  <h1>HelloGitHub 文章</h1>
-  <div class="sub">共 ${arts.length} 篇（其中 ${built} 篇已复刻正文）</div>
+  <div class="sub">共 ${arts.length} 篇（其中 ${built} 篇已收录正文）</div>
 ${cards}`, 1));
   console.log(`生成 article：${arts.length} 篇列表，${built} 篇正文`);
 })();

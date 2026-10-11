@@ -16,3 +16,10 @@ api*.txt
 *.zip
 *.exe
 *.bak
+# scratch / verify artifacts
+console.log(
+verify-submit.html
+verify-api.json
+peek-trunc.js
+show-head.js
+_wcheck.mjs

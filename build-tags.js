@@ -60,7 +60,7 @@ for (const name of tagNames) {
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>标签：${esc(name)}（${items.length} 个项目）| HelloGitHub 离线版</title>
+<title>标签：${esc(name)}（${items.length} 个项目）| HelloGitHub</title>
 <link rel="icon" href="../assets/favicon.svg"/>
 <style>${css}</style>
 </head>
@@ -70,7 +70,7 @@ for (const name of tagNames) {
   <h1>标签：${esc(name)}${t.name_en ? `（${esc(t.name_en)}）` : ''}</h1>
   <div class="sub">共 ${items.length} 个项目 · <a href="./index.html">全部标签</a></div>
 ${list}
-  <p class="sub" style="margin-top:24px">本页为离线镜像的站内标签页，详细介绍点进项目详情页。</p>
+  <p class="sub" style="margin-top:24px">本页为站内标签页，详细介绍点进项目详情页。</p>
 </div>
 </body>
 </html>`;
@@ -85,7 +85,7 @@ fs.writeFileSync(path.join(tagDir, 'index.html'), `<!DOCTYPE html>
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>全部标签 | HelloGitHub 离线版</title>
+<title>全部标签 | HelloGitHub</title>
 <link rel="icon" href="../assets/favicon.svg"/>
 <style>${css}</style>
 </head>

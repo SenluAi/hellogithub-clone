@@ -1,6 +1,6 @@
-# HelloGitHub 镜像站（离线/站内化克隆）
+# HelloGitHub
 
-原站：https://hellogithub.com/ ｜ 线上地址：https://hellogithub.senlinlu.cn
+官方站点：https://hellogithub.com/ ｜ 线上地址：https://hellogithub.senlinlu.cn
 特点：列表页、详情页（`site/repo/`）、标签页（`site/tag/`）、榜单页（`site/rank/`）全部指向站内，没有外链死链。
 
 ## 目录速览
@@ -43,7 +43,7 @@ node update.js --no-deploy    :: 只构建、本地校验，不部署（试运�
 - 动作：`node.exe "…\update.js"`，工作目录为本项目
 - 结果查看：`update-log.txt`（末尾会写「同步完成：新增 N 个项目」）
 
-更新流程：抓原站列表 → 比对本地 `details.json` 找出新增 → 抓新项目详情页 → 重建详情页/标签页/榜单页
+更新流程：抓官方列表 → 比对本地 `details.json` 找出新增 → 抓新项目详情页 → 重建详情页/标签页/榜单页
 → 首页插入新卡片（站内链接）→ 本地校验（死链、失效链接为 0 才继续）→ 部署 → 线上校验 → 写日志。
 任何一步校验不过就停止部署，并把改动前的文件留在 `backup/` 里可回滚。
 

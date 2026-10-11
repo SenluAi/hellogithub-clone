@@ -90,7 +90,7 @@ function repoTitle(slug) {
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>${esc(nickname)} 的主页 · HelloGitHub 离线版</title>
+<title>${esc(nickname)} 的主页 · HelloGitHub</title>
 <link rel="icon" href="../assets/favicon.svg"/>
 <style>${css}</style>
 </head>
@@ -115,7 +115,7 @@ function repoTitle(slug) {
   </div>
   <h2>TA 分享的项目（本站收录 ${u.items.length} 个）</h2>
 ${items}
-  <p class="note">本页为 HelloGitHub 离线镜像的站内用户主页，资料来自 HelloGitHub 公开页面（hellogithub.com/user/${esc(uid)}）。</p>
+  <p class="note">本页为站内用户主页，资料来自 HelloGitHub 公开页面（hellogithub.com/user/${esc(uid)}）。</p>
 </div>
 </body>
 </html>`;
@@ -131,7 +131,7 @@ ${items}
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>分享者主页 · HelloGitHub 离线版</title>
+<title>分享者主页 · HelloGitHub</title>
 <link rel="icon" href="../assets/favicon.svg"/>
 <style>${css}
 .ucard{display:flex;align-items:center;gap:12px;background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:12px 14px;text-decoration:none;color:#1f2430}
@@ -151,7 +151,7 @@ ${cards.map(c => `    <a class="ucard" href="./${c.uid}.html">
       <div><div class="nm">${esc(c.nickname)}</div><div class="ct">分享 ${c.count} 个项目</div></div>
     </a>`).join('\n')}
   </div>
-  <p class="note">资料来自 HelloGitHub 公开页面，仅作离线镜像学习使用。</p>
+  <p class="note">资料来自 HelloGitHub 公开页面，仅供学习使用。</p>
 </div>
 </body>
 </html>`;

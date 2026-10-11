@@ -1,12 +1,12 @@
 # 站点后端说明（账号与云端数据）
 
-复刻站原先是纯静态站，现在加了一层 Cloudflare Worker + D1，用来保存登录账号和用户数据。
+本站原先是纯静态站，现在加了一层 Cloudflare Worker + D1，用来保存登录账号和用户数据。
 
 ## 组成
 
 | 部分 | 位置 | 说明 |
 | --- | --- | --- |
-| 静态站 | `site/`（708 个文件） | 复刻的 HTML 页面，仍由 Assets 直接返回 |
+| 静态站 | `site/`（708 个文件） | 静态 HTML 页面，仍由 Assets 直接返回 |
 | Worker 接口 | `src/worker.js` | 处理 `/api/*`，其余请求交给静态资源 |
 | 配置 | `wrangler.jsonc` | `main` + `assets` + `d1_databases` 绑定 |
 | 数据库 | Cloudflare D1 `hellogithub-clone` | id `922c4ee6-f5c2-4d9f-9367-2ccf76bfeace`（区域 WNAM） |
