@@ -1,6 +1,6 @@
 # HelloGitHub
 
-官方站点：https://hellogithub.com/ ｜ 线上地址：https://hellogithub.senlinlu.cn
+线上地址：https://hellogithub.senlinlu.cn
 特点：列表页、详情页（`site/repo/`）、标签页（`site/tag/`）、榜单页（`site/rank/`）全部指向站内，没有外链死链。
 
 ## 目录速览
