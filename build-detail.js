@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const base = 'C:/Users/Mr Li/Desktop/hellogithub-clone';
+const base = __dirname;
 const details = JSON.parse(fs.readFileSync(path.join(base, 'details.json'), 'utf8'));
 const siteDir = path.join(base, 'site');
 const repoDir = path.join(siteDir, 'repo');

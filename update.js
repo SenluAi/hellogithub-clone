@@ -175,8 +175,8 @@ async function cardHtml(it) {
 
   // 8) 部署
   log('开始部署到 Cloudflare…');
-  const NPX = 'C:\\Program Files\\nodejs\\npx.cmd';
-  const dep = execSync('"' + NPX + '" wrangler deploy', { cwd: ROOT, encoding: 'utf8', maxBuffer: 32 * 1024 * 1024, shell: 'cmd.exe' });
+  const NPX = process.platform === 'win32' ? 'npx.cmd' : 'npx';
+  const dep = execSync(NPX + ' wrangler deploy', { cwd: ROOT, encoding: 'utf8', maxBuffer: 32 * 1024 * 1024, shell: process.platform === 'win32' ? 'cmd.exe' : '/bin/sh' });
   log('部署输出：' + dep.split('\n').filter(l => /Success|Uploaded|Deployed|error/i.test(l)).slice(-4).join(' | '));
 
   // 9) 线上校验

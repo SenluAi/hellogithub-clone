@@ -1,4 +1,34 @@
 {
+ "87owo/PYAS": {
+  "name": "PYAS",
+  "full_name": "87owo/PYAS",
+  "url": "https://github.com/87owo/PYAS",
+  "author": "87owo",
+  "description": "A hybrid Windows endpoint security platform powered by machine learning, YARA rules, cloud analysis, and kernel-level behavioral protection.",
+  "summary": "这是一款用 Python 和 C++ 开发的 Windows 杀毒软件，通过机器学习和行为监控拦截威胁，支持 PE 文件扫描、云端检测、签名校验，以及文件、进程和注册表等系统防护功能。",
+  "primary_lang": "YARA",
+  "lang_color": "#220000",
+  "stars_str": "566",
+  "tags": [
+   {
+    "name": "桌面应用",
+    "name_en": "Desktop",
+    "tid": "dFA60uKLgr"
+   },
+   {
+    "name": "安全",
+    "name_en": "Safe",
+    "tid": "O0WvqsDoQn"
+   },
+   {
+    "name": "Python",
+    "name_en": "Python",
+    "tid": "Z8PipJsHCX"
+   }
+  ],
+  "share_user": "WBT907",
+  "title": "Python 写的杀毒软件"
+ },
  "abue-ammar/tinycast": {
   "name": "tinycast",
   "full_name": "abue-ammar/tinycast",
@@ -33,6 +63,31 @@
   ],
   "share_user": "卤蛋",
   "title": "极简的 macOS 启动器"
+ },
+ "achrefelouafi/LinearAbiltyCastingThreeJS": {
+  "name": "LinearAbiltyCastingThreeJS",
+  "full_name": "achrefelouafi/LinearAbiltyCastingThreeJS",
+  "url": "https://github.com/achrefelouafi/LinearAbiltyCastingThreeJS",
+  "author": "achrefelouafi",
+  "description": "",
+  "summary": "这是一个用 Three.js 和 GLSL 实现的技能特效沙盒，内置冰霜、闪电、陨石、光束和陷阱 5 种技能，所有效果均由程序生成，并支持箭头瞄准、点击释放、暂停调整等功能。",
+  "primary_lang": "JavaScript",
+  "lang_color": "#f1e05a",
+  "stars_str": "993",
+  "tags": [
+   {
+    "name": "3D",
+    "name_en": null,
+    "tid": "7RC09kWSdi"
+   },
+   {
+    "name": "JavaScript",
+    "name_en": "JavaScript",
+    "tid": "x3YH09wlKN"
+   }
+  ],
+  "share_user": "卤蛋",
+  "title": "炫酷的技能特效沙盒"
  },
  "armory3d/armorpaint": {
   "name": "armorpaint",
@@ -209,6 +264,31 @@
   "share_user": "Eric Lam",
   "title": "适用于低配设备的 B 站直播录制工具"
  },
+ "bk138/droidVNC-NG": {
+  "name": "droidVNC-NG",
+  "full_name": "bk138/droidVNC-NG",
+  "url": "https://github.com/bk138/droidVNC-NG",
+  "author": "bk138",
+  "description": "Android VNC remote desktop server for local networks",
+  "summary": "这是一款专为局域网设计的远程查看和控制 Android 设备的工具，打开浏览器即可操控手机，无需 Root 权限。支持鼠标键盘操作、剪贴板共享、文件传输和屏幕缩放等功能。",
+  "primary_lang": "Java",
+  "lang_color": "#b07219",
+  "stars_str": "2.4k",
+  "tags": [
+   {
+    "name": "Android",
+    "name_en": "Android",
+    "tid": "K6zi0nOJrt"
+   },
+   {
+    "name": "Java",
+    "name_en": "Java",
+    "tid": "YgDkvUzLAC"
+   }
+  ],
+  "share_user": "KongQi",
+  "title": "Android 远程桌面工具"
+ },
  "bojieli/ai-agent-book": {
   "name": "ai-agent-book",
   "full_name": "bojieli/ai-agent-book",
@@ -238,6 +318,31 @@
   ],
   "share_user": "卤蛋",
   "title": "《深入理解 AI Agent：设计原理与工程实践》"
+ },
+ "bradautomates/claude-video": {
+  "name": "claude-video",
+  "full_name": "bradautomates/claude-video",
+  "url": "https://github.com/bradautomates/claude-video",
+  "author": "bradautomates",
+  "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
+  "summary": "这是一个为 Claude Code 等 AI 助手提供视频理解能力的技能包。输入视频网址或本地文件后，它会借助 yt-dlp 和 FFmpeg 提取关键帧与字幕，无字幕时可调用 Whisper 转录，让 AI 助手结合画面与语音定位录屏故障、分析内容或生成摘要。",
+  "primary_lang": "Python",
+  "lang_color": "#3572A5",
+  "stars_str": "18.4k",
+  "tags": [
+   {
+    "name": "AI",
+    "name_en": "AI",
+    "tid": "juBLV86qa5"
+   },
+   {
+    "name": "Skills",
+    "name_en": null,
+    "tid": "lMrwJ9nSoW"
+   }
+  ],
+  "share_user": "卤蛋",
+  "title": "让 AI 助手看懂视频"
  },
  "builtbybel/FluentCleaner": {
   "name": "FluentCleaner",
@@ -559,6 +664,36 @@
   "share_user": "卤蛋",
   "title": "清除 AI 水印的工具"
  },
+ "GXFG/newtab-naivetab": {
+  "name": "newtab-naivetab",
+  "full_name": "GXFG/newtab-naivetab",
+  "url": "https://github.com/GXFG/newtab-naivetab",
+  "author": "GXFG",
+  "description": "NaiveTab - newtab extension for browser ｜浏览器新标签页扩展｜Visual keyboard for bookmarks & browser commands — one-press access. Drag & drop layout, full customization, focus mode, and clou",
+  "summary": "该项目是用键盘布局展示书签的浏览器插件，可将书签和指令绑定到按键，在新标签页中按下对应按键即可直达网站。它内置多种实用小组件，支持拖拽布局、专注模式和云同步，兼容 Chrome、Edge 与 Firefox。",
+  "primary_lang": "TypeScript",
+  "lang_color": "#2b7489",
+  "stars_str": "137",
+  "tags": [
+   {
+    "name": "浏览器插件",
+    "name_en": "Browser plugins",
+    "tid": "fJ6QmIsyXo"
+   },
+   {
+    "name": "Vue",
+    "name_en": "Vue",
+    "tid": "S3xAcV5mqo"
+   },
+   {
+    "name": "浏览器书签",
+    "name_en": null,
+    "tid": "yYgUPtjQsd"
+   }
+  ],
+  "share_user": "GXFG",
+  "title": "可视化键盘新标签页"
+ },
  "hasaneyldrm/exercises-dataset": {
   "name": "exercises-dataset",
   "full_name": "hasaneyldrm/exercises-dataset",
@@ -693,6 +828,61 @@
   ],
   "share_user": "卤蛋",
   "title": "macOS 启动项管理工具"
+ },
+ "JabRef/jabref": {
+  "name": "jabref",
+  "full_name": "JabRef/jabref",
+  "url": "https://github.com/JabRef/jabref",
+  "author": "JabRef",
+  "description": "Desktop app for managing BibTeX and BibLaTeX (.bib) libraries",
+  "summary": "这是一款免费开源、跨平台的文献与引用管理工具，原生支持 BibTeX/BibLaTeX。它可以从 Google 学术、arXiv 等平台检索论文，自动补全文献信息、提取 PDF 元数据、合并重复条目，并支持与 Word、LibreOffice 和多款 LaTeX 编辑器联动。",
+  "primary_lang": "Java",
+  "lang_color": "#b07219",
+  "stars_str": "4.8k",
+  "tags": [
+   {
+    "name": "桌面应用",
+    "name_en": "Desktop",
+    "tid": "dFA60uKLgr"
+   },
+   {
+    "name": "Java",
+    "name_en": "Java",
+    "tid": "YgDkvUzLAC"
+   }
+  ],
+  "share_user": "Xuefeng Xu",
+  "title": "写论文用的文献管理工具"
+ },
+ "Jasonzhu1207/ZenConverter": {
+  "name": "ZenConverter",
+  "full_name": "Jasonzhu1207/ZenConverter",
+  "url": "https://github.com/Jasonzhu1207/ZenConverter",
+  "author": "Jasonzhu1207",
+  "description": "Local Android file converter built with Kotlin and Jetpack Compose. Convert files on device, with no ads, accounts, or upload-based fallback.",
+  "summary": "这是一款无广告、免费的 Android 文件格式转换工具，所有转换都在手机本地完成，文件无需上传到服务器，支持音视频、图片、PDF、字体和字幕等文件。",
+  "primary_lang": "Kotlin",
+  "lang_color": "#F18E33",
+  "stars_str": "1.7k",
+  "tags": [
+   {
+    "name": "Kotlin",
+    "name_en": "Kotlin",
+    "tid": "1FtnlAX0ag"
+   },
+   {
+    "name": "音视频处理",
+    "name_en": "Multimedia",
+    "tid": "DIPz0Zn9oK"
+   },
+   {
+    "name": "Android",
+    "name_en": "Android",
+    "tid": "K6zi0nOJrt"
+   }
+  ],
+  "share_user": "Jason8RwWd",
+  "title": "开源的安卓文件格式转换工具"
  },
  "jhd3197/ServerKit": {
   "name": "ServerKit",
@@ -1134,6 +1324,31 @@
   "share_user": "r12t",
   "title": "开箱即用的 PostgreSQL 发行版"
  },
+ "pipecat-ai/pipecat": {
+  "name": "pipecat",
+  "full_name": "pipecat-ai/pipecat",
+  "url": "https://github.com/pipecat-ai/pipecat",
+  "author": "pipecat-ai",
+  "description": "Open Source framework for voice agents, multimodal apps, and realtime AI. Maintained by Daily and the community.",
+  "summary": "这是一个用于构建实时语音和多模态对话智能体的 Python 框架，可将语音识别、大模型和语音合成编排成可组合的处理管道。它通过 WebSocket 或 WebRTC 实现超低延迟交互，每条管道即一个 Agent，支持任务交接、并行分发和跨进程分布式部署等多智能体协作方式，适用于语音助手、在线客服和陪伴应用等场景。",
+  "primary_lang": "Python",
+  "lang_color": "#3572A5",
+  "stars_str": "16.4k",
+  "tags": [
+   {
+    "name": "AI",
+    "name_en": "AI",
+    "tid": "juBLV86qa5"
+   },
+   {
+    "name": "Python",
+    "name_en": "Python",
+    "tid": "Z8PipJsHCX"
+   }
+  ],
+  "share_user": "卤蛋",
+  "title": "实时语音 AI 智能体的框架"
+ },
  "plannotator/effective-html": {
   "name": "effective-html",
   "full_name": "plannotator/effective-html",
@@ -1464,6 +1679,41 @@
   "share_user": "卤蛋",
   "title": "Claude Code 的状态栏定制工具"
  },
+ "ssnangua/ColorTxt": {
+  "name": "ColorTxt",
+  "full_name": "ssnangua/ColorTxt",
+  "url": "https://github.com/ssnangua/ColorTxt",
+  "author": "ssnangua",
+  "description": "「彩读 3.0 书源 × AI+」——一款会给内容上色的本地 TXT 小说阅读器，带给你不一样的阅读体验！（也支持打开常见的电子书格式，如 .epub）。还有章节识别、简繁互转、划线标注、记笔记、词典、翻译、多角色语音朗读、AI 阅读助手、书源找书等功能。支持 macOS、Windows 和 Linux。",
+  "summary": "这是一款基于 Electron 构建的本地小说阅读器，支持 TXT、EPUB、MOBI、PDF 等格式。它可自动为正文中的人名和关键词设置颜色，并支持章节识别、划线笔记、语音朗读和 AI 剧情分析等功能。",
+  "primary_lang": "TypeScript",
+  "lang_color": "#2b7489",
+  "stars_str": "1.9k",
+  "tags": [
+   {
+    "name": "阅读软件",
+    "name_en": null,
+    "tid": "2z51rtxDMB"
+   },
+   {
+    "name": "桌面应用",
+    "name_en": "Desktop",
+    "tid": "dFA60uKLgr"
+   },
+   {
+    "name": "TypeScript",
+    "name_en": "TypeScript",
+    "tid": "IhK7Wm1AFE"
+   },
+   {
+    "name": "Electron",
+    "name_en": null,
+    "tid": "r58m3YsuoT"
+   }
+  ],
+  "share_user": "卤蛋",
+  "title": "会给小说上色的阅读器"
+ },
  "stablyai/orca": {
   "name": "orca",
   "full_name": "stablyai/orca",
@@ -1498,6 +1748,26 @@
   ],
   "share_user": "卤蛋",
   "title": "让多个 AI 编程智能体并行开发的 IDE"
+ },
+ "tamnd/kage": {
+  "name": "kage",
+  "full_name": "tamnd/kage",
+  "url": "https://github.com/tamnd/kage",
+  "author": "tamnd",
+  "description": "Shadow any website for offline viewing, with the JavaScript stripped out",
+  "summary": "该项目是用 Go 编写的网站离线保存工具，可将任意网站保存为可离线浏览的本地文件夹。保存后的网页看起来和线上一样，但不会发起任何网络请求，还支持打包成单个 .zim 文件或可直接运行的可执行文件。",
+  "primary_lang": "Go",
+  "lang_color": "#00ADD8",
+  "stars_str": "3.5k",
+  "tags": [
+   {
+    "name": "Go",
+    "name_en": "Go",
+    "tid": "rBc3FpsHhv"
+   }
+  ],
+  "share_user": "卤蛋",
+  "title": "把整个网站打包离线阅读"
  },
  "TencentCloud/TencentDB-Agent-Memory": {
   "name": "TencentDB-Agent-Memory",

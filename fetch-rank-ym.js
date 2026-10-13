@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const BASE = 'C:/Users/Mr Li/Desktop/hellogithub-clone';
+const BASE = __dirname;
 const API = 'https://api.hellogithub.com/v1';
 const H = { 'user-agent': 'Mozilla/5.0', referer: 'https://hellogithub.com/' };
 const OUT = path.join(BASE, 'rank-ym-data.json');

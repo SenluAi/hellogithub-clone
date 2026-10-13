@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const rawDir = 'C:/Users/Mr Li/Desktop/hellogithub-clone/detail-raw';
+const rawDir = path.join(__dirname, 'detail-raw');
 const files = fs.readdirSync(rawDir).filter(f => f.endsWith('.html'));
 const out = {};
 let firstKeys = null;
@@ -22,7 +22,7 @@ for (const f of files) {
     title: repo.title || repo.display_name || null
   };
 }
-fs.writeFileSync('C:/Users/Mr Li/Desktop/hellogithub-clone/details.json', JSON.stringify(out, null, 1));
+fs.writeFileSync(path.join(__dirname, 'details.json'), JSON.stringify(out, null, 1));
 console.log('raw 文件', files.length, '| 提取到', Object.keys(out).length);
 console.log('repo 字段:', (firstKeys || []).join(', '));
 const k = Object.keys(out)[1] || Object.keys(out)[0];

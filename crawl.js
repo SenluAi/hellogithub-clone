@@ -2,8 +2,8 @@ const fs = require('fs');
 const path = require('path');
 const start = parseInt(process.argv[2] || '0', 10);
 const count = parseInt(process.argv[3] || '20', 10);
-const repos = JSON.parse(fs.readFileSync('C:/Users/Mr Li/Desktop/hellogithub-clone/repos.json', 'utf8'));
-const rawDir = 'C:/Users/Mr Li/Desktop/hellogithub-clone/detail-raw';
+const repos = JSON.parse(fs.readFileSync(path.join(__dirname, 'repos.json'), 'utf8'));
+const rawDir = path.join(__dirname, 'detail-raw');
 fs.mkdirSync(rawDir, { recursive: true });
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 

@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const base = 'C:/Users/Mr Li/Desktop/hellogithub-clone';
+const base = __dirname;
 const idxPath = path.join(base, 'site', 'index.html');
 const details = JSON.parse(fs.readFileSync(path.join(base, 'details.json'), 'utf8'));
 const asciiSlug = s => String(s || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');

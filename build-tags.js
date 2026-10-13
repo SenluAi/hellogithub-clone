@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const base = 'C:/Users/Mr Li/Desktop/hellogithub-clone';
+const base = __dirname;
 const siteDir = path.join(base, 'site');
 const tagDir = path.join(siteDir, 'tag');
 fs.mkdirSync(tagDir, { recursive: true });
